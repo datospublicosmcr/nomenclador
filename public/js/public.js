@@ -18,17 +18,6 @@ const estado = {
 };
 
 // ──────────────────────────────────────────────
-// Debounce
-// ──────────────────────────────────────────────
-
-let _debounceTimer = null;
-
-function buscarConDelay() {
-    clearTimeout(_debounceTimer);
-    _debounceTimer = setTimeout(() => buscar(false), 300);
-}
-
-// ──────────────────────────────────────────────
 // Búsqueda principal
 // ──────────────────────────────────────────────
 
@@ -194,8 +183,8 @@ function renderCalles(items, append) {
 
         const btnOC = tieneOC
             ? `<button class="btn-copiar"
-                       aria-label="Copiar orden de carga ${calle.orden_carga}"
-                       onclick="copiar(${JSON.stringify(String(calle.orden_carga))}, this)">
+                       data-copy="${escHTML(String(calle.orden_carga))}"
+                       aria-label="Copiar orden de carga ${calle.orden_carga}">
                    ${SVG_COPY} ${calle.orden_carga}
                </button>`
             : '';
@@ -214,8 +203,8 @@ function renderCalles(items, append) {
             <div class="tarjeta-acciones">
                 ${btnOC}
                 <button class="btn-copiar"
-                        aria-label="Copiar nombre ${nombreEsc}"
-                        onclick="copiar(${JSON.stringify(calle.nombre_calle)}, this)">
+                        data-copy="${escHTML(calle.nombre_calle)}"
+                        aria-label="Copiar nombre ${nombreEsc}">
                     ${SVG_COPY} nombre
                 </button>
             </div>`;
@@ -404,6 +393,47 @@ function mostrarToast(mensaje) {
 }
 
 // ──────────────────────────────────────────────
+// Búsqueda al Enter + lupa como botón
+// ──────────────────────────────────────────────
+
+function buscarSiEnter(e) {
+    if (e.key === 'Enter') {
+        e.preventDefault();
+        buscar(false);
+    }
+}
+
+function iniciarBusqueda() {
+    ['input-calles', 'input-barrios'].forEach(id => {
+        document.getElementById(id).addEventListener('keydown', buscarSiEnter);
+    });
+
+    document.querySelectorAll('.search-icon').forEach(icon => {
+        icon.addEventListener('click', () => buscar(false));
+        icon.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                buscar(false);
+            }
+        });
+    });
+}
+
+// ──────────────────────────────────────────────
+// Botones de copia — event delegation
+// ──────────────────────────────────────────────
+
+function iniciarBotonesCopiar() {
+    document.querySelectorAll('#lista-calles, #lista-barrios').forEach(cont => {
+        cont.addEventListener('click', (e) => {
+            const btn = e.target.closest('.btn-copiar');
+            if (!btn || !cont.contains(btn)) return;
+            copiar(btn.dataset.copy, btn);
+        });
+    });
+}
+
+// ──────────────────────────────────────────────
 // Stats del footer
 // ──────────────────────────────────────────────
 
@@ -424,6 +454,8 @@ async function cargarStats() {
 
 document.addEventListener('DOMContentLoaded', () => {
     iniciarTabs();
+    iniciarBotonesCopiar();
+    iniciarBusqueda();
     buscar(false);
     cargarStats();
 });

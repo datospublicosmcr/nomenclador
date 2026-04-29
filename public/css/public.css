@@ -257,10 +257,16 @@ input  { font-family: inherit; }
     color: var(--color-ink-faint);
     width: 19px;
     height: 19px;
-    pointer-events: none;
+    cursor: pointer;
     transition: color var(--dur-fast) var(--ease);
 }
 
+.search-icon:hover { color: var(--color-primary); }
+.search-icon:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 3px;
+    border-radius: var(--radius-sm);
+}
 .search-wrapper:focus-within .search-icon { color: var(--color-primary); }
 
 .search-input {
