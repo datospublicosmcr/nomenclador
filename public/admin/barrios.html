@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomenclador — Barrios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/admin.css">
+    <link rel="stylesheet" href="/css/importar.css">
+    <style>
+        :root { --barrio: #8b5cf6; --barrio-light: rgba(139,92,246,0.1); }
+
+        .modulo-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .modulo-header-left { display: flex; align-items: center; gap: 12px; flex: 1; min-width: 0; }
+        .modulo-header h1   { font-size: 1.25rem; font-weight: 700; color: var(--gray-900); }
+        .modulo-header-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+
+        .modulo-container {
+            display: grid;
+            grid-template-columns: 360px 1fr;
+            gap: 20px;
+            height: calc(100vh - 200px);
+            min-height: 480px;
+        }
+
+        /* ── Panel lista ── */
+        .panel-lista {
+            background: white;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .panel-lista-header {
+            padding: 14px 16px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .panel-lista-search { position: relative; }
+        .panel-lista-search input {
+            width: 100%;
+            padding: 7px 12px 7px 34px;
+            border: 1px solid var(--border-color);
+            border-radius: var(--border-radius);
+            font-size: 0.85rem;
+            background: var(--gray-50);
+            box-sizing: border-box;
+        }
+        .panel-lista-search input:focus { outline: none; border-color: var(--barrio); background: white; }
+        .panel-lista-search svg {
+            position: absolute; left: 10px; top: 50%; transform: translateY(-50%);
+            width: 15px; height: 15px; color: var(--gray-400); pointer-events: none;
+        }
+        .filtro-zona {
+            display: flex;
+            gap: 6px;
+            flex-wrap: wrap;
+        }
+        .filtro-btn {
+            font-size: 0.73rem; font-weight: 500;
+            padding: 3px 10px; border-radius: 99px;
+            border: 1px solid var(--border-color);
+            background: white; cursor: pointer;
+            color: var(--gray-500); transition: all 0.15s;
+        }
+        .filtro-btn:hover  { border-color: var(--barrio); color: var(--barrio); }
+        .filtro-btn.active { background: var(--barrio); color: white; border-color: var(--barrio); }
+        .panel-lista-info {
+            font-size: 0.75rem;
+            color: var(--gray-400);
+            padding: 0 16px 6px;
+        }
+        .lista-items { flex: 1; overflow-y: auto; }
+        .lista-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px 16px;
+            cursor: pointer;
+            border-bottom: 1px solid var(--gray-100);
+            transition: background 0.15s;
+        }
+        .lista-item:hover  { background: var(--gray-50); }
+        .lista-item.active { background: var(--barrio-light); border-left: 3px solid var(--barrio); padding-left: 13px; }
+        .lista-item-icon {
+            width: 32px; height: 32px; border-radius: 8px;
+            background: var(--barrio-light); color: var(--barrio);
+            display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+        }
+        .lista-item-icon svg { width: 15px; height: 15px; }
+        .lista-item-body { flex: 1; min-width: 0; }
+        .lista-item-nombre { font-size: 0.875rem; font-weight: 500; color: var(--gray-800); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .lista-item-meta   { font-size: 0.75rem; color: var(--gray-400); margin-top: 1px; }
+
+        /* Badge zona en lista */
+        .zona-badge {
+            font-size: 0.65rem; font-weight: 600; text-transform: uppercase;
+            padding: 1px 6px; border-radius: 4px; flex-shrink: 0;
+        }
+        .zona-badge.norte    { background: rgba(59,130,246,0.12); color: #1d4ed8; }
+        .zona-badge.sur      { background: rgba(234,88,12,0.12);  color: #c2410c; }
+        .zona-badge.sin-zona { background: var(--gray-100); color: var(--gray-500); }
+
+        /* Paginación */
+        .panel-lista-footer {
+            padding: 8px 12px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+        }
+        .page-btn {
+            min-width: 28px; height: 28px; border-radius: 6px;
+            border: 1px solid var(--border-color);
+            background: white; cursor: pointer;
+            font-size: 0.78rem; color: var(--gray-600);
+            display: inline-flex; align-items: center; justify-content: center;
+            padding: 0 6px;
+        }
+        .page-btn:hover   { background: var(--gray-50); }
+        .page-btn.active  { background: var(--barrio); color: white; border-color: var(--barrio); font-weight: 600; }
+        .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+        /* ── Panel detalle ── */
+        .panel-detalle {
+            background: white;
+            border-radius: var(--border-radius-lg);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .detalle-vacio {
+            flex: 1; display: flex; flex-direction: column;
+            align-items: center; justify-content: center;
+            color: var(--gray-400); gap: 12px; text-align: center; padding: 32px;
+        }
+        .detalle-vacio svg { width: 48px; height: 48px; opacity: 0.3; }
+        .detalle-vacio p   { font-size: 0.9rem; }
+        .detalle-contenido { flex: 1; display: flex; flex-direction: column; overflow: hidden; }
+        .detalle-header {
+            padding: 16px 20px;
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-shrink: 0;
+        }
+        .detalle-header-left { display: flex; align-items: center; gap: 10px; min-width: 0; }
+        .detalle-titulo { font-size: 1rem; font-weight: 600; color: var(--gray-900); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+        .badge-modo {
+            display: inline-flex; align-items: center;
+            padding: 2px 8px; border-radius: 99px; font-size: 0.7rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 0.5px; flex-shrink: 0;
+        }
+        .badge-modo.visualizacion { background: var(--gray-100); color: var(--gray-500); }
+        .badge-modo.edicion       { background: rgba(234,179,8,0.15); color: #92400e; }
+        .badge-modo.creacion      { background: var(--barrio-light); color: var(--barrio); }
+        .detalle-body   { flex: 1; overflow-y: auto; padding: 20px; }
+        .detalle-footer {
+            padding: 12px 20px;
+            border-top: 1px solid var(--border-color);
+            display: flex;
+            justify-content: flex-end;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+
+        /* Secciones y campos */
+        .seccion { margin-bottom: 24px; }
+        .seccion-titulo { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.6px; color: var(--gray-500); margin-bottom: 12px; }
+        .campo-row { margin-bottom: 14px; }
+        .campo-row label { display: block; font-size: 0.8rem; font-weight: 500; color: var(--gray-600); margin-bottom: 4px; }
+        .campo-row input, .campo-row textarea, .campo-row select {
+            width: 100%; padding: 8px 12px;
+            border: 1px solid var(--border-color); border-radius: var(--border-radius);
+            font-size: 0.9rem; font-family: inherit;
+            background: white; box-sizing: border-box;
+            transition: border-color 0.15s;
+        }
+        .campo-row input:focus, .campo-row textarea:focus, .campo-row select:focus {
+            outline: none; border-color: var(--barrio);
+        }
+        .campo-row input[readonly], .campo-row textarea[readonly] {
+            background: var(--gray-50); color: var(--gray-600); cursor: default;
+        }
+        .campo-row select:disabled { background: var(--gray-50); color: var(--gray-600); cursor: default; }
+        .campo-row textarea { resize: vertical; min-height: 80px; }
+        .campo-hint { font-size: 0.73rem; color: var(--gray-400); margin-top: 3px; }
+
+        .dos-columnas { display: grid; grid-template-columns: 1fr 1fr; gap: 0 16px; }
+
+        /* Metadata */
+        .meta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+        .meta-item label { font-size: 0.73rem; color: var(--gray-400); display: block; margin-bottom: 2px; }
+        .meta-item span  { font-size: 0.82rem; color: var(--gray-600); }
+
+        /* Dropdown exportar */
+        .dropdown { position: relative; }
+        .dropdown-menu {
+            position: absolute; right: 0; top: calc(100% + 6px); z-index: 200;
+            background: white; border: 1px solid var(--border-color);
+            border-radius: var(--border-radius); box-shadow: var(--shadow-md);
+            min-width: 160px; display: none;
+        }
+        .dropdown-menu.show { display: block; }
+        .dropdown-item {
+            display: flex; align-items: center; gap: 8px;
+            padding: 9px 14px; font-size: 0.85rem; color: var(--gray-700);
+            cursor: pointer; transition: background 0.12s; white-space: nowrap;
+        }
+        .dropdown-item:hover { background: var(--gray-50); }
+        .dropdown-item svg   { width: 15px; height: 15px; flex-shrink: 0; }
+
+        @media (max-width: 900px) {
+            .modulo-container { grid-template-columns: 1fr; height: auto; }
+            .panel-lista      { height: 380px; }
+            .panel-detalle    { min-height: 420px; }
+            .dos-columnas     { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ── Header ── -->
+    <header class="app-header">
+        <div class="header-left">
+            <button class="btn-icon" id="sidebarToggle" aria-label="Abrir menú" title="Menú">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <line x1="4" x2="20" y1="12" y2="12"/>
+                    <line x1="4" x2="20" y1="6" y2="6"/>
+                    <line x1="4" x2="20" y1="18" y2="18"/>
+                </svg>
+            </button>
+            <div style="width:32px;height:32px;background:var(--primary);border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:8px;font-weight:700;color:white;line-height:1.2;text-align:center;flex-shrink:0"
+                 aria-hidden="true">MCR<br>logo</div>
+            <div>
+                <div class="header-brand-title">Nomenclador</div>
+                <div class="header-brand-sub">Panel de Administración</div>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="/admin/perfil.html" class="header-user" title="Mi perfil" aria-label="Ir a mi perfil">
+                <div>
+                    <div class="header-user-name" id="headerUserName">—</div>
+                    <div class="header-user-role" id="headerUserRole">—</div>
+                </div>
+                <div class="header-avatar" id="headerAvatar" aria-hidden="true">—</div>
+            </a>
+            <button class="btn btn-secondary btn-sm" onclick="logout()">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"/>
+                    <polyline points="16 17 21 12 16 7"/>
+                    <line x1="21" x2="9" y1="12" y2="12"/>
+                </svg>
+                Salir
+            </button>
+        </div>
+    </header>
+
+    <!-- ── Sidebar overlay ── -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- ── Sidebar ── -->
+    <aside class="sidebar" id="sidebar" aria-label="Navegación del panel">
+        <nav class="sidebar-nav">
+            <div class="sidebar-section-title">Principal</div>
+            <a href="/admin/dashboard.html" class="sidebar-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <rect width="7" height="7" x="3" y="3" rx="1"/>
+                    <rect width="7" height="7" x="14" y="3" rx="1"/>
+                    <rect width="7" height="7" x="14" y="14" rx="1"/>
+                    <rect width="7" height="7" x="3" y="14" rx="1"/>
+                </svg>
+                <span>Dashboard</span>
+            </a>
+            <a href="/admin/perfil.html" class="sidebar-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/>
+                    <circle cx="12" cy="7" r="4"/>
+                </svg>
+                <span>Mi Perfil</span>
+            </a>
+
+            <div class="sidebar-section-title" style="margin-top: 12px">Módulos</div>
+            <a href="/admin/calles.html" class="sidebar-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 13v8"/>
+                    <path d="M12 3v3"/>
+                    <path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6z"/>
+                </svg>
+                <span>Calles</span>
+            </a>
+            <a href="/admin/barrios.html" class="sidebar-link active" aria-current="page">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+                <span>Barrios</span>
+            </a>
+        </nav>
+    </aside>
+
+    <!-- ── Main content ── -->
+    <main class="main-content">
+
+        <!-- Encabezado del módulo -->
+        <div class="modulo-header">
+            <div class="modulo-header-left">
+                <h1>Gestión de Barrios</h1>
+            </div>
+            <div class="modulo-header-actions">
+                <div class="dropdown" id="dropdownExportar">
+                    <button class="btn btn-secondary btn-sm" onclick="toggleDropdown('dropdownExportar')" aria-haspopup="true">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                            <polyline points="7 10 12 15 17 10"/>
+                            <line x1="12" x2="12" y1="15" y2="3"/>
+                        </svg>
+                        Exportar
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"
+                             style="width:12px;height:12px;margin-left:2px">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+                    <div class="dropdown-menu" id="dropdownExportarMenu">
+                        <div class="dropdown-item" onclick="exportarCSV()">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                            </svg>
+                            Exportar CSV
+                        </div>
+                        <div class="dropdown-item" onclick="exportarXLSX()">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                 stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="8" x2="16" y1="13" y2="13"/>
+                                <line x1="8" x2="16" y1="17" y2="17"/>
+                            </svg>
+                            Exportar XLSX
+                        </div>
+                    </div>
+                </div>
+                <button class="btn btn-secondary btn-sm" id="btnImportar" onclick="abrirImportarModal()">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 5 17 10"/>
+                        <line x1="12" x2="12" y1="5" y2="21"/>
+                    </svg>
+                    Importar
+                </button>
+                <button class="btn btn-primary btn-sm" id="btnNuevoBarrio" onclick="nuevoBarrio()"
+                        style="background:var(--barrio);border-color:var(--barrio)">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="12" x2="12" y1="5" y2="19"/>
+                        <line x1="5" x2="19" y1="12" y2="12"/>
+                    </svg>
+                    Nuevo Barrio
+                </button>
+            </div>
+        </div>
+
+        <!-- Layout split: lista + detalle -->
+        <div class="modulo-container">
+
+            <!-- Panel lista -->
+            <div class="panel-lista">
+                <div class="panel-lista-header">
+                    <div class="panel-lista-search">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+                        </svg>
+                        <input type="search" id="inputBuscar" placeholder="Buscar por nombre, ordenanza…"
+                               oninput="buscarConDelay()" autocomplete="off" aria-label="Buscar barrios">
+                    </div>
+                    <div class="filtro-zona" role="group" aria-label="Filtrar por zona">
+                        <button class="filtro-btn active" data-zona="" onclick="filtrarZona(this)">Todas</button>
+                        <button class="filtro-btn" data-zona="Norte" onclick="filtrarZona(this)">Norte</button>
+                        <button class="filtro-btn" data-zona="Sur" onclick="filtrarZona(this)">Sur</button>
+                        <button class="filtro-btn" data-zona="Sin zona" onclick="filtrarZona(this)">Sin zona</button>
+                    </div>
+                </div>
+                <div class="panel-lista-info" id="totalBarrios">Cargando…</div>
+                <div class="lista-items" id="listaBarrios" role="list" aria-label="Lista de barrios">
+                    <!-- Items renderizados por JS -->
+                </div>
+                <div class="panel-lista-footer" id="paginacion"></div>
+            </div>
+
+            <!-- Panel detalle -->
+            <div class="panel-detalle">
+
+                <!-- Estado vacío -->
+                <div class="detalle-vacio" id="detalleVacio">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                        <polyline points="9 22 9 12 15 12 15 22"/>
+                    </svg>
+                    <p>Seleccioná un barrio de la lista<br>o creá uno nuevo</p>
+                </div>
+
+                <!-- Contenido del detalle -->
+                <div class="detalle-contenido" id="detalleContenido" hidden>
+
+                    <div class="detalle-header">
+                        <div class="detalle-header-left">
+                            <span class="badge-modo visualizacion" id="badgeModo">Visualización</span>
+                            <span class="detalle-titulo" id="detalleTitulo">—</span>
+                        </div>
+                        <div style="display:flex;gap:6px" id="detalleAcciones">
+                            <!-- Botones según modo -->
+                        </div>
+                    </div>
+
+                    <div class="detalle-body">
+
+                        <div class="seccion">
+                            <div class="seccion-titulo">Identificación</div>
+
+                            <div class="dos-columnas">
+                                <div class="campo-row">
+                                    <label for="inputIdBarrio">ID Barrio <span style="color:var(--danger)">*</span></label>
+                                    <input type="number" id="inputIdBarrio" min="1" step="1"
+                                           placeholder="Ej: 42" readonly>
+                                    <div class="campo-hint" id="hintId">Número único de identificación del barrio</div>
+                                </div>
+                                <div class="campo-row">
+                                    <label for="selectZona">Zona <span style="color:var(--danger)">*</span></label>
+                                    <select id="selectZona" disabled>
+                                        <option value="">— Seleccionar —</option>
+                                        <option value="Norte">Norte</option>
+                                        <option value="Sur">Sur</option>
+                                        <option value="Sin zona">Sin zona</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="campo-row">
+                                <label for="inputNombreBarrio">Nombre del Barrio <span style="color:var(--danger)">*</span></label>
+                                <input type="text" id="inputNombreBarrio" placeholder="Nombre oficial del barrio"
+                                       maxlength="200" readonly>
+                            </div>
+                        </div>
+
+                        <div class="seccion">
+                            <div class="seccion-titulo">Normativa</div>
+
+                            <div class="dos-columnas">
+                                <div class="campo-row">
+                                    <label for="inputOrdenanza">Ordenanza</label>
+                                    <input type="text" id="inputOrdenanza" placeholder="Ej: 12.345/2010"
+                                           maxlength="100" readonly>
+                                </div>
+                                <div class="campo-row">
+                                    <label for="inputResolucion">Resolución</label>
+                                    <input type="text" id="inputResolucion" placeholder="Ej: 0123/2012"
+                                           maxlength="100" readonly>
+                                </div>
+                            </div>
+
+                            <div class="campo-row">
+                                <label for="inputObservaciones">Observaciones</label>
+                                <textarea id="inputObservaciones" placeholder="Notas u observaciones adicionales"
+                                          maxlength="500" readonly></textarea>
+                            </div>
+                        </div>
+
+                        <div class="seccion" id="seccionMeta">
+                            <div class="seccion-titulo">Información del registro</div>
+                            <div class="meta-grid">
+                                <div class="meta-item">
+                                    <label>Creado</label>
+                                    <span id="metaCreado">—</span>
+                                </div>
+                                <div class="meta-item">
+                                    <label>Por</label>
+                                    <span id="metaCreadoPor">—</span>
+                                </div>
+                                <div class="meta-item">
+                                    <label>Modificado</label>
+                                    <span id="metaModificado">—</span>
+                                </div>
+                                <div class="meta-item">
+                                    <label>Por</label>
+                                    <span id="metaModificadoPor">—</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="detalle-footer" id="detalleFooter">
+                        <!-- Botones según modo -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- ── Modal confirmar eliminación ── -->
+    <div class="modal-overlay" id="modalEliminar" role="dialog" aria-modal="true" aria-labelledby="modalEliminarTitulo">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 class="modal-title" id="modalEliminarTitulo">Confirmar eliminación</h2>
+                <button class="btn-icon" onclick="closeModal('modalEliminar')" aria-label="Cerrar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="modalEliminarMsg">¿Está seguro que desea eliminar este barrio?</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal('modalEliminar')">Cancelar</button>
+                <button class="btn btn-danger" id="btnConfirmarEliminar" onclick="confirmarEliminar()">Eliminar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ── Modal importar barrios ── -->
+    <div class="importar-overlay" id="modalImportarBarrios" role="dialog" aria-modal="true" aria-labelledby="ib-titulo">
+        <div class="importar-modal">
+            <div class="importar-modal-header">
+                <h2 id="ib-titulo">Importar Barrios desde CSV</h2>
+                <button class="btn-icon" onclick="ImportarBarrios.cerrarModal()" aria-label="Cerrar">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <line x1="18" x2="6" y1="6" y2="18"/><line x1="6" x2="18" y1="6" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="paso-indicadores">
+                <div class="paso-indicador active">
+                    <div class="paso-num">1</div>
+                    <span>Subir CSV</span>
+                </div>
+                <div class="paso-separador"></div>
+                <div class="paso-indicador">
+                    <div class="paso-num">2</div>
+                    <span>Revisar cambios</span>
+                </div>
+                <div class="paso-separador"></div>
+                <div class="paso-indicador">
+                    <div class="paso-num">3</div>
+                    <span>Confirmar</span>
+                </div>
+            </div>
+
+            <div class="importar-modal-body">
+
+                <!-- ── Paso 1 ── -->
+                <div class="importar-paso active" id="ib-paso1">
+                    <div class="importar-paso-inner">
+                        <label class="upload-area" for="ib-file">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                                <polyline points="17 8 12 3 7 8"/><line x1="12" x2="12" y1="3" y2="15"/>
+                            </svg>
+                            <p>Hacé clic para seleccionar un archivo CSV</p>
+                            <small>Formatos aceptados: .csv — Máx. 10 MB</small>
+                            <input type="file" id="ib-file" accept=".csv"
+                                   onchange="ImportarBarrios.onArchivoSeleccionado(this)">
+                        </label>
+                        <div id="ib-archivo-preview"></div>
+
+                        <div class="formato-ayuda" style="margin-top:16px">
+                            <strong>Formato esperado del CSV:</strong>
+                            El archivo debe tener encabezados en la primera fila. Columnas obligatorias:
+                            <code>id_barrio,zona_barrio,nombre_barrio,ordenanza_barrio,resolucion_barrio,observaciones_barrio</code>
+                            <code>id_barrio</code> es la clave única (PK manual) — obligatorio.<br>
+                            <code>zona_barrio</code> acepta: <strong>Norte</strong>, <strong>Sur</strong>, <strong>Sin zona</strong>.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ── Paso 2 ── -->
+                <div class="importar-paso" id="ib-paso2">
+                    <div class="importar-paso-inner">
+                        <div id="ib-stats" style="margin-bottom:12px"></div>
+                        <div class="preview-tabs" id="ib-tabs"></div>
+                        <div id="ib-tabla"></div>
+                        <div class="info-seleccionados" id="ib-info-sel" style="margin-top:8px"></div>
+                    </div>
+                </div>
+
+                <!-- ── Paso 3 ── -->
+                <div class="importar-paso" id="ib-paso3">
+                    <div class="importar-paso-inner">
+                        <div id="ib-paso3-contenido"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="importar-modal-footer">
+                <div>
+                    <button class="btn btn-secondary" id="ib-btn-volver1"
+                            onclick="ImportarBarrios.volverPaso1()" style="display:none">← Volver</button>
+                    <button class="btn btn-secondary" id="ib-btn-volver2"
+                            onclick="ImportarBarrios.volverPaso2()" style="display:none">← Volver</button>
+                </div>
+                <div class="importar-modal-footer-right">
+                    <button class="btn btn-primary" id="ib-btn-procesar" disabled
+                            onclick="ImportarBarrios.procesarCSV()"
+                            style="background:var(--barrio);border-color:var(--barrio)">Procesar CSV</button>
+                    <button class="btn btn-primary" id="ib-btn-siguiente"
+                            onclick="ImportarBarrios.irAPaso3()" style="display:none"
+                            style="background:var(--barrio);border-color:var(--barrio)">Revisar selección →</button>
+                    <button class="btn btn-primary" id="ib-btn-aplicar" disabled
+                            onclick="ImportarBarrios.aplicarImportacion()" style="display:none"
+                            style="background:var(--barrio);border-color:var(--barrio)">Aplicar Importación</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.sheetjs.com/xlsx-0.20.1/package/dist/xlsx.full.min.js"></script>
+    <script src="/js/admin/main.js"></script>
+    <script src="/js/admin/barrios.js"></script>
+    <script src="/js/importacion/barrios-importar.js"></script>
+
+</body>
+</html>
