@@ -7,7 +7,7 @@
     <meta name="description" content="Información sobre el Nomenclador oficial de calles y barrios de Comodoro Rivadavia, su marco normativo y API pública.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/public.css">
     <style>
         /* Estilos específicos de la página Acerca */
@@ -22,18 +22,19 @@
         }
 
         .acerca-seccion h2 {
+            font-family: var(--font-display);
             font-size: 18px;
             font-weight: 600;
-            color: var(--color-text);
+            color: var(--color-ink);
             margin-bottom: 12px;
             padding-bottom: 8px;
-            border-bottom: 2px solid var(--color-primary-light);
+            border-bottom: 2px solid var(--color-rule);
         }
 
         .acerca-seccion p {
             font-size: 15px;
             line-height: 1.7;
-            color: var(--color-text-secondary);
+            color: var(--color-ink-muted);
             margin-bottom: 12px;
         }
 
@@ -91,17 +92,17 @@
         /* Endpoints de API */
         .api-endpoints {
             background: var(--color-bg);
-            border: 1px solid var(--color-border);
+            border: 1px solid var(--color-rule);
             border-radius: var(--radius-md);
             padding: 16px 20px;
             margin: 16px 0;
-            font-family: 'Courier New', Courier, monospace;
+            font-family: var(--font-mono);
             font-size: 13px;
         }
 
         .api-endpoints li {
             padding: 4px 0;
-            color: var(--color-text);
+            color: var(--color-ink);
             list-style: none;
         }
 
@@ -113,7 +114,7 @@
 
         .api-nota {
             font-size: 13px;
-            color: var(--color-text-secondary);
+            color: var(--color-ink-muted);
             margin-top: 8px;
             font-style: italic;
         }
@@ -126,9 +127,9 @@
 
         .normas-lista li {
             padding: 8px 0;
-            border-bottom: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-rule);
             font-size: 14px;
-            color: var(--color-text-secondary);
+            color: var(--color-ink-muted);
             display: flex;
             gap: 8px;
         }
@@ -143,14 +144,14 @@
 
         /* Contacto */
         .contacto-bloque {
-            background: var(--color-primary-light);
+            background: var(--color-primary-soft);
             border-radius: var(--radius-md);
             padding: 20px 24px;
             margin-top: 12px;
         }
 
         .contacto-bloque p {
-            color: var(--color-text) !important;
+            color: var(--color-ink) !important;
             margin-bottom: 4px !important;
         }
 
@@ -171,6 +172,8 @@
 </head>
 <body>
 
+    <div class="filete-superior" aria-hidden="true"></div>
+
     <a href="#contenido" class="sr-only">Saltar al contenido principal</a>
 
     <!-- ============================================
@@ -180,8 +183,7 @@
         <div class="header-container">
             <div class="header-brand">
                 <a href="/" style="display:flex;align-items:center;gap:16px;color:inherit">
-                    <!-- Reemplazar por <img src="/images/logo-mcr-blanco.png" alt="Logo MCR" class="header-logo"> -->
-                    <div class="header-logo-placeholder" aria-hidden="true">MCR<br>logo</div>
+                    <img src="/images/logo-blanco.png" alt="Municipalidad de Comodoro Rivadavia" class="header-logo">
                     <div class="header-divider" aria-hidden="true"></div>
                     <div>
                         <div class="header-text-org">Municipalidad de Comodoro Rivadavia</div>

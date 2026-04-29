@@ -7,10 +7,12 @@
     <meta name="description" content="Buscador oficial del nomenclador de calles y barrios de Comodoro Rivadavia.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/public.css">
 </head>
 <body>
+
+    <div class="filete-superior" aria-hidden="true"></div>
 
     <a href="#contenido" class="sr-only">Saltar al contenido principal</a>
 
@@ -20,9 +22,7 @@
     <header class="header">
         <div class="header-container">
             <div class="header-brand">
-                <!-- Reemplazar por <img> cuando el logo esté disponible:
-                     <img src="/images/logo-mcr-blanco.png" alt="Logo Municipalidad de Comodoro Rivadavia" class="header-logo"> -->
-                <div class="header-logo-placeholder" aria-hidden="true">MCR<br>logo</div>
+                <img src="/images/logo-blanco.png" alt="Municipalidad de Comodoro Rivadavia" class="header-logo">
                 <div class="header-divider" aria-hidden="true"></div>
                 <div>
                     <div class="header-text-org">Municipalidad de Comodoro Rivadavia</div>
@@ -43,7 +43,8 @@
 
         <!-- Tabs -->
         <div class="tabs" role="tablist" aria-label="Tipo de búsqueda">
-            <button class="tab active"
+            <span class="tab-indicator" aria-hidden="true"></span>
+        <button class="tab active"
                     role="tab"
                     id="tab-calles"
                     aria-selected="true"

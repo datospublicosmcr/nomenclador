@@ -93,6 +93,24 @@ function cargarMas() {
 // ──────────────────────────────────────────────
 
 function iniciarTabs() {
+    const indicador = document.querySelector('.tab-indicator');
+
+    function moverIndicador(btn) {
+        if (!indicador) return;
+        indicador.style.left  = btn.offsetLeft + 'px';
+        indicador.style.width = btn.offsetWidth + 'px';
+    }
+
+    // Posición inicial sin transición
+    const tabActiva = document.querySelector('.tab.active');
+    if (tabActiva && indicador) {
+        indicador.style.transition = 'none';
+        moverIndicador(tabActiva);
+        requestAnimationFrame(() => {
+            requestAnimationFrame(() => { indicador.style.transition = ''; });
+        });
+    }
+
     document.querySelectorAll('.tab').forEach(btn => {
         btn.addEventListener('click', () => {
             const tab = btn.dataset.tab;
@@ -110,6 +128,7 @@ function iniciarTabs() {
             btn.setAttribute('aria-selected', 'true');
             document.getElementById(`panel-${tab}`).hidden = false;
 
+            moverIndicador(btn);
             estado.tab = tab;
 
             // Resetear input y dar foco
@@ -117,7 +136,7 @@ function iniciarTabs() {
             input.value = '';
             input.focus();
 
-            // Buscar con el tab nuevo (puede que ya tenga resultados cargados)
+            // Buscar con el tab nuevo
             buscar(false);
         });
     });
@@ -149,6 +168,11 @@ const SVG_CHECK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" st
     <polyline points="20 6 9 17 4 12"/>
 </svg>`;
 
+const SVG_X = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M18 6 6 18M6 6l12 12"/>
+</svg>`;
+
 function renderCalles(items, append) {
     const lista = document.getElementById('lista-calles');
     const vacio = document.getElementById('vacio-calles');
@@ -162,7 +186,7 @@ function renderCalles(items, append) {
 
     vacio.hidden = true;
 
-    items.forEach(calle => {
+    items.forEach((calle, index) => {
         const tieneOC   = calle.orden_carga !== null && calle.orden_carga !== undefined;
         const badgeHTML = tieneOC
             ? `<div class="badge-oc">${calle.orden_carga}</div>`
@@ -171,7 +195,7 @@ function renderCalles(items, append) {
         const btnOC = tieneOC
             ? `<button class="btn-copiar"
                        aria-label="Copiar orden de carga ${calle.orden_carga}"
-                       onclick="copiar('${calle.orden_carga}', this)">
+                       onclick="copiar(${JSON.stringify(String(calle.orden_carga))}, this)">
                    ${SVG_COPY} ${calle.orden_carga}
                </button>`
             : '';
@@ -196,6 +220,7 @@ function renderCalles(items, append) {
                 </button>
             </div>`;
 
+        article.style.animationDelay = `${append ? 0 : Math.min(index * 30, 240)}ms`;
         lista.appendChild(article);
     });
 }
@@ -219,7 +244,7 @@ function renderBarrios(items, append) {
 
     vacio.hidden = true;
 
-    items.forEach(barrio => {
+    items.forEach((barrio, index) => {
         const zonaClass = ZONA_CLASS[barrio.zona_barrio] || 'sin';
         const tieneNorma = barrio.ordenanza_barrio || barrio.resolucion_barrio;
 
@@ -242,6 +267,7 @@ function renderBarrios(items, append) {
             </div>
             <div class="tarjeta-barrio-meta">${metaHTML}</div>`;
 
+        article.style.animationDelay = `${append ? 0 : Math.min(index * 30, 240)}ms`;
         lista.appendChild(article);
     });
 }
@@ -315,29 +341,62 @@ function escHTML(str) {
 let _toastTimer = null;
 
 async function copiar(texto, btn) {
-    try {
-        await navigator.clipboard.writeText(texto);
+    const ok = await copiarTexto(String(texto));
+    if (ok) {
+        feedbackBoton(btn, 'ok');
+        mostrarToast('Copiado al portapapeles');
+    } else {
+        feedbackBoton(btn, 'error');
+        mostrarToast('No se pudo copiar. Seleccioná y copiá manualmente.');
+    }
+}
 
-        // Feedback en el botón
-        const originalHTML = btn.innerHTML;
+async function copiarTexto(texto) {
+    if (navigator.clipboard && window.isSecureContext) {
+        try {
+            await navigator.clipboard.writeText(texto);
+            return true;
+        } catch (e) {
+            console.warn('Clipboard API falló, usando fallback:', e);
+        }
+    }
+    return copiarConExecCommand(texto);
+}
+
+function copiarConExecCommand(texto) {
+    const ta = document.createElement('textarea');
+    ta.value = texto;
+    ta.setAttribute('readonly', '');
+    ta.style.cssText = 'position:fixed;top:0;left:0;width:1px;height:1px;opacity:0;pointer-events:none;';
+    document.body.appendChild(ta);
+    ta.focus();
+    ta.select();
+    let ok = false;
+    try { ok = document.execCommand('copy'); } catch (e) { ok = false; }
+    document.body.removeChild(ta);
+    return ok;
+}
+
+function feedbackBoton(btn, tipo) {
+    const originalHTML = btn.innerHTML;
+    if (tipo === 'ok') {
         btn.classList.add('copiado');
         btn.innerHTML = `${SVG_CHECK} copiado`;
-
-        setTimeout(() => {
-            btn.classList.remove('copiado');
-            btn.innerHTML = originalHTML;
-        }, 1500);
-
-        // Toast
-        mostrarToast('Copiado al portapapeles');
-    } catch (err) {
-        console.error('Error al copiar:', err);
+        setTimeout(() => { btn.classList.remove('copiado'); btn.innerHTML = originalHTML; }, 1500);
+    } else {
+        btn.classList.add('error');
+        btn.innerHTML = `${SVG_X} error`;
+        setTimeout(() => { btn.classList.remove('error'); btn.innerHTML = originalHTML; }, 2000);
     }
 }
 
 function mostrarToast(mensaje) {
     const toast = document.getElementById('toast');
     document.getElementById('toast-texto').textContent = mensaje;
+
+    // Reiniciar animación de entrada aunque el toast ya esté visible
+    toast.classList.remove('visible');
+    void toast.offsetWidth;
     toast.classList.add('visible');
 
     clearTimeout(_toastTimer);
