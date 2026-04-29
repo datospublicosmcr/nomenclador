@@ -1,0 +1,80 @@
+﻿id_barrio,zona_barrio,nombre_barrio,ordenanza_barrio,resolucion_barrio,observaciones_barrio
+1,Sur,13 de Diciembre,No posee,No posee,
+2,Norte,25 de Mayo,5.568/95,1.164/95,
+3,Sur,30 de Octubre,No posee,96/84,incluye 1008 viviendas
+4,Sur,9 de Julio,No posee,No posee,
+5,Norte,A.R.A. San Juan (ex Acceso Norte),17.137/23,37/24,Ex Km 12
+6,Norte,Acceso Noroeste,No posee,No posee,
+7,Sur,Acceso Sur (Ex Fracción 14 y 15),No posee,No posee,Ex Fracción 14 y 15
+8,Sur,Acceso Sur (Industrial),No posee,No posee,
+9,Norte,Aeropuerto,No posee,No posee,
+10,Norte,Astra,No posee,No posee,
+11,Sur,Balcon Del Paraiso,9.339/09,771/09,
+12,Sur,Bella Vista Oeste,17200/24,1793/24,
+13,Sur,Bella Vista Sur,11.413/13,4.384/13,
+14,Norte,Caleta Cordova,No posee,No posee,
+15,Sur,Ceferino Namuncura,2.210/83,No posee,
+16,Norte,Centenario,7.600-3/15,3.978/15,Ex Km 14 y 15
+17,Sur,Centro,222/70,No posee,incluye La Loma y Rincón del Diablo
+18,Sur,Centro Civico General Solari,664/75,5.210/75,
+19,Norte,CHACRAS - Bella Vista Norte,No posee,No posee,
+20,Norte,CHACRAS - El Faro (En Mina George Stephenson),No posee,No posee,
+21,Norte,CHACRAS - Ex Radio Estación YPF y Sector Ampliación Urbana,No posee,No posee,
+22,Sur,CHACRAS - Loteo Feijoo-Vento - Colla - Linderos y otros,No posee,No posee,
+23,Sur,CHACRAS - Loteo Los Tres Pinos y Cañadones - Chacras Oeste,No posee,No posee,
+24,Norte,CHACRAS - Lotes Pastoriles (Sector Noroeste del Ejido),No posee,No posee,
+25,Norte,"CHACRAS - Minas George Stephenson, Sol de Mayo y San Jorge",No posee,No posee,
+26,Sur,CHACRAS - Sur - La Herradura - Refugio Los Lobos - Padrós y otros,No posee,No posee,
+27,Norte,Ciudadela,14.239/19,1.612/19,
+28,Sur,Cordon Forestal Juan Manuel Feeney,100/02,7.572/01,
+29,Norte,Cuarteles Chacabuco,3.173/88,14/89,Ex Km 11
+30,Norte,Diadema Argentina,1.569/82,No posee,
+31,Norte,Don Bosco,No posee,No posee,
+32,Sur,Dr. Quirno Costa,2.210/83,No posee,
+33,Norte,Dr. Rene Favaloro,12.053/15,3.973/15,
+34,Sin zona,Ejido de Comodoro Rivadavia,,,
+35,Sur,El Atardecer,12.373/16,2.925/16,
+36,Norte,Franja Forestal Cerro de la Cruz,17423/25,,
+37,Norte,Gasoducto,14.243/19,1.610/19,Ex Gas del Estado
+38,Norte,General Enrique Mosconi,8.979/07,2.645/07,"incluye Sismográfica, 3, etc"
+39,Norte,Gesta de Malvinas,7.600-2/08,No posee,
+40,Norte,Gobernador Fontana,3.005/87,2.909/87,
+41,Sur,Gobernador Roque Gonzalez,12.028-1/15,3.840/15,
+42,Norte,Güemes,No posee,No posee,
+43,Sur,Humberto Beghin,No posee,No posee,
+44,Sur,Jorge Newbery,222/70,No posee,
+45,Sur,Jose Fuchs,No posee,No posee,
+46,Norte,Juan José Castelli,No posee,No posee,
+47,Sur,Juan XXIII,2.210/83,No posee,
+48,Norte,Km 17,No posee,No posee,
+49,Norte,Km 18,No posee,No posee,
+50,Sur,La Floresta,5.402/94,3.054/94,
+51,Norte,Laprida,No posee,No posee,
+52,Sur,Las Flores,222/70,No posee,
+53,Norte,Las Orquideas,17048/25,2368/25,
+54,Sur,Los Arenales,11.908/15,2.174/15,
+55,Sur,Los Bretes,12.860/17,2.348/17,
+56,Sur,Maestro Isidro Quiroga,6.688/98,1.725/98,incluye parte de Cerro Solo y 1311
+57,Sur,Malvinas Argentinas,11.935/15,2.807/15,
+58,Norte,Manantial Rosales,No posee,No posee,
+59,Sur,Mario Abel Amaya,4.865/93,249/94,incluye Las Américas
+60,Sur,Maximo Abasolo,6.688/98,1.725/98,
+61,Sur,Monseñor Argimiro Daniel Moure,6.688/98,1.725/98,incluye parte de Cerro Solo
+62,Norte,Nicolas Rodriguez Peña,17406/25,2693/25,
+63,Norte,Nuestra Señora De La Divina Providencia,5.811/95,9.257/95,
+64,Norte,Padre Juan Corti,14.242/19,1.611/19,
+65,Sur,Parque Industrial Comodoro Rivadavia,10.215/11,3.591/11,
+66,Sur,Pietrobelli,222/70,No posee,
+67,Norte,Presidente Roberto M. Ortiz,17407/25,2366/25,incluye Empalme FFCC
+68,Norte,Prospero Palazzo,No posee,No posee,incluye Petroleros Privados
+69,Sur,Pueyrredon,No posee,No posee,
+70,Norte,Restinga Ali,No posee,No posee,
+71,Norte,Saavedra,No posee,No posee,
+72,Sur,San Cayetano,6.688/98,1.725/98,incluye Progreso y parte de Cerro Solo
+73,Sur,San Isidro Labrador,2.885/87,1.351/87,
+74,Sur,San Martin,2.210/83,No posee,
+75,Norte,Sarmiento,No posee,No posee,Valle C
+76,Norte,Standard Norte,No posee,No posee,incluye Comapi y Cantera Kartódromo
+77,Norte,Standard Sur,No posee,No posee,
+78,Sur,Stella Maris,11.003/13,1.652/13,
+79,Sur,Teniente General Julio Argentino Roca,314/64,68/64,

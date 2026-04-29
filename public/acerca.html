@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerca del Nomenclador — Municipalidad de Comodoro Rivadavia</title>
+    <meta name="description" content="Información sobre el Nomenclador oficial de calles y barrios de Comodoro Rivadavia, su marco normativo y API pública.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/public.css">
+    <style>
+        /* Estilos específicos de la página Acerca */
+        .acerca-main {
+            max-width: 780px;
+            margin: 0 auto;
+            padding: 48px 24px 80px;
+        }
+
+        .acerca-seccion {
+            margin-bottom: 48px;
+        }
+
+        .acerca-seccion h2 {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--color-text);
+            margin-bottom: 12px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--color-primary-light);
+        }
+
+        .acerca-seccion p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--color-text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .acerca-seccion p:last-child { margin-bottom: 0; }
+
+        /* Botones de acción */
+        .btn-acciones {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .btn-accion {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            border-radius: var(--radius-md);
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.15s;
+            cursor: pointer;
+        }
+
+        .btn-accion-primary {
+            background: var(--color-primary);
+            color: white;
+            border: 1px solid var(--color-primary);
+        }
+
+        .btn-accion-primary:hover {
+            background: var(--color-primary-dark);
+            border-color: var(--color-primary-dark);
+        }
+
+        .btn-accion-secondary {
+            background: var(--color-surface);
+            color: var(--color-text);
+            border: 1px solid var(--color-border-strong);
+        }
+
+        .btn-accion-secondary:hover {
+            border-color: var(--color-primary);
+            color: var(--color-primary);
+        }
+
+        .btn-accion svg {
+            width: 16px;
+            height: 16px;
+            flex-shrink: 0;
+        }
+
+        /* Endpoints de API */
+        .api-endpoints {
+            background: var(--color-bg);
+            border: 1px solid var(--color-border);
+            border-radius: var(--radius-md);
+            padding: 16px 20px;
+            margin: 16px 0;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 13px;
+        }
+
+        .api-endpoints li {
+            padding: 4px 0;
+            color: var(--color-text);
+            list-style: none;
+        }
+
+        .api-endpoints li::before {
+            content: '→ ';
+            color: var(--color-primary);
+            font-weight: 600;
+        }
+
+        .api-nota {
+            font-size: 13px;
+            color: var(--color-text-secondary);
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* Marco normativo */
+        .normas-lista {
+            list-style: none;
+            margin-top: 12px;
+        }
+
+        .normas-lista li {
+            padding: 8px 0;
+            border-bottom: 1px solid var(--color-border);
+            font-size: 14px;
+            color: var(--color-text-secondary);
+            display: flex;
+            gap: 8px;
+        }
+
+        .normas-lista li:last-child { border-bottom: none; }
+
+        .norma-codigo {
+            color: var(--color-primary);
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        /* Contacto */
+        .contacto-bloque {
+            background: var(--color-primary-light);
+            border-radius: var(--radius-md);
+            padding: 20px 24px;
+            margin-top: 12px;
+        }
+
+        .contacto-bloque p {
+            color: var(--color-text) !important;
+            margin-bottom: 4px !important;
+        }
+
+        .contacto-bloque a {
+            color: var(--color-primary);
+            font-weight: 500;
+        }
+
+        .contacto-bloque a:hover { text-decoration: underline; }
+
+        /* Responsive */
+        @media (max-width: 640px) {
+            .acerca-main { padding: 32px 16px 60px; }
+            .btn-acciones { flex-direction: column; }
+            .btn-accion { justify-content: center; }
+        }
+    </style>
+</head>
+<body>
+
+    <a href="#contenido" class="sr-only">Saltar al contenido principal</a>
+
+    <!-- ============================================
+         HEADER (idéntico a index.html)
+         ============================================ -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-brand">
+                <a href="/" style="display:flex;align-items:center;gap:16px;color:inherit">
+                    <!-- Reemplazar por <img src="/images/logo-mcr-blanco.png" alt="Logo MCR" class="header-logo"> -->
+                    <div class="header-logo-placeholder" aria-hidden="true">MCR<br>logo</div>
+                    <div class="header-divider" aria-hidden="true"></div>
+                    <div>
+                        <div class="header-text-org">Municipalidad de Comodoro Rivadavia</div>
+                        <div class="header-text-title">Nomenclador de calles y barrios</div>
+                    </div>
+                </a>
+            </div>
+            <nav class="header-nav" aria-label="Navegación principal">
+                <a href="/api/public/calles" target="_blank" rel="noopener">API pública</a>
+                <a href="/acerca.html" aria-current="page">Acerca</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================
+         MAIN
+         ============================================ -->
+    <main class="acerca-main" id="contenido">
+
+        <!-- ── ¿Qué es este sistema? ── -->
+        <section class="acerca-seccion" aria-labelledby="h-que-es">
+            <h2 id="h-que-es">¿Qué es este sistema?</h2>
+            <p>
+                El Nomenclador de Calles y Barrios es la fuente oficial de consulta de las calles
+                y barrios de Comodoro Rivadavia. Es mantenido por la Dirección de Datos Públicos
+                y Comunicación, dependiente de la Dirección General de Modernización e
+                Investigación Territorial.
+            </p>
+            <p>
+                Este sistema cumple con lo establecido en la Ordenanza N° 17.662/23 de Gobierno
+                Abierto de la ciudad, que garantiza el acceso libre y gratuito a la información
+                pública municipal.
+            </p>
+        </section>
+
+        <!-- ── ¿Qué es el orden de carga? ── -->
+        <section class="acerca-seccion" aria-labelledby="h-oc">
+            <h2 id="h-oc">¿Qué es el "orden de carga"?</h2>
+            <p>
+                El orden de carga (OC) es el número oficial asignado por la Municipalidad para
+                identificar a cada calle en el catastro municipal. Es el identificador que usan
+                los sistemas de Catastro, RPAD y demás organismos municipales.
+            </p>
+            <p>
+                Algunas vías —como las rutas nacionales y provinciales— no poseen orden de carga,
+                ya que son administradas por organismos externos al municipio.
+            </p>
+        </section>
+
+        <!-- ── Datos abiertos ── -->
+        <section class="acerca-seccion" aria-labelledby="h-datos">
+            <h2 id="h-datos">Datos abiertos</h2>
+            <p>
+                Todos los datos publicados están disponibles bajo licencia
+                <strong>Creative Commons Atribución 4.0 Internacional (CC BY 4.0)</strong>.
+                Pueden ser reutilizados libremente con la atribución correspondiente:
+                <em>Municipalidad de Comodoro Rivadavia — Dirección de Datos Públicos y Comunicación</em>.
+            </p>
+            <div class="btn-acciones">
+                <a href="/api/public/dataset.zip"
+                   class="btn-accion btn-accion-primary"
+                   aria-label="Descargar dataset completo en formato ZIP con CSV">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                        <polyline points="7 10 12 15 17 10"/>
+                        <line x1="12" x2="12" y1="15" y2="3"/>
+                    </svg>
+                    Descargar dataset completo (CSV)
+                </a>
+                <a href="#h-api"
+                   class="btn-accion btn-accion-secondary"
+                   onclick="document.getElementById('h-api').scrollIntoView({behavior:'smooth'});return false;">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Acceder a la API pública
+                </a>
+            </div>
+        </section>
+
+        <!-- ── API pública ── -->
+        <section class="acerca-seccion" aria-labelledby="h-api">
+            <h2 id="h-api">API pública</h2>
+            <p>
+                Para consumo programático de los datos, ofrecemos una API REST documentada.
+                Permite a otros sistemas, aplicaciones y desarrolladores acceder a la
+                información del nomenclador sin necesidad de registro ni autenticación.
+            </p>
+            <ul class="api-endpoints" aria-label="Endpoints principales de la API">
+                <li>GET /api/public/calles?q={texto}</li>
+                <li>GET /api/public/calles/:orden_carga</li>
+                <li>GET /api/public/barrios?q={texto}&amp;zona={zona}</li>
+                <li>GET /api/public/barrios/:id</li>
+                <li>GET /api/public/stats</li>
+            </ul>
+            <p class="api-nota">Límite: 100 consultas por minuto por dirección IP.</p>
+            <div class="btn-acciones">
+                <a href="/docs/api.html"
+                   class="btn-accion btn-accion-secondary">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                         stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                        <polyline points="14 2 14 8 20 8"/>
+                        <line x1="16" x2="8" y1="13" y2="13"/>
+                        <line x1="16" x2="8" y1="17" y2="17"/>
+                        <polyline points="10 9 9 9 8 9"/>
+                    </svg>
+                    Ver documentación completa
+                </a>
+            </div>
+        </section>
+
+        <!-- ── Marco normativo ── -->
+        <section class="acerca-seccion" aria-labelledby="h-normas">
+            <h2 id="h-normas">Marco normativo</h2>
+            <ul class="normas-lista">
+                <li>
+                    <span class="norma-codigo">Ordenanza N° 17.662/23</span>
+                    <span>Gobierno Abierto y Datos Abiertos — Municipalidad de Comodoro Rivadavia</span>
+                </li>
+                <li>
+                    <span class="norma-codigo">Ley Provincial I N° 156</span>
+                    <span>Acceso a la Información Pública — Provincia del Chubut</span>
+                </li>
+                <li>
+                    <span class="norma-codigo">Ley Nacional 25.506</span>
+                    <span>Firma Digital — Argentina</span>
+                </li>
+            </ul>
+        </section>
+
+        <!-- ── Contacto ── -->
+        <section class="acerca-seccion" aria-labelledby="h-contacto">
+            <h2 id="h-contacto">Contacto</h2>
+            <div class="contacto-bloque">
+                <p><strong>Dirección de Datos Públicos y Comunicación</strong></p>
+                <p>Dirección General de Modernización e Investigación Territorial</p>
+                <p>Municipalidad de Comodoro Rivadavia</p>
+                <p style="margin-top:12px">
+                    Email: <a href="mailto:datospublicos@comodoro.gov.ar">datospublicos@comodoro.gov.ar</a>
+                </p>
+                <p>
+                    Sitio web: <a href="https://datos.comodoro.gov.ar" target="_blank" rel="noopener">datos.comodoro.gov.ar</a>
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div>
+                <a href="/" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(0,0,0,0.2)">
+                    ← Volver al buscador
+                </a>
+            </div>
+            <div>Datos abiertos · CC BY 4.0</div>
+        </div>
+    </footer>
+
+</body>
+</html>

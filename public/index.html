@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomenclador de Calles y Barrios — Municipalidad de Comodoro Rivadavia</title>
+    <meta name="description" content="Buscador oficial del nomenclador de calles y barrios de Comodoro Rivadavia.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/public.css">
+</head>
+<body>
+
+    <a href="#contenido" class="sr-only">Saltar al contenido principal</a>
+
+    <!-- ============================================
+         HEADER
+         ============================================ -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-brand">
+                <!-- Reemplazar por <img> cuando el logo esté disponible:
+                     <img src="/images/logo-mcr-blanco.png" alt="Logo Municipalidad de Comodoro Rivadavia" class="header-logo"> -->
+                <div class="header-logo-placeholder" aria-hidden="true">MCR<br>logo</div>
+                <div class="header-divider" aria-hidden="true"></div>
+                <div>
+                    <div class="header-text-org">Municipalidad de Comodoro Rivadavia</div>
+                    <div class="header-text-title">Nomenclador de calles y barrios</div>
+                </div>
+            </div>
+            <nav class="header-nav" aria-label="Navegación principal">
+                <a href="/api/public/calles" target="_blank" rel="noopener">API pública</a>
+                <a href="/acerca.html">Acerca</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================
+         MAIN
+         ============================================ -->
+    <main class="main" id="contenido">
+
+        <!-- Tabs -->
+        <div class="tabs" role="tablist" aria-label="Tipo de búsqueda">
+            <button class="tab active"
+                    role="tab"
+                    id="tab-calles"
+                    aria-selected="true"
+                    aria-controls="panel-calles"
+                    data-tab="calles">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M12 13v8"/>
+                    <path d="M12 3v3"/>
+                    <path d="M4 6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6z"/>
+                </svg>
+                Calles
+            </button>
+            <button class="tab"
+                    role="tab"
+                    id="tab-barrios"
+                    aria-selected="false"
+                    aria-controls="panel-barrios"
+                    data-tab="barrios">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                    <polyline points="9 22 9 12 15 12 15 22"/>
+                </svg>
+                Barrios
+            </button>
+        </div>
+
+        <!-- ── Panel: Calles ── -->
+        <div role="tabpanel"
+             id="panel-calles"
+             aria-labelledby="tab-calles">
+
+            <div class="search-wrapper">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                </svg>
+                <input type="search"
+                       id="input-calles"
+                       class="search-input"
+                       placeholder="Buscar por nombre o por orden de carga..."
+                       aria-label="Buscar calle"
+                       aria-describedby="contador-calles"
+                       autocomplete="off"
+                       oninput="buscarConDelay()">
+            </div>
+
+            <p id="contador-calles" class="resultados-contador" aria-live="polite" aria-atomic="true"></p>
+
+            <div id="lista-calles" class="resultados-lista"></div>
+
+            <div id="vacio-calles" class="estado-vacio" hidden>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                    <path d="M8 11h6"/>
+                </svg>
+                <p>No se encontraron calles</p>
+            </div>
+
+            <button id="mas-calles" class="btn-cargar-mas" hidden onclick="cargarMas()">
+                Cargar más resultados
+            </button>
+        </div>
+
+        <!-- ── Panel: Barrios ── -->
+        <div role="tabpanel"
+             id="panel-barrios"
+             aria-labelledby="tab-barrios"
+             hidden>
+
+            <div class="search-wrapper">
+                <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                </svg>
+                <input type="search"
+                       id="input-barrios"
+                       class="search-input"
+                       placeholder="Buscar barrio..."
+                       aria-label="Buscar barrio"
+                       aria-describedby="contador-barrios"
+                       autocomplete="off"
+                       oninput="buscarConDelay()">
+            </div>
+
+            <div class="filtros-zona" role="group" aria-label="Filtrar por zona">
+                <button class="filtro-zona active" data-zona="" onclick="filtrarZona(this)">Todas las zonas</button>
+                <button class="filtro-zona" data-zona="Norte"    onclick="filtrarZona(this)">Norte</button>
+                <button class="filtro-zona" data-zona="Sur"      onclick="filtrarZona(this)">Sur</button>
+                <button class="filtro-zona" data-zona="Sin zona" onclick="filtrarZona(this)">Sin zona</button>
+            </div>
+
+            <p id="contador-barrios" class="resultados-contador" aria-live="polite" aria-atomic="true"></p>
+
+            <div id="lista-barrios" class="resultados-lista"></div>
+
+            <div id="vacio-barrios" class="estado-vacio" hidden>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"
+                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="11" cy="11" r="8"/>
+                    <path d="m21 21-4.3-4.3"/>
+                    <path d="M8 11h6"/>
+                </svg>
+                <p>No se encontraron barrios</p>
+            </div>
+
+            <button id="mas-barrios" class="btn-cargar-mas" hidden onclick="cargarMas()">
+                Cargar más resultados
+            </button>
+        </div>
+
+    </main>
+
+    <!-- ============================================
+         FOOTER
+         ============================================ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div id="footer-stats">Cargando...</div>
+            <div>Datos abiertos · <a href="/acerca.html" style="color:inherit;text-decoration:underline;text-decoration-color:rgba(0,0,0,0.2)">CC BY 4.0</a></div>
+        </div>
+    </footer>
+
+    <!-- ============================================
+         TOAST
+         ============================================ -->
+    <div class="toast" id="toast" role="status" aria-live="polite">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+            <polyline points="22 4 12 14.01 9 11.01"/>
+        </svg>
+        <span id="toast-texto">Copiado al portapapeles</span>
+    </div>
+
+    <script src="/js/public.js"></script>
+</body>
+</html>

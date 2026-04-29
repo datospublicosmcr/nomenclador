@@ -1,0 +1,3085 @@
+﻿id_calle,orden_carga,nombre_calle,observacion_calle
+1,,Ruta Provincial Nº 39,Ruta provincial
+2,,Ruta Nacional Nº 3,
+3,,Ruta Provincial Nº 26,
+4,1,"Abasolo , Maximo",Centro
+5,2,"Güemes , Juan Martin De",Centro
+6,3,"Moreno , Mariano",Centro
+7,4,9 de Julio,Centro
+8,5,"Pellegrini , Carlos",Centro
+9,6,25 de Mayo,Centro - Centro Civico General Solari
+10,7,"Mitre , Bartolome",Centro - Centro Civico General Solari
+11,8,"Belgrano , Manuel",Centro - Centro Civico General Solari
+12,9,España,Centro
+13,10,Altuna,Centro
+14,11,Italia,Centro
+15,12,Nieburg,Centro
+16,13,Francia,Centro
+17,14,Chacabuco,Centro
+18,15,Cruce de Los Andes,Centro
+19,16,Henning,Centro
+20,17,"Urquiza , Justo Jose De",Centro
+21,18,Roqueta,Centro
+22,19,"Alsina , Valentin",Centro - Pietrobelli - Balcon del Paraiso
+23,20,"Cabral , Sargento",Centro
+24,21,"Saavedra , Cornelio De",Centro - Pietrobelli
+25,22,"Elcano , Juan Sebastian",Centro
+26,23,Cardenal Cagliero,Centro
+27,24,"Alvear , Carlos M. De",Centro - Pietrobelli
+28,25,Hernandarias,Centro
+29,26,"Namuncura , Ceferino",Centro
+30,27,"Alem , Leandro",Centro - Pietrobelli
+31,28,"Ramos Mejia , Exequiel",Centro
+32,29,Viamonte,Centro - Pietrobelli
+33,30,San Carlos,Centro
+34,31,"Justo , Juan B.",Centro - 9 de Julio - Humberto Beghin
+35,32,13 de Diciembre,Centro - 13 de Diciembre - Jorge Newbery
+36,33,"Yrigoyen , Hipolito","Zonas 1 , 16 , 17 , 18 , 20 Y 33"
+37,34,"Lista , Ramon",Centro
+38,35,"Marchiori , Luis",Centro
+39,36,Fontana,Centro
+40,37,"Escalada , Federico Doctor",Centro
+41,38,"Gaboto , Sebastian",Centro
+42,39,Necochea,Centro
+43,40,"Del Valle , Aristobulo",Centro
+44,41,"Bouchard , Hipolito",Centro
+45,42,"Velez Sarsfield , Dalmacio",Centro
+46,43,Maipu,Centro
+47,44,Rocambole Haedo,Centro
+48,45,"Dorrego , Manuel",Centro
+49,46,"Brown , Almirante",Centro
+50,47,Belchior,Centro
+51,48,Rawson,Centro
+52,49,Inmigrantes Gallegos,Centro
+53,50,"Riera , Rufino",Centro
+54,51,"Ameghino , Florentino",Centro - Jorge Newbery - 9 de Julio
+55,52,Gil Alvarez,Centro
+56,54,Patagonia,Centro
+57,55,Fournier,Centro
+58,56,"Rivadavia , Bernardino","Zonas 1 A 6 , 10 , 29 Y 31"
+59,57,Venter,Centro
+60,58,Gorchs,Centro
+61,59,"San Martin , Jose De","Zonas 1 , 3 A 6 Y 31"
+62,60,San Luis,Centro
+63,61,Valdivia,Centro
+64,62,Cooperativa,Centro
+65,63,"Sarmiento , Domingo Faustino","Zonas 1 , 3 A 6 Y 31"
+66,64,Castro,Centro
+67,65,Travaglini,Centro
+68,66,Ibarguren,Centro
+69,67,"Huergo , Luis Argentino",Zonas 1 A 6 Y 31
+70,68,Rincon,Centro
+71,69,12 de Octubre,"Zonas 2, 3, 4, 5, 6 Y 31"
+72,70,Chaco,Pietrobelli - Jorge Newbery
+73,71,Misiones,Pietrobelli - Balcon del Paraiso - Jorge Newbery
+74,72,Formosa,Pietrobelli - Balcon del Paraiso - Jorge Newbery
+75,73,"Schneider , Pastor E.",Jorge Newbery
+76,74,"Gimenez , Cristobal Oscar",Pietrobelli
+77,75,Fragata Sarmiento,Jorge Newbery
+78,76,Florida,Jorge Newbery
+79,77,San Antonio,Jorge Newbery
+80,78,Rio Chubut,Jorge Newbery
+81,79,Paso de Los Patos,Jorge Newbery
+82,80,La Pinta,Jorge Newbery - Las Flores - La Floresta - San Martin
+83,81,Islas Malvinas Norte,Jorge Newbery - Las Flores
+84,82,Islas Malvinas Sur,Jose Fuchs -13 de Diciembre - Ceferino Namuncura
+85,83,Los Aromos,Las Flores
+86,84,Los Pinos,Las Flores
+87,85,Los Ajenjos,Las Flores
+88,86,Triunvirato,Las Flores
+89,87,"Almonacid , Mario Soldado",Ceferino Namuncura
+90,88,Carabelas,Las Flores - La Floresta
+91,89,Blas Parera,Jorge Newbery - Las Flores
+92,90,Mburucuya,La Floresta
+93,91,Los Robles,La Floresta
+94,92,Los Nogales,La Floresta
+95,93,Los Alamos,La Floresta
+96,94,Las Orquideas,La Floresta - San Martin
+97,95,Granaderos,Las Flores - La Floresta - San Martin
+98,96,Las Margaritas,San Martin
+99,97,Las Rosas,San Martin
+100,98,Los Claveles,San Martin - La Floresta
+101,99,Los Pensamientos,San Martin
+102,100,Los Jazmines,San Martin
+103,101,Las Violetas,San Martin
+104,102,Los Naranjos,San Martin
+105,103,Los Perales,Quirno Costa - San Martin
+106,104,Los Manzanos,San Martin
+107,105,Batalla de San Carlos,San Martin
+108,106,Los Duraznos,San Martin - Maximo Abasolo
+109,107,Los Crisantemos,San Martin
+110,108,Las Fresas,San Martin - Maximo Abasolo
+111,109,Los Alelies,San Martin
+112,110,Los Platanos,San Martin - Maximo Abasolo
+113,111,Alborada,San Martin
+114,112,19 de Enero,San Martin
+115,113,Batalla de Ganso Verde,San Martin
+116,114,Santiago del Estero,9 de Julio
+117,115,Salta,9 de Julio - 13 de Diciembre - Jose Fuchs
+118,116,Santa Cruz,9 de Julio - 13 de Diciembre
+119,117,Tucuman,9 de Julio - 13 de Diciembre
+120,118,Chubut,9 de Julio
+121,119,La Pampa,9 de Julio - 13 de Diciembre
+122,120,Catamarca,9 de Julio
+123,121,Rio Negro,9 de Julio - 13 de Diciembre
+124,122,Mendoza,9 de Julio - 13 de Diciembre
+125,123,Ituzaingo,Ceferino Namuncura - Jorge Newbery
+126,124,Entre Rios,9 de Julio - Jorge Newbery - Ceferino Namuncura
+127,125,"Cabral , Sargento",9 de Julio - 13 de Diciembre
+128,126,Uruguay,9 de Julio
+129,127,Cordoba,9 de Julio
+130,128,La Rioja,13 de Diciembre
+131,129,San Luis,13 de Diciembre
+132,130,San Juan,13 de Diciembre
+133,131,Neuquen,13 de Diciembre
+134,132,Tierra del Fuego,13 de Diciembre - Jose Fuchs
+135,133,"O'higgins , Bernardo",13 de Diciembre
+136,134,"Garay , Juan De",Jose Fuchs - Humberto Beghin
+137,135,Tacuari,Jose Fuchs
+138,136,Bolivia,Jose Fuchs
+139,137,"Quiroga , Isidro",Jose Fuchs
+140,138,Isla Escondida,Jose Fuchs
+141,139,Islas Blancas,Jose Fuchs
+142,140,Islas Orcadas,Jose Fuchs
+143,141,Isla de Los Estados,Jose Fuchs
+144,142,Isla Leones,Jose Fuchs - Ceferino Namuncura
+145,143,Isla Viana,Jose Fuchs
+146,144,Guaranies,Jose Fuchs - Ceferino Namuncura
+147,145,Diaguitas,Jose Fuchs
+148,146,Quichuas,Jose Fuchs - Ceferino Namuncura
+149,147,Tobas,Jose Fuchs
+150,148,Patagones,Jose Fuchs
+151,149,Estados Unidos,"Zonas 9 , 10 , 17 , 18 , 29 Y 36"
+152,150,"Colon , Cristobal",Jose Fuchs
+153,151,Falucho,Jose Fuchs
+154,152,Suipacha,Jose Fuchs
+155,153,"Avellaneda , Nicolas",Jose Fuchs
+156,154,"Figueroa Alcorta , Jose",Jose Fuchs
+157,155,Parana,Jose Fuchs
+158,156,Isla Lobos,Jose Fuchs
+159,157,"Artigas , Jose Gervasio",Jose Fuchs
+160,158,Corrientes,Jose Fuchs
+161,159,Isla Rasa,Jose Fuchs
+162,160,"Liniers , Santiago De",Jose Fuchs
+163,161,Cabildo,Jose Fuchs
+164,162,Querandies,Jose Fuchs
+165,163,Jujuy,Jose Fuchs - 13 de Diciembre
+166,164,Charruas,Jose Fuchs - Ceferino Namuncura
+167,165,Puelches,Jose Fuchs
+168,166,Araucanos,Jose Fuchs
+169,167,Juan Xxiii,Jose Fuchs - Ceferino Namuncura
+170,168,Asturias,Jorge Newbery
+171,169,Galicia,Jorge Newbery
+172,170,"Newbery , Jorge",Jorge Newbery
+173,171,"Eloff , Miguel",Jorge Newbery
+174,172,Ushuaia,Jorge Newbery
+175,173,Piedras,Jorge Newbery
+176,174,"Machado , Ruben",9 de Julio - 13 de Diciembre - Ceferino Namuncura
+177,175,"Lynch , Benito",Ceferino Namuncura
+178,176,Juvenilia,Ceferino Namuncura
+179,177,Los Eucaliptus,Ceferino Namuncura
+180,178,Constitucion,Ceferino Namuncura
+181,179,"Benavente , Jacinto",Ceferino Namuncura
+182,180,10 de Junio,Ceferino Namuncura
+183,181,Tilcara,Ceferino Namuncura
+184,182,"Unamuno , Miguel De",Ceferino Namuncura
+185,183,Los Cipreses,Ceferino Namuncura
+186,184,Calafate,Ceferino Namuncura
+187,185,"Varela , Florencio",Ceferino Namuncura
+188,186,"Moreira , Juan",Ceferino Namuncura
+189,187,Socompa,Ceferino Namuncura
+190,188,Don Segundo Sombra,Ceferino Namuncura
+191,189,Tabare,Ceferino Namuncura
+192,190,Martin Fierro,Ceferino Namuncura
+193,191,"Andrade , Olegario",Ceferino Namuncura
+194,192,10 de Noviembre,Ceferino Namuncura - Dr. Quirno Costa - San Cayetano
+195,193,Evita,Ceferino Namuncura
+196,194,"Marcial , Jesus",Ceferino Namuncura
+197,195,"Millapi , Oscar",Ceferino Namuncura
+198,196,"Giachino , Capitan",Ceferino Namuncura
+199,197,La Cautiva,Ceferino Namuncura
+200,198,Facundo,Ceferino Namuncura
+201,199,"Kennedy , John Fitzgerald","Zonas 10 , 17 , 30 Y 36"
+202,200,Onas,Ceferino Namuncura
+203,201,Curupaiti,Ceferino Namuncura - 13 de Diciembre - 9 de Julio
+204,202,"Almonacid , Mario",Ceferino Namuncura
+205,203,Las de Barranco,Ceferino Namuncura
+206,204,"Obligado , Rafael",Ceferino Namuncura
+207,205,Oran,Ceferino Namuncura
+208,206,Huacalera,Ceferino Namuncura
+209,207,"Artl , Roberto",Ceferino Namuncura
+210,208,"Wilde , Oscar",Ceferino Namuncura
+211,209,Almafuerte,Ceferino Namuncura
+212,210,"Zamora , Juan",Ceferino Namuncura
+213,211,Posta del Yatasto,Ceferino Namuncura
+214,212,Turcovich,Ceferino Namuncura
+215,213,"Laferrere , Gregorio De",Ceferino Namuncura
+216,214,"Sanchez , Florencio",Ceferino Namuncura
+217,215,"Tejeda , Luis De",Ceferino Namuncura
+218,216,30 de Octubre,Ceferino Namuncura
+219,217,Croacia,Centro Civico General Solari
+220,218,Democracia,Centro Civico General Solari
+221,219,"Garcia Fernandez , Juan",Centro Civico General Solari
+222,220,"Lopez , Daniel Candel Profesor",Centro Civico General Solari
+223,221,Punta Piedras,Centro Civico General Solari
+224,222,"Carstens , Federico",Centro Civico General Solari
+225,223,"Ducos , Enrique Ingeniero",Centro Civico General Solari
+226,224,2 de Abril,Centro Civico General Solari
+227,225,"Girardez , Francina Profesora",Centro Civico General Solari
+228,226,Grecia,Centro Civico General Solari
+229,227,"Saenz Peña , Roque",Centro Civico General Solari
+230,228,Bahia Bustamante,Centro Civico General Solari
+231,229,"Grane , Ani",Centro Civico General Solari
+232,230,"Venter , Martin M.",Acceso Sur
+233,231,"Maliqueo , Geronimo",Tte. Gral Julio Argentino Roca - Pueyrredon
+234,232,"Rodrigo , Jose Maria",Tte. Gral. Julio Argentino Roca
+235,233,San Francisco de Asis,San Isidro Labrador - Doctor Quirno Costa
+236,234,Clarin,Tte. Gral .Julio A. Roca - Pueyrredon - San I. Labrador
+237,235,Cerro Chenque,Pueyrredon - San Isidro Labrador
+238,236,"Levalle , D. Nicolas Teniente General",Pueyrredon - Tte. Gral. Julio Argentino Roca
+239,237,"Yupanqui , Atahualpa",Tte. Gral. Julio Argentino Roca - Pueyrredon
+240,238,El Patagonico,Tte.Gral. J.A.Roca-Pueyrredon-San I. Labrador-Dr.Q.Costa
+241,239,"Gardel , Carlos",Julio A. Roca - Pueyrredon - San Isidro Labrador
+242,240,Cronica,Tte. Gral. Julio A. Roca - Pueyrredon - San I. Labrador
+243,241,Polonia,"Zonas 17 , 18 , 29 , 30 , 31 , 36 , 37 , 39 Y 41"
+244,242,La Prensa,Pueyrredon - Juan Xxiii
+245,243,"Behr , Francisco Jose","Zonas 17, 30, 37, 39 Y 41"
+246,244,"Galina , Jorge J. Gobernador",Pueyrredon - Juan Xxiii
+247,245,"Cayelli , Andino Doctor","Zonas 17, 30, 37, 39 Y 41"
+248,246,"Olavarria , Jose Valentin de Coronel",Pueyrredon - Juan Xxiii
+249,247,"Roca , Julio Argentino","Zonas 17 , 30 , 37 , 39 Y 41"
+250,248,"Cereceda , Teodoro",Pueyrredon
+251,249,"Berardi , Salvador",Pueyrredon
+252,250,"Freile , Angel",Pueyrredon - Humberto Beghin
+253,251,"Arburua , Manuel",Pueyrredon - Humberto Beghin
+254,252,"Lavalle , Cosme Comisario Principal",Pueyrredon
+255,253,"Belcastro , Antonio",Pueyrredon - Humberto Beghin
+256,254,Combate Vuelta de Obligado,Pueyrredon
+257,255,"Girolamo , Enrique De",Pueyrredon - Humberto Beghin - 30 de Octubre
+258,256,La Nacion,Pueyrredon
+259,257,Colonos Galeses,Pueyrredon - Tte. Gral. Julio Argentino Roca
+260,258,Colonos Vascos,Pueyrredon
+261,259,"Larraude , Julio Cesar Don",Pueyrredon
+262,260,Canada,Pueyrredon - Tte. Gral. Julio Argentino Roca
+263,261,Colonos Sudafricanos,Pueyrredon
+264,262,"Moreau de Justo , Alicia Doctora",Pueyrredon
+265,263,"Saenz Peña , Luis",Pueyrredon
+266,264,"Jauretche , Arturo",Pueyrredon
+267,265,"Diaz de Solis , Juan",Pueyrredon
+268,266,"Lopez Y Planes , Vicente",Pueyrredon
+269,267,"Saavedra , Onofre Sargento",Pueyrredon
+270,268,"Palacios , Alfredo",Pueyrredon
+271,269,"Forcada , Anibal Don",Pueyrredon
+272,270,"Raso , Manuel Pio Doctor",Pueyrredon
+273,271,"Frondizi , Arturo Presidente",Pueyrredon
+274,272,"Sanchez , Mariquita",Pueyrredon - 30 de Octubre
+275,273,Tripulacion Gandul,Pueyrredon
+276,274,San Jose de Jachal,Pueyrredon - 30 de Octubre
+277,275,Los Constituyentes,Humberto Beghin - 30 de Octubre - Pueyrredon
+278,276,"Tejo , Francisco Doctor",Pueyrredon
+279,277,"Moran , Antonio",Pueyrredon
+280,278,"Herrera , Oscar Arturo Doctor",Pueyrredon
+281,279,"Alonso , Cipriano",Pueyrredon
+282,280,"Reina , Ramon Deomar",Pueyrredon
+283,281,"Miljukow , Basilio",Pueyrredon
+284,282,"Barcelo , Gabriel",Pueyrredon
+285,283,"Arcioni , Anibal Jose Doctor",Pueyrredon
+286,284,Chile,Pueyrredon - 30 de Octubre - Mario Abel Amaya
+287,285,La Razon,Pueyrredon
+288,286,La Gaceta de Buenos Aires,Pueyrredon
+289,287,Callao,Pueyrredon
+290,288,Libertad,Pueyrredon
+291,289,Estados Arabes,Tte. Gral. Julio Argentino Roca
+292,290,Portugal,Tte. Gral. Julio Argentino Roca
+293,291,Monseñor Miguel de Andrea,Jose Fuchs - Tte. Gral. Julio A. Roca - Humberto Beghin
+294,292,"Samper Lopez , Francisco",Tte. Gral. Julio Argentino Roca
+295,293,"Suazo , Jose",Tte. Gral. Julio Argentino Roca
+296,294,"Ramirez , Jose Anselmo Sargento",Tte. Gral Julio Argentino Roca
+297,295,Esquel,Tte. Gral. Julio Argentino Roca
+298,296,El Chubut,Tte. Gral. Julio Argentino Roca
+299,297,Jornada,Tte. Gral. Julio Argentino Roca
+300,298,"Ladvocat , Julio Doctor",Humberto Beghin
+301,299,"Szlapelis , Casimiro",Humberto Beghin
+302,300,"Alvarez , Jose",Humberto Beghin
+303,301,"Dalle Mura , Jose B.",Humberto Beghin
+304,302,"Manson , Hugo",Humberto Beghin - Stella Maris
+305,303,"Carante , Fortunato",Humberto Beghin - Stella Maris
+306,304,"Pella , Casimiro",Humberto Beghin - Stella Maris
+307,305,"Colello , Pedro",Humberto Beghin - Stella Maris
+308,306,"Pinedo , Jose A.",Humberto Beghin - Stella Maris
+309,307,"Carrozzi , Jose",Humberto Beghin
+310,308,"Blanc , Alberto",Humberto Beghin - Stella Maris
+311,309,"Bilbao , Juan",Humberto Beghin - Stella Maris
+312,310,"Grillo , Benito",Humberto Beghin
+313,311,"Gallino , Luis",Humberto Beghin - Stella Maris
+314,312,"Gastaldi , Lorenzo",Humberto Beghin - Stella Maris
+315,313,"Riadigos , Marcial",Humberto Beghin - Stella Maris
+316,314,"Peral , Sebastian",Humberto Beghin
+317,315,"Gatica , Ignacio",Humberto Beghin - Stella Maris
+318,316,"Sanchez , Luis",Humberto Beghin
+319,317,Cruz Abeijon,Humberto Beghin
+320,318,"Moral , Nicolas",Humberto Beghin
+321,319,"Gonzalez , Roque",Humberto Beghin
+322,320,"Corcoy , Enrique",Humberto Beghin
+323,321,"Sacerdote , Humberto",Humberto Beghin
+324,322,"Matos , Jose",Humberto Beghin
+325,323,"Oneto , Raul",Humberto Beghin
+326,324,Santos Arroyabe,Humberto Beghin
+327,325,"Leguizamon , Guillermo Doctor",Humberto Beghin
+328,326,"Corcoy , Maria",Humberto Beghin
+329,327,"Biasussi , Angel Emiliano",Humberto Beghin
+330,328,"Rosas , Agustin Ingeniero",Humberto Beghin
+331,329,"Canova , Eloy",Humberto Beghin
+332,330,"Plate , Juan",Humberto Beghin
+333,331,"Fernandez , Elviro",Humberto Beghin
+334,332,"Cabezas , Julio Argentino",Humberto Beghin
+335,333,"Farrel , Santiago",Humberto Beghin
+336,334,"Kirn , Carlos",Humberto Beghin
+337,335,"Salso , Francisco",Humberto Beghin
+338,336,"Lopez Arias , Antonio Doctor",Humberto Beghin
+339,337,"Salso , Jose",Humberto Beghin
+340,338,"Sañudo , Andres",Humberto Beghin
+341,339,"Brohman , Soil",Humberto Beghin
+342,340,"Vueguen , Juan P.",Humberto Beghin
+343,341,"Adano , Domingo",Humberto Beghin
+344,342,"Mañas , Nicolas",Humberto Beghin
+345,343,"Lopez , Tirso",Humberto Beghin
+346,344,"Garat , Jacinto",Humberto Beghin
+347,345,"Verdeau , Jorge",Humberto Beghin
+348,346,"Barthout , Pedro",Humberto Beghin
+349,347,"Almeiro , Sebastian",Humberto Beghin - Acceso Sur
+350,348,"Liñeiro , Jose",Humberto Beghin
+351,349,"Saavedra Lamas , Carlos",Stella Maris
+352,350,"Lopez , Saturnino",Stella Maris
+353,351,"Caperochipi , Luis Sebastian",Stella Maris
+354,352,"Molina , Eustaquio",Humberto Beghin - Stella Maris
+355,353,"Roqueta Prat , Antonio",Humberto Beghin
+356,354,"Llames Massini , Alfredo",Humberto Beghin
+357,355,Reverendo Augusto Cristanello,Humberto Beghin
+358,356,"Ortega , Pedro Pablo",Humberto Beghin
+359,357,"Pevet , Juan",Humberto Beghin
+360,358,"Garzon , Eleazar Ingeniero",Humberto Beghin
+361,359,"Perez , Jose M.",Humberto Beghin
+362,360,"Trevisan , Juan de Dios",Humberto Beghin - 30 de Octubre
+363,361,"Carbonell , Julian",Humberto Beghin - 30 de Octubre
+364,362,"Menendez , Belarmino",Humberto Beghin
+365,363,"Paternoster , Fernando",Humberto Beghin
+366,364,"Davies , Juan",Humberto Beghin
+367,365,"Larrea , Toribio",Humberto Beghin
+368,366,"Navarta , Rafael",Humberto Beghin
+369,367,"Olascoaga , Manuel",Humberto Beghin
+370,368,"Echegaray , Jose",Humberto Beghin
+371,370,"Lete , Jose",Humberto Beghin
+372,371,Santa Clara,Doctor Quirno Costa - San Isidro Labrador
+373,372,"Velaz , Angel",Quirno Costa - San Isidro Labrador
+374,373,"Federicci , Doctor",Doctor Quirno Costa
+375,374,San Cayetano,Doctor Quirno Costa
+376,375,Providencia,Doctor Quirno Costa
+377,376,Nuestra Señora de Lourdes,Doctor Quirno Costa
+378,377,"De La Torre , Lisandro","Zonas 29 , 30 , 36 Y 37"
+379,378,"Concilia , Maria",Doctor Quirno Costa
+380,379,Comunidad,Doctor Quirno Costa
+381,380,Balcon del Paraiso,Doctor Quirno Costa
+382,381,"Minoli , Andres",Doctor Quirno Costa - San Cayetano
+383,382,Santa Cecilia,Doctor Quirno Costa
+384,383,"Vivaldi , Francisco",Doctor Quirno Costa
+385,384,"Houssay , Bernardo Alberto",Doctor Quirno Costa - San Cayetano
+386,385,Santa Rosa,Doctor Quirno Costa
+387,386,Diaz Velez,Juan Xxiii - Maestro Isidro Quiroga
+388,387,La Plata,Juan Xxiii - Maestro Isidro Quiroga
+389,388,Patricios,Juan Xxiii - Maestro Isidro Quiroga
+390,389,"Scalabrini Ortiz , Raul",Juan Xxiii
+391,390,"Azurduy , Juana",Juan Xxiii - Maestro Isidro Quiroga
+392,391,"Rodriguez , Mariano",Juan Xxiii - Maestro Isidro Quiroga
+393,392,Congreso,Juan Xxiii - Maestro Isidro Quiroga - Mario Abel Amaya
+394,393,"Pedraza , Manuela",Juan Xxiii
+395,394,La Nueva Provincia,Juan Xxiii - San Isidro Labrador
+396,395,Carrero Patagonico,Juan Xxiii
+397,396,"Rosas , Juan Manuel De",Juan Xxiii
+398,397,Del Trabajo,Juan Xxiii - San Isidro Labrador
+399,398,Tres Sargentos,Juan Xxiii - San Isidro Labrador
+400,399,Los Damascos,Maximo Abasolo
+401,400,"O'donell , Carlos",Maximo Abasolo - San Cayetano
+402,401,"Franzoni , Oreste",Maximo Abasolo
+403,402,"Campora , Hector",Maximo Abasolo - San Cayetano
+404,403,"Small , Adela",Maximo Abasolo
+405,404,"Balbin , Ricardo",Maximo Abasolo - San Cayetano
+406,405,Corintos,Maximo Abasolo
+407,406,"Glatigni , Placido",Maximo Abasolo
+408,407,"Del Carril , Hugo",Maximo Abasolo - San Cayetano
+409,408,"Porcel , Felipe",Maximo Abasolo
+410,409,"Pieragnoli , Bruno",Maximo Abasolo - San Cayetano
+411,410,"Cafrune , Jorge",Maximo Abasolo
+412,411,"Parraviccini , Florencio",Maximo Abasolo
+413,412,Cospi,Maximo Abasolo - San Cayetano
+414,413,"Troilo , Anibal",Maximo Abasolo
+415,414,"Girondo , Oliverio",Maximo Abasolo
+416,415,"Florit , Jaime",Maximo Abasolo
+417,416,"Chazarreta , Andres",Maximo Abasolo
+418,417,"Borsella , Donald",Maximo Abasolo
+419,418,"Garcia , Adoracion",Maximo Abasolo
+420,419,"Palacios , Margarita",Maximo Abasolo
+421,420,"Hernandez , Felicidad",Maximo Abasolo
+422,421,"Luckiewics , Juan",Maximo Abasolo - San Cayetano
+423,422,"Garces , Antonio",Maximo Abasolo - San Cayetano
+424,423,"Rucci , Ignacio",Maximo Abasolo
+425,424,"Lorenzo , Ramon",Maximo Abasolo
+426,425,"Duarte , Eva",Maximo Abasolo
+427,426,Mahuida,Maximo Abasolo - San Cayetano
+428,427,Caiquen,San Cayetano - Maximo Abasolo
+429,428,"Payaguala , Natalia",San Cayetano
+430,429,"Ortego , Timoteo P.",Maximo Abasolo
+431,430,"Davalos , Jaime",Maximo Abasolo
+432,431,"Sandrini , Luis",Maximo Abasolo
+433,432,"Altavista , Juan Carlos",Maximo Abasolo
+434,433,"Adjuar , Alfredo",Maximo Abasolo
+435,434,"Ippoliti , Abel",San Isidro Labrador
+436,435,"Acha , General",San Isidro Labrador
+437,436,"Moldes , Coronel",San Isidro Labrador
+438,437,Combate de San Lorenzo,San Isidro Labrador
+439,438,"Magallanes , Hernando De",San Isidro Labrador
+440,439,"Ferrari , Laureana",San Isidro Labrador
+441,440,"Agote , Luis Doctor",San Isidro Labrador
+442,441,"Ortega , Jose Honorio",Maestro Isidro Quiroga - Mñor. Argimiro Daniel Moure
+443,442,"Garcia , Guillermo Hugo",Maestro Isidro Quiroga
+444,443,"Romero , Raul Ricardo",Maestro Isidro Quiroga
+445,444,"Vazquez , Jose Daniel 1º Teniente",Maestro Isidro Quiroga
+446,445,"Rementeria , Jose Raul Doctor",Maestro Isidro Quiroga
+447,446,"Benitez , Julio Omar Cabo 2º",Maestro Isidro Quiroga
+448,447,"Garcia , Sergio Ismael Sargento",Maestro Isidro Quiroga
+449,448,"Valdez , Carlos A. Cabo Principal",Maestro Isidro Quiroga - Mñor. Argimiro Daniel Moure
+450,449,"Lopez , Jorge Eduardo Marinero",Maestro Isidro Quiroga - Mñor. Argimiro Daniel Moure
+451,450,"Acosta , Gumersindo Sargento Ayudante",Maestro Isidro Quiroga
+452,451,"Pasteur , Luis",San Cayetano
+453,452,"Guastavino , Carlos",San Cayetano
+454,453,Los Ciruelos,Maximo Abasolo
+455,454,"Cortes , Hernan",Centro
+456,455,"Soto , Marcos",Humberto Beghin
+457,456,"Lanfranco , Ernesto",Humberto Beghin
+458,457,"Mujica , Roberto Hilario","Centro - "" Costanera """
+459,458,"Barros Seeber , Pedro A.",Acceso Sur
+460,459,"Escudero , Angel",Acceso Sur
+461,460,"Fernandez , Francisco",Acceso Sur
+462,461,"Riera , Rogelio",Acceso Sur
+463,462,"Cura , Antonio",Acceso Sur
+464,463,"Peron , Juan Domngo Presidente",Ruta Intermunicipal Comodoro Rivadavia - Rada Tilly
+465,464,"Fillmore , Harrington",Acceso Sur
+466,465,"Landa , Esteban",Acceso Sur
+467,466,"Pessolano , Juan",Acceso Sur
+468,467,"Weber , Jose",Acceso Sur
+469,468,"Montellano , Fernando",30 de Octubre
+470,469,"Rosello , Luis Ricardo",30 de Octubre
+471,470,"Pedraza , Jose Tomas",30 de Octubre - Mario Abel Amaya
+472,471,"Coliboro , Ramon Angel",Mario Abel Amaya
+473,472,Calle 0472,Mario Abel Amaya - Entre Mza. 127 Y 128
+474,473,Calle 0473,Mario Abel Amaya - Entre Mza. 128 Y 129
+475,474,"Ragni , Nicolas Ramon Don",Mario Abel Amaya
+476,475,Calle 0475,Mario Abel Amaya - Entre Mza. 130 Y 131
+477,476,Calle 0476,Mario Abel Amaya - Entre Mza. 131 Y 132
+478,477,"Campillay , Fernando",Mario Abel Amaya
+479,478,Calle 0478,Mario Abel Amaya - Lado Este Mza. 141
+480,479,Calle 0479,Mario Abel Amaya - Lado Oeste Mza. 141
+481,480,Calle 0480,Mario Abel Amaya - Lado Este Mza. 137
+482,481,Calle 0481,Mario Abel Amaya - Entre Mza. 136 Y 137
+483,482,Reverendo Padre Juan Corti,"Mario Abel Amaya - Cordon Forestal ""Juan M. Feeney"""
+484,483,"Busnadiego , Santiago",Mario Abel Amaya
+485,484,"Mercorelli , Juan",Mario Abel Amaya
+486,485,"Alassia , Luis",Mario Abel Amaya
+487,486,"Marchetti , Lorenzo",Mario Abel Amaya
+488,487,"Moiron , Pilar De",Mario Abel Amaya
+489,488,"Rodriguez , Blas Jose",Mario Abel Amaya
+490,489,"Reyes , Jorge",Mario Abel Amaya
+491,490,"Ostoich , Antonio",Mario Abel Amaya
+492,491,"Morgan , Iris",Mario Abel Amaya
+493,492,"Andrade , Wilfredo",Monseñor Argimiro Daniel Moure - San Cayetano
+494,493,"Arigoni , Adolfo",Monseñor Argimiro Daniel Moure - San Cayetano
+495,494,Calle 0494,San Cayetano - Entre Mza. 31 Y 32
+496,495,Calle 0495,San Cayetano - Entre Mza. 32 Y 33
+497,496,Diario La Republica,San Cayetano
+498,497,"Torrijos , Ruben A.",Jorge Newbery
+499,498,Calle 0498,Jorge Newbery - Mza. 121-A Y 121-B
+500,499,"Savio , Domingo",Jorge Newbery
+501,500,"Costa , Gobernador",Jorge Newbery
+502,501,Puerto Piramide,Jorge Newbery
+503,502,"Antognoli , Felix",Pietrobelli
+504,503,"Azzi , Alberto Omar",Pietrobelli
+505,504,"Rolinho , Alberto Ricardo",San Cayetano
+506,505,Calle 0505,San Cayetano - Entre Mza. 42 Y 43
+507,506,Calle 0506,San Cayetano - Entre Mza. 41 Y 42
+508,507,Calle 0507,San Cayetano - Lado Sur Mza. 41
+509,508,Calle 0508,San Cayetano - Lado Oeste Mzas. 28 Y 36
+510,509,Calle 0509,San Cayetano - Entre Mza. 901 Y 902
+511,510,Calle 0510,Doctor Quirno Costa - Oeste Mza. 922 Y 923
+512,511,Reverendo Padre Luis Dabroswki,Doctor Quirno Costa
+513,512,Reverendo Padre Luis Cencio,Doctor Quirno Costa
+514,513,Monseñor Carlos Mariano Perez,Doctor Quirno Costa
+515,514,Calle 0514,Doctor Quirno Costa - Este Mza. 924
+516,515,Reverendo Padre Mario Luis Mignone,Doctor Quirno Costa
+517,516,Calle 0516,Stella Maris - Mza. 913 Y 914
+518,517,Calle 0517,Stella Maris - Mza. 915 Y 917
+519,518,Calle 0518,Stella Maris - Mza. 914 Y 915
+520,519,Calle 0519,Stella Maris - Sur Mza. 914
+521,520,Calle 0520,Stella Maris - Entre Mza. 911 Y 912
+522,521,Pasaje 0521,Maximo Abasolo - Mza. 5-B
+523,522,Patagonia,Jorge Newbery
+524,523,Las Frutillas,San Martin - Maximo Abasolo
+525,524,Quilmes,Las Flores
+526,525,Batalla,Centro
+527,526,4 de Agosto,San Cayetano
+528,527,"Gonzalez , Hugo Cesar",San Cayetano
+529,528,Calle 0528,"San Cayetano - Este Mzas. 44, 45, 66 Y 85"
+530,529,Pasaje 0529,Jorge Newbery - Oeste Mza. 154-B
+531,530,"Cañal , Antonio",Humberto Beghin
+532,531,San Gabriel de Arcangel,Centro
+533,532,Calle 0532,San Martin - Mza. 8
+534,533,Calle 0533,San Martin - Entre Mza. 6 Y 8
+535,534,"Miroglio , Antonio",San Martin
+536,535,Calle 0535,San Martin - Entre Mza. 4 Y 5
+537,536,"Loza , Felix",San Cayetano
+538,537,Calle 0537,Pietrobelli - Entre Mza. 251a Y 252a
+539,538,"Namuncura , Ceferino",Ceferino Namuncura
+540,539,Calle 0539,Stella Maris - Entre Mza. 915 Y 916
+541,540,Calle 0540,Stella Maris - Entre Mza. 917 Y 918
+542,541,"Ezpeleta , Roberto Justo",Tte. Gral Julio Argentino Roca
+543,542,Virgen del Carmen,Pietrobelli
+544,543,Reverendo Padre Carlos Mujica,Doctor Quirno Costa
+545,544,29 de Noviembre,Doctor Quirno Costa
+546,545,Pasaje Peatonal 1,Doctor Quirno Costa
+547,546,Pasaje Peatonal 2,Doctor Quirno Costa
+548,547,Monseñor Argimiro Daniel Moure,Doctor Quirno Costa
+549,548,Pasaje Peatonal 3,Doctor Quirno Costa
+550,549,Pasaje 0549,Jorge Newbery - Norte Mza. 119a
+551,550,"Bahamonde , Gustavo",Monseñor Argimiro Daniel Moure - San Cayetano
+552,551,Pasaje 0551,San Martin - Entre Mza. 12 Y 15
+553,552,"Segura , Daniel Omar Doctor",San Cayetano - Entre Mza. 113 Y 118
+554,553,"Rey , Lorenzo Laureano",San Cayetano
+555,554,Calle 0554,San Cayetano - Entre Mza. 120 Y 121
+556,555,Calle 0555,San Cayetano - Entre Mza. 121 Y 122
+557,556,Calle 0556,San Cayetano - Entre Mza. 122 Y 123
+558,557,Calle 0557,San Cayetano - Sur Mza. 123 Y 125
+559,558,Calle 0558,San Cayetano - Oeste Mza. 119 A 123
+560,559,Calle 0559,San Cayetano - Entre Mza. 124 Y 125
+561,560,Calle 0560,San Cayetano - Oeste Mza. 125
+562,561,Calle 0561,Stella Maris - Entre Mza. 81-C Y 920
+563,562,Calle 0562,Stella Maris - Entre Mza. 920 Y 922
+564,563,Calle 0563,Stella Maris - Entre Mza. 920 Y 921
+565,564,Calle 0564,Maximo Abasolo - Entre Mza. 140 Y 147
+566,565,Calle 0565,Maximo Abasolo - Este Mza. 140
+567,566,Calle 0566,Maximo Abasolo - Entre Mza. 81 Y 149 - Zona Sin Mensura
+568,567,Pasaje 0567,Jorge Newbery - Entre Mza. 70 Y 71
+569,568,Pasaje 0568,Jorge Newbery - Mza. 71
+570,569,Pasaje 0569,Jorge Newbery - Entre Mza. 71 Y 72
+571,570,Pasaje 0570,Jorge Newbery - Entre Mza. 70 Y 69
+572,571,Pasaje 0571,Jorge Newbery - Entre Mza. 69 Y 70
+573,572,"Garcia , Jose Orfelindo",Jorge Newbery
+574,573,Pasaje 0573,Jorge Newbery - Mza. 68
+575,574,Pasaje 0574,Jorge Newbery - Entre Mza. 66 Y 67
+576,575,Pasaje 0575,Jorge Newbery - Mza. 66
+577,576,Pasaje 0576,Jorge Newbery - Entre Mza. 65 Y 66
+578,577,Pasaje 0577,Jorge Newbery - Mza. 70
+579,578,Pasaje 0578,Jorge Newbery - Mza. 70
+580,579,Pasaje 0579,Jorge Newbery - Mza. 70
+581,580,Puerto Deseado,Las Flores
+582,581,Cerro Colorado,Maestro Isidro Quiroga
+583,582,Cerro Blanco,Maestro Isidro Quiroga
+584,583,Cerro Solo,Maestro Isidro Quiroga
+585,584,Cerro San Bernardo,Maestro Isidro Quiroga
+586,585,Cerro Negro,Maestro Isidro Quiroga
+587,586,"Tora , Ricardo","Maestro Isidro Quiroga - Cordon Forestal ""J.M. Feeney"""
+588,587,Cerro Bella Vista,Maestro Isidro Quiroga
+589,588,Calle 0588,30 de Octubre - Norte Mza. 100
+590,589,Calle 0589,30 de Octubre - Entre Mza. 100 Y 101
+591,590,Padre Juan Enne Misionero Salesiano,Balcon del Paraiso
+592,591,20 de Octubre,Balcon del Paraiso
+593,592,Pasaje 0592,Balcon del Paraiso - Entre Mza. 4 Y 5
+594,593,Pasaje 0593,Balcon del Paraiso - Mza. 6
+595,594,"Buzzi , Alfredo Luis Don",Tte. Gral Julio Argentino Roca
+596,595,Cholila,Maximo Abasolo
+597,596,Cushamen,Maximo Abasolo
+598,597,Tecka,Maximo Abasolo
+599,598,Telsen,Maximo Abasolo
+600,599,Las Plumas,Maximo Abasolo
+601,600,Forjadoras Patagonicas,"Maximo Abasolo - Cordon Forestal ""Juan M. Feeney"""
+602,601,Gastre,Maximo Abasolo
+603,602,Camarones,Maximo Abasolo
+604,603,Puerto Madryn,Maximo Abasolo
+605,604,Escalante,Maximo Abasolo
+606,605,"Tejada Gomez , Armando",San Cayetano - Maximo Abasolo - Entre Mza. 72 Y 73
+607,606,Calle 0606,San Cayetano - Maximo Abasolo - Entre Mza. 58 Y 61
+608,607,Pasaje Peatonal 0607,Maximo Abasolo - Mza. 143 Y 144
+609,608,Calle 0608,Maximo Abasolo - Norte Mza. 143 A 146
+610,609,"Arias , Manuel Eusebio Gabriel Tomas",Tte. Gral Julio Argentino Roca
+611,610,"Geronazzo , Manuel Maestro",Pueyrredon
+612,611,"Campoy , Cesar",30 de Octubre
+613,612,"Adami , Renzo",Monseñor Argimiro Daniel Moure
+614,613,"Berbel , Marcelo",Monseñor Argimiro Daniel Moure
+615,614,Monseñor Jaime Francisco de Nevares,Monseñor Argimiro Daniel Moure
+616,615,"Campos , Carlos",Maestro Isidro Quiroga - Mñor. Argimiro Daniel Moure
+617,616,"Amado , Miguel",Monseñor Argimiro Daniel Moure
+618,617,"Scocco , Roberto Luis Doctor",Centro
+619,618,"Medrano , Elio Rene",3o de Octubre
+620,619,"Ramos , Emigdio",30 de Octubre - Mario Abel Amaya
+621,620,"Gutierrez , Raul",30 de Octubre
+622,621,"Larraude , Clara Isabel",30 de Octubre
+623,622,"Surita , Olimpides",30 de Octubre
+624,623,"Tello , Antonio",30 de Octubre
+625,624,"Vega , Felix",30 de Octubre
+626,625,"Schiabrando , Juan",30 de Octubre
+627,626,Calle 0626,Stella Maris - Noreste Mza. 903
+628,627,Pasaje Peatonal 0627,Ceferino Namuncura - Mza. 884-B
+629,628,Calle 0628,La Floresta - Sur Mza. 663
+630,629,Pasaje Peatonal 0629,La Floresta - Mza. 662-A Y 663
+631,630,Pasaje Peatonal 4,Doctor Quirno Costa
+632,631,Pasaje Peatonal 5,Doctor Quirno Costa
+633,632,La Niña,Jorge Newbery
+634,633,Andalucia,Jorge Newbery
+635,634,Pasaje 0634,Pietrobelli - Norte Mza. 41
+636,635,Argentino,Centro
+637,636,Larrea,Centro
+638,637,Calle 0637,Stella Maris - Entre Mza. 89 Y 95
+639,638,"Miranda , Dalmacio",Stella Maris
+640,639,"Castillo , Ramon Presidente",Stella Maris
+641,640,Calle 0640,Stella Maris - Entre Mza. 98 Y 99
+642,641,Calle 0641,Pietrobelli - Mza. 69 Bis
+643,642,Calle 0642,Pietrobelli - Mza. 69 Bis
+644,643,Padre Vicente Martinez,Pietrobelli
+645,644,Puerto Moran,Jorge Newbery
+646,645,"Varela , Roque Timoteo",Maximo Abasolo - San Martin
+647,646,Calle 0646,Maximo Abasolo - Entre Mza. 150 Y 153
+648,647,Calle 0647,Maximo Abasolo - Norte Mza. 150 A 175
+649,648,Calle 0648,Maximo Abasolo - Entre Mza. 151 Y 152
+650,649,Calle 0649,San Cayetano - Entre Mza. 15 Y 16
+651,650,Calle 0650,San Cayetano - Entre Mza. 14 Y 15
+652,651,Calle 0651,"San Cayetano - Sur Mza. 14 , 19 Y 20"
+653,652,"Lecumberry , Julio",Monseñor Argimiro Daniel Moure
+654,653,Monseñor Enrique Angelelli,Mñor. Argimiro Daniel Moure - Maestro Isidro Quiroga
+655,654,"Mizrahi , Clara",Centro Civico General Solari
+656,655,De Los Trabajadores,Parque Industrial Comodoro Rivadavia
+657,656,Del Progreso,Parque Industrial Comodoro Rivadavia
+658,657,De La Industria,Parque Industrial Comodoro Rivadavia
+659,658,Grua Titan,Parque Industrial Comodoro Rivadavia
+660,659,Hielos Continentales,Parque Industrial Comodoro Rivadavia
+661,660,Del Comercio,Parque Industrial Comodoro Rivadavia
+662,661,Pioneros Patagonicos,Parque Industrial Comodoro Rivadavia
+663,662,Pasaje 0662,"Jorge Newbery - Oeste Mza. 121-C, 77 Y 6"
+664,663,Pasaje 0663,Jorge Newbery - Mza. 76
+665,664,Pasaje 0664,Jorge Newbery - Entre Mza. 74 Y 75
+666,665,Pasaje 0665,Jorge Newbery - Entre Mza. 75 Y 76
+667,666,Pasaje 0666,Jorge Newbery - Mza. 121-B Y 76
+668,667,Pasaje 0667,Jorge Newbery - Sur Mza. 76
+669,668,Pasaje 0668,Jorge Newbery - Sur Mza. 121-C
+670,669,Pasaje 0669,Las Flores - Mza. 627
+671,670,Pasaje 0670,Pietrobelli - Sin Mensura - Oeste Mza. 245 Bis
+672,671,Pasaje 0671,Pietrobelli - Sin Mensura - Oeste Mza. 245 Bis
+673,672,Araucarias Norte,Las Flores
+674,673,Pasaje 0673,Jorge Newbery - Mza. 121-B Y Sur Mza. 6
+675,674,"Mujica , Felix",30 de Octubre
+676,675,"Fernandez , Santiago",30 de Octubre
+677,676,Pasaje 0676,Jorge Newbery - Entre Mza. 73 Y 74
+678,677,Pasaje 0677,Pietrobelli - Sin Mensura - Oeste Mza. 245 Bis
+679,678,Pasaje 0678,Jorge Newbery - Mza. 70
+680,679,Calle 0679,Maximo Abasolo - Entre Mza. 168 Y 169
+681,680,Calle 0680,Maximo Abasolo - Entre Mza. 29 Y 137
+682,681,Calle 0681,Maximo Abasolo - Entre Mza. 171 Y Mzo. 172
+683,682,Calle 0682,Maximo Abasolo - Entre Mza. 174 Y Mzo. 172
+684,683,Calle 0683,Maximo Abasolo - Entre Mza. 174 Y 175
+685,684,Calle 0684,Maximo Abasolo - Sur Mza. 174 Y 175
+686,685,Calle 0685,Maximo Abasolo - Entre Mza. 177 Y 181
+687,686,Calle 0686,Maximo Abasolo - Entre Mza. 177 Y 178
+688,687,Calle 0687,Maximo Abasolo - Oeste Mza. 178 A 180
+689,688,Pasaje Peatonal 0688,San Isidro Labrador - Mza. 454
+690,689,"Rognetta , Lorenzo","Maestro Isidro Quiroga - Cordon Forestal ""J.M. Feeney"""
+691,690,"Cercos , Raul",San Cayetano -Cordon Forestal -Los Bretes -Acceso Sur
+692,691,"Rivas , Alberto","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+693,692,Pasaje 0692,Pietrobelli - Mza. 88 Bis
+694,693,Cerro Melillan,Maestro Isidro Quiroga
+695,694,"Dominguez , Antonio Manuel",Monseñor Argimiro Daniel Moure
+696,695,Pasaje 0695,Pietrobelli - Sin Mensura - Norte Mza. 245 Bis
+697,696,Pasaje 0696,Pietrobelli - Sin Mensura - Oeste Mza. 245 Bis
+698,697,Pasaje 0697,San Martin - Entre Mza. 20 Y 21
+699,698,Calle 0698,San Martin - Norte Mza. 20 Y 21
+700,699,Pasaje Peatonal 0699,La Floresta - Mzo. 1
+701,700,Pasaje Peatonal 0700,La Floresta - Mzo. 1
+702,701,Calle 0701,La Floresta - Oeste Mza. 28
+703,702,"Purins , Antonio",Mario Abel Amaya
+704,703,Calle 0703,San Cayetano - Este Mza. 6
+705,704,Pasaje 0704,Pietrobelli - Sin Mensura - Oeste Mza. 245 Bis
+706,705,"Caperochipi , Carmen N. Concejal","Maximo Abasolo - Cordon Forestal ""Juan M. Feeney"""
+707,706,Pasaje 0706,Ceferino Namuncura - Mza. 831
+708,707,"Mujica , Eleuterio",9 de Julio
+709,708,La Santa Maria,Jorge Newbery - Las Flores
+710,709,Calle 0709,San Cayetano - Entre Mza. 21 Y 22
+711,710,Calle 0710,San Cayetano - Entre Mza. 22 Y 23
+712,711,Calle 0711,San Cayetano - Este Mza. 23
+713,712,Calle 0712,La Floresta - Norte Mza. 641 Bis
+714,713,"Hernandez , Bernabe Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+715,714,"Quintana , Felix Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+716,715,"Martins , Benito Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+717,716,"Olinik , Francisco Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+718,717,"Fernandez , Cipriano Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+719,718,"Ojeda , Sixto "" Coña """,San Cayetano -Cordon Forestal -Los Bretes -Acceso Sur
+720,719,"Herrera , Oscar Vicente Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+721,720,"Farias , Carmen Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+722,721,"Ocampo , Silvia","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+723,722,"Chavez , Fermin","Cordon Forestal "" Juan Manuel Feeney """
+724,723,"Denevi , Marco","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+725,724,"Briante , Miguel","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+726,725,"Pairo , Roberto","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+727,726,"Soriano , Osvaldo","Cordon Forestal "" Juan Manuel Feeney """
+728,727,"Caraffa , Brendan","Cordon Forestal  "" Juan Manuel Feeney """
+729,728,"Barbieri , Vicente",Cordon Forestal -Malvinas Argentinas- Gdor. R. Gonzalez
+730,729,"Conti , Haroldo",Cordon Forestal-Malvinas Argentinas-Gdor. R. Gonzalez
+731,730,"Sanchez , Arturo Amor Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+732,731,"Moron , Alfredo Jorge Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+733,732,"Urondo , Francisco","Cordon Forestal "" Juan Manuel Feeney """
+734,733,"Di Benedetto , Antonio","Cordon Forestal "" Juan Manuel Feeney """
+735,734,"Vilches , Dario","Cordon Forestal ""Juan Manuel Feeney"""
+736,735,"Gomez , Valeria Concejal","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+737,736,"Mansilla , Miguel Angel Concejal","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+738,737,"Gonzalez Pedroso , Jesus Concejal","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+739,738,"Casal , Raimundo Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+740,739,"Vanni , Inocencio Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+741,740,"Alcoleas , Ricardo Concejal","Cordon Forestal -Malvinas Argentinas -Chacras ""Los 3 Pinos"""
+742,741,"Ludueña , Jorge Daniel","Cordon Forestal ""Juan M. Feeney"" - Malvinas Argentinas"
+743,742,"Sanchez , Hector Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+744,743,"Palacios , Pedro Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+745,744,"Rodriguez , Roberto Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+746,745,"Ruiz , Braulio Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+747,746,"Sandoval , Gregorio Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+748,747,"Avila , Silvia Cristina Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+749,748,"Barria , Edulio ""Pirulo""","Cordon Forestal ""Juan M. Feeney"" - Acceso Sur  (Ex Fr. 14-15)"
+750,749,"Zunino , Hector Aidor","Cordon Forestal ""Juan Manuel Feeney"""
+751,750,"Soto , Jacobo Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+752,751,"Laneza , Jose Miguel Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+753,752,"Ceschin , Eduardo Miguel","Cordon Forestal ""Juan Manuel Feeney"""
+754,753,"Bottinelli , Carlos Leon Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+755,754,"Gioino , Angel Vicente Vice Intendente","Cordon Forestal ""Juan M. Feeney"" - Humberto Beghin"
+756,755,Calle 0755,Acceso Sur - Este Fracción B Y Parc. 33
+757,756,Calle 0756,San Cayetano - Entre Mza. 125 Y 126
+758,757,Calle 0757,Maximo Abasolo - Entre Mza. 175 Y 182
+759,758,Calle 0758,Maximo Abasolo - Norte Mza. 177 Y 178
+760,759,Calle 0759,Maximo Abasolo - Entre Mza. 179 Y 180
+761,760,Calle 0760,Maximo Abasolo - Norte Mza. 180 A 182
+762,761,Calle 0761,Maximo Abasolo - Entre Mza. 181 Y 182
+763,762,Calle 0762,Acceso Sur - Oeste Mza. 15
+764,763,Calle 0763,Maximo Abasolo - Norte Mza. 139
+765,764,Calle 0764,Maximo Abasolo - Sin Mensura - Norte Mza. 139
+766,765,Calle 0765,Monseñor Argimiro Daniel Moure - Entre Mza. 23 Y 24
+767,766,"Kasankevich , Jaime",Centro
+768,767,Pasaje 0767,Centro - Mza. 10
+769,768,Pasaje 0768,Centro - Mza. 16 Bis
+770,769,Pasaje 0769,Centro - Mza. 16 Bis
+771,770,Pasaje 0770,Centro - Mza. 20
+772,771,Pasaje 0771,Centro - Mza. 21
+773,772,Pasaje 0772,Centro - Mza. 23
+774,773,Pasaje 0773,Centro - Mza. 29
+775,774,Pasaje 0774,Centro - Mza. 30
+776,775,Pasaje 0775,Centro - Mza. 34
+777,776,Pasaje 0776,Centro - Mza. 37 Bis
+778,777,Pasaje 0777,Centro - Mza. 63
+779,778,Pasaje 0778,Centro - Mza. 38
+780,779,Pasaje 0779,Centro - Mza. 38 Bis
+781,780,Pasaje 0780,Centro - Mza. 38 Bis
+782,781,"Pereira Mendonca , Jose",Centro
+783,782,Pasaje 0782,Centro - Mza. 41
+784,783,Pasaje 0783,Centro - Mza. 42
+785,784,Pasaje 0784,Centro - Mza. 42
+786,785,Pasaje 0785,Centro - Mza. 46
+787,786,Pasaje 0786,Centro - Mza. 46
+788,787,"Valeriev , Antonio",Centro
+789,788,Pasaje 0788,Centro - Mza. 50
+790,789,Pasaje 0789,Centro - Mza. 51
+791,790,Pasaje 0790,Centro - Mza. 51 Bis
+792,791,Pasaje 0791,Centro - Mza. 51 Bis
+793,792,Pasaje 0792,Centro - Mza. 52
+794,793,Pasaje 0793,Centro - Mza. 52 Bis
+795,794,Pasaje 0794,Centro - Mza. 53
+796,795,"Saiz Escagedo , Juaquin Don",Centro
+797,796,Pasaje 0796,Centro - Mza. 59
+798,797,Pasaje 0797,Centro - Mza. 67
+799,798,Pasaje 0798,Centro - Mza. 71
+800,799,"San Pedro , German",Centro
+801,800,Pasaje 0800,Centro - Mza. 80
+802,801,"Tcharian , Atanasio",Centro
+803,802,Pasaje 0802,Centro - Mza. 82
+804,803,Pasaje 0803,Centro - Mza. 86
+805,804,Pasaje 0804,Centro - Mza. 90
+806,805,Pasaje 0805,Centro - Mza. 94
+807,806,Pasaje 0806,Centro - Mza. 47 (Pcia.)
+808,807,"Goyeneche , Roberto",Maximo Abasolo
+809,808,"Pires , Jose",Centro
+810,809,"Mora , Luis Mora Profesor","Centro - "" Costanera """
+811,810,Calle 0810,Maximo Abasolo - Entre Mza. 132 Y 133
+812,811,Calle 0811,Stella Maris - Entre Mza. 173 Y 176
+813,812,"Woodley , Milton",30 de Octubre
+814,813,"Miranda , Domingo Ramon",Centro
+815,814,"Gonzalez , Roque Gobernador",Camino Alternativo Oeste - Saavedra - Gdor. R Gonzalez
+816,815,Calle 0815,Acceso Sur - Norte Fracción G
+817,816,Calle 0816,San Cayetano - Mza. 18
+818,817,"Pressiani , David","Cordon Forestal ""Juan Manuel Feeney"" - San Cayetano"
+819,818,Calle 0818,Humberto Beghin - Oeste Fracción G
+820,819,"Gatti , Miguel Angel",San Cayetano
+821,820,Calle 0820,San Cayetano  - Entre Mza. 74 Y 102
+822,821,Calle 0821,San Cayetano  - Entre Mza. 73 Y 74
+823,822,Calle 0822,San Cayetano  - Oeste Mza. 73
+824,823,Calle 0823,"San Cayetano  - Norte Mza. 73 A 78 , 102 Y 103"
+825,824,Calle 0824,Maximo Abasolo - Sur Mza. 129
+826,825,Avenida 0825,Acceso Sur - Cordon Forestal
+827,826,Calle 0826,Stella Maris - Entre Mza. 179 Y 182
+828,827,Calle 0827,Stella Maris - Entre Mza. 181 Y Mzo. 183
+829,828,"Quintana , Adolfo Concejal","Cordon Forestal ""Juan Manuel Feeney"""
+830,829,Calle 0829,Monseñor Argimiro Daniel Moure - Entre Mza. 27 Y 32
+831,830,Calle 0830,"Monseñor Argimiro Daniel Moure - Sur >Mzas. 34, 35 Y 1"
+832,831,Calle 0831,San Cayetano - Este Mza. 101
+833,832,"Gomez , Vita",San Cayetano
+834,833,"Duran , Laura",30 de Octubre
+835,834,Pasaje 0834,Balcon del Paraiso
+836,835,Pasaje Peatonal 0835,Centro - Mza. 211
+837,836,Pasaje 0836,Centro - Mza. 63
+838,837,Calle 0837,Stella Maris - Entre Mza. 97 Y 172
+839,838,"Chiclana , Feliciano",Centro
+840,839,Pasaje Peatonal 0839,Pietrobelli - Sin Mensura - Oeste Mza. 245 Bis
+841,840,"Almonacid , Juan Antonio",Monseñor Argimiro Daniel Moure
+842,841,"Quiroga Burnett , Guillermo",30 de Octubre
+843,842,Pasaje 0842,Monseñor Argimiro Daniel Moure - Entre Mza. 33 Y 34
+844,843,Calle 0843,Mario Abel Amaya - Mza. 149
+845,844,Calle 0844,"Monseñor Argimiro Daniel Moure - Entre Mza. 25, 27 Y 29"
+846,845,Calle 0845,San Cayetano - Entre Mza. 113 Y 114
+847,846,Calle 0846,San Cayetano - Entre Mza. 113 Y 118
+848,847,Calle 0847,San Cayetano - Entre Mza. 117 Y 119
+849,848,Calle 0848,Monseñor Argimiro Daniel Moure - Entre Mza. 32 Y 31
+850,849,"Torraca , Vicente",Stella Maris
+851,850,"Quijano , Hortensio Vicepresidente",Stella Maris
+852,851,Calle 0851,Stella Maris - Sin Mensura - Sur Mza. 177
+853,852,Calle 0852,Stella Maris - Sin Mensura - Sur Mza. 177
+854,853,Calle 0853,Mario Abel Amaya - Entre Mza. 54 Y 63
+855,854,Calle 0854,Mario Abel Amaya - Entre Mzo. 60 Y Mza. 61
+856,855,Calle 0855,Mario Abel Amaya - Mzo. 60
+857,856,Calle 0856,Mario Abel Amaya - Mzo. 60 Y Mza. 61
+858,857,Calle 0857,Mario Abel Amaya - Entre Mza. 57 Y 59
+859,858,Calle 0858,Mario Abel Amaya - Entre Mzas. 67 Y 66
+860,859,Calle 0859,San Cayetano - Entre Mza. 120 Y 121
+861,860,Calle 0860,Mario Abel Amaya - Sur Mza. 67 Y 66
+862,861,Calle 0861,San Martin - Entre Mza. 64 Y 65
+863,862,Calle 0862,Centro Civico General Solari - Sudoeste Mza. 61-A
+864,863,Calle 0863,Maximo Abasolo - Oeste Mza. 139
+865,864,Calle 0864,San Cayetano - Sin Mensura - Sudoeste Mza. 132
+866,865,Pasaje 0865,San Martin - Mza. 67
+867,866,Calle 0866,San Cayetano - Entre Mza. 105 Y 131
+868,867,Calle 0867,San Cayetano - Entre Mza. 131 Y 133
+869,868,Calle 0868,San Cayetano - Entre Mza. 133 Y 134
+870,869,Calle 0869,San Cayetano - Entre Mza. 97 Y 134
+871,870,Pasaje 0870,Pietrobelli - Noreste Mza. 41
+872,871,Pasaje 0871,Jorge Newbery - Mza. 72
+873,872,Pasaje 0872,Jorge Newbery - Noroeste Mza. 70
+874,873,Pasaje 0873,Jorge Newbery - Entre Mza. 67 Y 68
+875,874,Pasaje 0874,Jorge Newbery - Entre Mza. 66 Y 64
+876,875,Pasaje 0875,Jorge Newbery - Mza. 76
+877,876,Pasaje 0876,Jorge Newbery - Mza. 155a
+878,877,Pasaje 0877,Jorge Newbery - Sur Mza. 76
+879,878,Pasaje 0878,San Cayetano - Mza. 112
+880,879,Calle 0879,San Cayetano - Sur Mza. 112
+881,880,Pasaje 0880,Jorge Newbery - Mza. 74
+882,881,Calle 0881,Humberto Beghin - Entre Mza. 92 Y 193
+883,882,Calle 0882,Doctor Quirno Costa - Entre Mza. 56 Y 58
+884,883,Calle 0883,Doctor Quirno Costa - Entre Mza. 57 Y 58
+885,884,Pasaje Peatonal 0884,San Cayetano - Oeste Mza. 79
+886,885,Calle 0885,San Cayetano - Mza. 101
+887,886,Calle 0886,San Cayetano - Noroeste Parcela 12
+888,887,Calle 0887,San Cayetano - Noroeste Parcela 12
+889,888,Calle 0888,San Cayetano - Noroeste Parcela 12
+890,889,Calle 0889,San Cayetano - Noroeste Parcela 12
+891,890,Calle 0890,San Cayetano - Noroeste Parcela 12
+892,891,Calle 0891,San Cayetano - Noroeste Parcela 12
+893,892,Calle 0892,San Cayetano - Noroeste Parcela 12
+894,893,Calle 0893,San Cayetano - Sudoeste Mza. 132
+895,894,Calle 0894,Acceso Sur - Entre Frac. G Y Parc. 26
+896,895,Pasaje 0895,San Cayetano - Mzas. 98 Y 99
+897,896,Calle 0896,Maestro Isidro Quiroga - Macizo 8
+898,897,Calle 0897,Maestro Isidro Quiroga - Macizo 8
+899,898,Calle 0898,Parque Industrial Comodoro Rivadavia -Sur Parcelas 13 A 15
+900,899,Pasaje 0899,Jorge Newbery - Entre Mzas. 78 Y 79
+901,900,"Iparraguirre de Escribano , Celestina",Centro
+902,901,Calle 0901,Acceso Sur - Entre Mza. 30 Y Parcela 38
+903,902,Calle 0902,Humberto Beghin - Entre Mza. 196 Y Mzo. 198
+904,903,Calle 0903,Humberto Beghin - Oeste Mza. 194
+905,904,Calle 0904,Acceso Sur - Entre Mzas. 19 Y 17
+906,905,Calle 0905,Acceso Sur - Norte Mza. 17
+907,906,Pasaje 0906,La Floresta - Norte Mza. 27
+908,907,Calle 0907,Humberto Beghin - Sudeste Mzas. 193 Y 216
+909,908,"Perfumo , Angel Santiago",Centro Civico General Solari
+910,909,Calle 0909,Mario Abel Amaya - Sudeste Mza. 64
+911,910,Calle 0910,Mario Abel Amaya - Sur Mza. 27
+912,911,Calle 0911,Humberto Beghin - Entre Mza. 217 A 219
+913,912,Calle 0912,Humberto Beghin - Entre Mza. 218 A 222
+914,913,Calle 0913,Humberto Beghin - Entre Mza. 223 A 225
+915,914,Calle 0914,Humberto Beghin - Entre Mza. 227 A 228
+916,915,Calle 0915,Humberto Beghin - Entre Mza. 218 A 223
+917,916,Calle 0916,"Stella Maris - "" 2da Extensión """
+918,917,Calle 0917,"Stella Maris - "" 2da Extensión """
+919,918,Calle 0918,"Stella Maris - "" 2da Extensión """
+920,919,Calle 0919,"Stella Maris - "" 2da Extensión """
+921,920,Calle 0920,"Stella Maris - "" 2da Extensión """
+922,921,Calle 0921,"Stella Maris - "" 2da Extensión """
+923,922,Calle 0922,"Stella Maris - "" 2da Extensión """
+924,923,Calle 0923,"Stella Maris - "" 2da Extensión """
+925,924,Calle 0924,"Cordon Forestal ""J.M.F."" - Entre Mzos. 45, 51, 52 Y Fracc. 13"
+926,925,"Poretti , Alberto Doctor",Los Bretes
+927,926,"Hidalgo , Vicente",Los Bretes
+928,927,"Cistari , Armando",Los Bretes
+929,928,"Millis , Estanislao",Los Bretes
+930,929,"Nieva , Alfonso Doctor",Los Bretes
+931,930,"Sanchez , Alfonso",Los Bretes
+932,931,"Morales , Alfredo",Los Bretes
+933,932,"Macias , Daniel",Los Bretes
+934,933,"Ubieda , Hugo",Los Bretes
+935,934,"Espona , Benito Doctor",Los Bretes
+936,935,"Bosch , Nelida Noemi",Los Bretes
+937,936,"Ambran , Hugo Doctor",Los Bretes
+938,937,"Morales , Osberto",Los Bretes
+939,938,"Herrera , Ana",Los Bretes
+940,939,"Cuny , Ruben E. Mayor",Los Bretes
+941,940,"Rearte , Jorgelina",Los Bretes
+942,941,"Kirn , Guillermo",Los Bretes
+943,942,"Fernandez de Carrusca , Ramona",Los Bretes
+944,943,"Slikerman , Israel",Los Bretes
+945,944,"Ibarra , Elena Doctora",Los Bretes
+946,945,"Grosso , Amalia",Los Bretes
+947,946,"Cracco , Pedro Aldo",Los Bretes - Acceso Sur
+948,947,Calle 0947,Humberto Beghin - Sudoeste Mza. 188
+949,948,Calle 0948,San Cayetano - Entre Mza.155 Y Parcela 18
+950,949,Calle 0949,San Cayetano - Entre Mzas. 154 A 156 Y Parcela 16
+951,950,Calle 0950,Stella Maris - Norte Mza. 187
+952,951,Calle 0951,Stella Maris - Norte Mza. 187 - Extensión
+953,952,Calle 0952,"Cordon Forestal ""J.M. Feeney"" - Entre Mzas. 106 Y 105"
+954,953,Calle 0953,"Cordon Forestal ""J.M. Feeney"" - Entre Mzas. 105 Y 104"
+955,954,Calle 0954,"Cordon Forestal ""J.M. Feeney"" - Entre Mzas. 104 Y 103"
+956,955,Calle 0955,"Cordon Forestal ""J.M. Feeney"" - Entre Mzas. 102 Y 101"
+957,956,Calle 0956,Stella Maris - Este Mza. 232
+958,957,Calle 0957,"Stella Maris - Macizo 198 - "" 3ra Extensión """
+959,958,Calle 0958,"Stella Maris - Macizo 198 - "" 3ra Extensión """
+960,959,Calle 0959,"Stella Maris - Macizo 198 - "" 3ra Extensión """
+961,960,Calle 0960,"Stella Maris - Macizo 198 - "" 3ra Extensión """
+962,961,Calle 0961,"Stella Maris - Macizo 198 - "" 3ra Extensión """
+963,962,Calle 0962,"Cordon Forestal ""J.M. Feeney"" - Entre Mzo. 20 Y Mza. 107"
+964,963,Calle 0963,"Cordon Forestal ""J.M. Feeney"" - Sur Mza. 107 , Entre Mzo. 20"
+965,964,Calle 0964,San Cayetano - Extensión Al Norte Mza. 134
+966,965,Calle 0965,Mñor. Argimiro Daniel Moure - Entre Mzas. 38 Y 39
+967,966,Calle 0966,"Mñor. Argimiro Daniel Moure - Entre Mzas. 37, 38 Y 39"
+968,967,Pasaje 0967,San Cayetano - Entre Mzas. 145 Y 146
+969,968,Calle 0968,San Cayetano - Entre Mzas. 144 Y 145
+970,969,Calle 0969,San Cayetano - Entre Mzas. 137 Y 143
+971,970,Calle 0970,San Cayetano - Entre Mzas. 143 Y 137
+972,971,Pasaje 0971,San Cayetano - Mza. 137
+973,972,Pasaje 0972,San Cayetano - Mza. 137
+974,973,Pasaje 0973,San Cayetano - Mza. 143
+975,974,Calle 0974,"Cordon Forestal ""J.M. Feeney"" - En Macizo 88 (Ex Mzo. 64)"
+976,975,Calle 0975,Maximo Abasolo - Entre Mzas. 150 Y 154
+977,976,Calle 0976,Maximo Abasolo - Entre Mzas. 153 Y 154
+978,977,Calle 0977,Maximo Abasolo - Entre Mzas. 151 Y 152
+979,978,Calle 0978,Acceso Sur - Macizo 151
+980,979,Avenida 0979,Acceso Sur - Entre Macizo 151 Y Fracción 21
+981,980,Calle 0980,Acceso Sur - Entre Fracción A Y Parcela 31
+982,981,Calle 0981,Mario Abel Amaya - Sudoeste Mza. 27 - Extensión Sudeste
+983,982,Calle 0982,Mario Abel Amaya - Noreste Mza. 27 - Extensión Sudeste
+984,983,Pasaje Peatonal 0983,Mario Abel Amaya - Norte Mza. 27 - Extensión Sudeste
+985,984,Pasaje 0984,Jorge Newbery - Mza. 73
+986,985,Calle 0985,Mario Abel Amaya - Sudeste Y Sur Mza. 64 - Extensión Sudeste
+987,986,Calle 0986,Mario Abel Amaya - Sudeste Y Sur Mza. 64 - Extensión Sudeste
+988,987,Calle 0987,Mario Abel Amaya - Sudeste Y Sur Mza. 64 - Extensión Sudeste
+989,988,Calle 0988,Mario Abel Amaya - Sudeste Y Sur Mza. 64 - Extensión Sudeste
+990,989,Calle 0989,Stella Maris - Entre Mzas. 257 Y 258
+991,990,Calle 0990,Stella Maris - Entre Parcela 1 Y El Club Stella Maris.
+992,991,Calle 0991,Maximo Abasolo - Este Mza. 108 (Pcia.)
+993,992,Calle 0992,Maximo Abasolo - Mzo. 4 (Pcia.)
+994,993,Calle 0993,Humberto Beghin - Entre Mzas. 255 Y 259
+995,994,Pasaje 0994,Centro Civico General Solari - Mza. 4 (Ex 59c)
+996,995,Calle 0995,"Cordon Forestal ""J.M. Feeney"" - Mzo. 48"
+997,996,Calle 0996,"Cordon Forestal ""J.M. Feeney"" - Mzo. 48"
+998,997,Calle 0997,"Cordon Forestal ""J.M. Feeney"" - Mzo. 48"
+999,998,Calle 0998,"Cordon Forestal ""J.M. Feeney"" - Mzo. 48"
+1000,999,Calle 0999,Acceso Sur - Entre Mza. 750 Y Parcela 24
+1001,1000,Calle 1000,Accecso Sur - Este Parcelas 24 A 26
+1002,1001,Antartida Argentina,General Enrique Mosconi
+1003,1002,"Fagnano , Jose",General Enrique Mosconi
+1004,1003,Bateria Independencia,General Enrique Mosconi
+1005,1004,"Acosta , Mariano",General Enrique Mosconi
+1006,1005,"Py , Comodoro",General Enrique Mosconi
+1007,1006,Manquel,General Enrique Mosconi
+1008,1007,Lago Musters,General Enrique Mosconi
+1009,1008,"Koslowsky , Julio G.",General Mosconi
+1010,1009,Islas Orcadas,General Enrique Mosconi
+1011,1010,"Roca , General",General Enrique Mosconi
+1012,1011,"Winter , General",General Enrique Mosconi
+1013,1012,"Reyes , Marcelino Doctor",General Enrique Mosconi
+1014,1013,"Nava de Zayas , Elena",General Enrique Mosconi
+1015,1014,Los Bulgaros,General Enrique Mosconi
+1016,1015,Petrolero,General Enrique Mosconi
+1017,1016,Petrolero San Blas,General Enrique Mosconi
+1018,1017,Los Molles,General Enrique Mosconi
+1019,1018,17 de Agosto,General Enrique Mosconi
+1020,1019,Buque Fray Luis Beltran,General E. Mosconi - Ntra. Sra. de La Divina Providencia
+1021,1020,"Pueyrredon , Juan Martin De",General Enrique Mosconi
+1022,1021,"Paz , Jose Maria",General Enrique Mosconi
+1023,1022,Ortiz de Ocampo,General Enrique Mosconi
+1024,1023,"Lopez , Joaquin V.",General Enrique Mosconi
+1025,1024,"Quintana , Manuel",General Enrique Mosconi
+1026,1025,Petrolero San Lorenzo,General Enrique Mosconi
+1027,1026,"Moreno , Jose Maria",General Enrique Mosconi
+1028,1027,Ariztizabal,General Enrique Mosconi
+1029,1028,Pampa del Castillo,General Enrique Mosconi
+1030,1029,Langara,General Enrique Mosconi
+1031,1030,Mazaredo,General Enrique Mosconi
+1032,1031,"Rodriguez Peña , Nicolas",General Enrique Mosconi
+1033,1032,"Castro Barros , Pedro Ignacio De",General Enrique Mosconi
+1034,1033,Sacamata,General Enrique Mosconi
+1035,1034,Inacavas,General Enrique Mosconi
+1036,1035,Foyel,General Enrique Mosconi
+1037,1036,Calfucura,General Enrique Mosconi
+1038,1037,Indio Casimiro,General Enrique Mosconi
+1039,1038,Strobel,General Enrique Mosconi
+1040,1039,"Jones , Miguel De",General Mosconi
+1041,1040,"De La Plaza , Victorino",General Enrique Mosconi
+1042,1041,Los Galeses,General Enrique Mosconi
+1043,1042,Golfo San Jorge,General Enrique Mosconi
+1044,1043,"Echeverria , Esteban",General Enrique Mosconi
+1045,1044,Los Portugueses,General Enrique Mosconi
+1046,1045,Lago Puelo,25 de Mayo
+1047,1046,"Paters , Ingeniero",25 de Mayo
+1048,1047,Bateria Libertad,General Enrique Mosconi
+1049,1048,"Raventos , Ingeniero",25 de Mayo
+1050,1049,"Lafont , Ingeniero",25 de Mayo
+1051,1050,Cerro Viteau,General Enrique Mosconi
+1052,1051,"Balcarce , Juan Ramon",General Enrique Mosconi
+1053,1052,"Vedia , Mariano De",General Enrique Mosconi
+1054,1053,"Stafforini , Cesar",25 de Mayo
+1055,1054,Rio Mayo,General Enrique Mosconi
+1056,1055,"Guarnieri , Ingeniero",25 de Mayo
+1057,1056,"Villarino , Piloto",General Enrique Mosconi
+1058,1057,Los Italianos,General Enrique Mosconi
+1059,1058,Los Eslavos,General Enrique Mosconi
+1060,1059,"Azopardo , Juan Bautista",General Enrique Mosconi
+1061,1060,"Lagos , Hilario",General Enrique Mosconi
+1062,1061,"Piedrabuena , Luis Comandante",General Enrique Mosconi
+1063,1062,"Moyano , Gobernador",General Enrique Mosconi
+1064,1063,Montes de Oca,General Enrique Mosconi
+1065,1064,Cerro Chalten,General Enrique Mosconi
+1066,1065,"Alberti , Manuel",General Enrique Mosconi
+1067,1066,Indio Marcelo,General Enrique Mosconi
+1068,1067,"Falkner , Tomas",General Enrique Mosconi
+1069,1068,Tehuelches,General Enrique Mosconi
+1070,1069,"Lugones , Leopoldo",General Enrique Mosconi
+1071,1070,"Ramos Ruiz , Ingeniero",General Enrique Mosconi
+1072,1071,"Gonzalez Balcarce , Antonio",General Enrique Mosconi
+1073,1072,"Andrade , Olegario V.",General Enrique Mosconi
+1074,1073,"Parra , Emilio",General Enrique Mosconi
+1075,1074,"Cane , Miguel",General Enrique Mosconi
+1076,1075,"Coronel , Policarpo",General Enrique Mosconi
+1077,1076,La Mimosa,General Enrique Mosconi
+1078,1077,"Viedma , Francisco De",General Enrique Mosconi
+1079,1078,"Fuchs , Jose",General Enrique Mosconi
+1080,1079,"Martinez , Juan",General Enrique Mosconi
+1081,1080,Lago Gutierrez,General Enrique Mosconi
+1082,1081,"Beghin , Humberto",General Enrique Mosconi
+1083,1082,"Calvo , Carlos",General Enrique Mosconi
+1084,1083,"Fontana , Coronel",General Enrique Mosconi
+1085,1084,"Frey , Emilio",General Enrique Mosconi
+1086,1085,Escuela Nacional Nº 2,General Enrique Mosconi
+1087,1086,"Barros , Alvaro",General Enrique Mosconi
+1088,1087,"Mayo , Gregorio",General Enrique Mosconi
+1089,1088,"Kunzel , Gustavo",General Enrique Mosconi
+1090,1089,"Encina , Carlos",General Enrique Mosconi
+1091,1090,Lago Buenos Aires,General Enrique Mosconi
+1092,1091,Santa Lucia,General Enrique Mosconi
+1093,1092,El Plumerillo,General Enrique Mosconi
+1094,1093,"Derqui , Santiago Doctor",General Enrique Mosconi
+1095,1094,"Burmeister , Carlos",General Enrique Mosconi
+1096,1095,"Pedernera , Juan Esteban",General Enrique Mosconi
+1097,1096,"Cox , Guillermo",General Enrique Mosconi
+1098,1097,"Monteagudo , Bernardo",General Enrique Mosconi
+1099,1098,Vincinguerra,General Enrique Mosconi
+1100,1099,"Ameghino , Carlos",General Enrique Mosconi
+1101,1100,"Lobos , Ministro",General Enrique Mosconi
+1102,1101,Spurr,General Enrique Mosconi
+1103,1102,"Windhausen , Anselmo Doctor",General Enrique Mosconi
+1104,1103,Spegazzini,General Enrique Mosconi
+1105,1104,"Oneto , Antonio",General Enrique Mosconi
+1106,1105,Lovisato,General Enrique Mosconi
+1107,1106,"Bove , Vicente",General Enrique Mosconi
+1108,1107,Loire,General Enrique Mosconi
+1109,1108,"Escurra , Ministro",General Enrique Mosconi
+1110,1109,Buque La Plata,General Enrique Mosconi
+1111,1110,"Onelli , Clemente",General Enrique Mosconi
+1112,1111,Los Españoles,General Enrique Mosconi
+1113,1112,Mascardi,General Enrique Mosconi
+1114,1113,"Mendiondo , Adolfo Doctor",General Enrique Mosconi
+1115,1114,"Marmol , Jose",General Enrique Mosconi
+1116,1115,Fray Mamerto Esquiu,General Enrique Mosconi
+1117,1116,Oro Negro,General Enrique Mosconi
+1118,1117,Mallin,General Enrique Mosconi
+1119,1118,"Aimar , Jose",General Enrique Mosconi
+1120,1119,"San Martin , Libertador General",General Enrique Mosconi
+1121,1120,Don Bosco,General Enrique Mosconi
+1122,1121,"Beauvoir , Jose Maria",General Enrique Mosconi
+1123,1122,"Villegas , General",General Enrique Mosconi
+1124,1123,Padre Marcelino Ribotta,Nuestra Señora de La Divina Providencia
+1125,1124,"Zeballos , Estanislao",25 de Mayo
+1126,1125,"Molina , Manuel J.",25 de Mayo
+1127,1126,"Gallardo , Angel",25 de Mayo
+1128,1127,"Mosconi , Enrique",25 de Mayo
+1129,1128,"Lillo , Miguel",25 de Mayo
+1130,1129,"Agostini , Alberto De",25 de Mayo
+1131,1130,"Korn , Alejandro",25 de Mayo
+1132,1131,"Levene , Ricardo",25 de Mayo
+1133,1132,"Carrizo , Antonio Isaias",Nuestra Señora de La Divina Providencia
+1134,1133,"Sueiro , Manuel Doctor",Nuestra Señora de La Divina Providencia
+1135,1134,"Pol , Florencio",Nuestra Señora de La Divina Providencia
+1136,1135,"Freile , Sabino",Nuestra Señora de La Divina Providencia
+1137,1136,"Luque , Francisco",Nuestra Señora de La Divina Providencia
+1138,1137,"Toussaint , Alberto",Nuestra Señora de La Divina Providencia
+1139,1138,"Rosa Cristina , Francisco",Nuestra Señora de La Divina Providencia
+1140,1139,Lago Blanco,General Enrique Mosconi
+1141,1140,"Hichazo Blanco , Jose",General Enrique Mosconi
+1142,1141,"Croce , Luis",Nuestra Señora de La Divina Providencia
+1143,1142,"Szymanski , Jose",Nuestra Señora de La Divina Providencia
+1144,1143,"Campos , Maximo",Nuestra Señora de La Divina Providencia
+1145,1144,"Gonzalez , Jorge",Nuestra Señora de La Divina Providencia
+1146,1145,"Rodriguez Gallardo , Carlos",Nuestra Señora de La Divina Providencia
+1147,1146,"Cosentino , Oscar",Nuestra Señora de La Divina Providencia
+1148,1147,"Urigo , Federico",Nuestra Señora de La Divina Providencia
+1149,1148,"Palacios , Alfaro",Nuestra Señora de La Divina Providencia
+1150,1149,"Cortez , Andres",Nuestra Señora de La Divina Providencia
+1151,1150,"Lopez , Andres",Nuestra Señora de La Divina Providencia
+1152,1151,"Flagel , Ewald",General E. Mosconi - Ntra. Sra. de La Divina Providencia
+1153,1152,"Plats , Ingeniero",General Enrique Mosconi
+1154,1153,Rayen,General Enrique Mosconi
+1155,1154,Ayelen,General Enrique Mosconi
+1156,1155,Buque General Madariaga,General Enrique Mosconi
+1157,1156,"Garre , Jesus",General Enrique Mosconi
+1158,1157,"Hudson , Guillermo Enrique",25 de Mayo
+1159,1158,El Trebol,General Enrique Mosconi
+1160,1159,"Neicoff , Nicola Genoff",General Enrique Mosconi
+1161,1160,"Vergel Lazaro , Manuel",Nuestra Señora de La Divina Providencia
+1162,1161,Duraznillo,General Enrique Mosconi
+1163,1162,Puyehue,General Enrique Mosconi
+1164,1163,Peumayen,General Enrique Mosconi
+1165,1164,Independencia,General Enrique Mosconi
+1166,1165,"Cosentino , Jose Ingeniero",General Enrique Mosconi
+1167,1166,"Boscaro , Hermenegildo",General Enrique Mosconi
+1168,1167,"Podesta , Eduardo Doctor",General Enrique Mosconi
+1169,1168,"Gonzalo , Valentin",General Enrique Mosconi
+1170,1169,"Vivas , Benito",General Enrique Mosconi
+1171,1170,"Graf , Jose Maestro Salesiano",General Enrique Mosconi
+1172,1171,"Simon , Diego",General Enrique Mosconi
+1173,1172,"Escolar , Primitivo",General Enrique Mosconi
+1174,1173,"Bizon , Carlos Ingeniero",General Enrique Mosconi
+1175,1174,"Svoboda , Juan Jose",General Enrique Mosconi
+1176,1175,Pasaje Peatonal 1175,"Nuestra Señora de La Divina Providencia - Entre Mzas. 4, 5 Y 7"
+1177,1176,"Napolitano , Norberto Pappo",General Enrique Mosconi
+1178,1177,Calle 1177,"General E. Mosconi - "" Vialidad "" - Entre Mzas. 124 Y 253"
+1179,1178,Calle 1178,"General E. Mosconi - "" Vialidad "" - Entre Mzas. 253 Y 149"
+1180,1179,"Moura , Federico",General Enrique Mosconi
+1181,1180,Cerro Viteau,"General Enrique Mosconi - "" Sismográfica """
+1182,1181,Cerro Dragon,"General Enrique Mosconi - "" Sismográfica """
+1183,1182,Cerro Redondo,"General Enrique Mosconi - "" Sismográfica """
+1184,1183,Cerro Tres Botellas,"General Enrique Mosconi - "" Sismográfica """
+1185,1184,Cerro Pan de Azucar,"General Enrique Mosconi - "" Sismográfica """
+1186,1185,Cerro Escondido,"General Enrique Mosconi - "" Sismográfica """
+1187,1186,Quichamal,General Enrique Mosconi
+1188,1187,Marques de Tilly,"General Enrique Mosconi - "" Sismográfica """
+1189,1188,Bella Vista,"General Mosconi - "" Sismográfica """
+1190,1189,Pico Truncado,"General Enrique Mosconi - "" Sismográfica """
+1191,1190,Cerro Tortuga,"General Enrique Mosconi - "" Sismográfica """
+1192,1191,Cerro Tres Picos,"General Enrique Mosconi - "" Sismográfica """
+1193,1192,Cerro Montenegro,"General Enrique Mosconi - "" Sismográfica """
+1194,1193,"Villa , Ingeniero",General Enrique Mosconi
+1195,1194,Rio Pico,General Enrique Mosconi
+1196,1195,"Scarulis , Teofilo",General Enrique Mosconi
+1197,1196,"Warnes , Ignacio",General Enrique Mosconi
+1198,1197,Cardiel,General Enrique Mosconi
+1199,1198,Club de Empleados,"General Enrique Mosconi   -   ""Sin Ubicación"""
+1200,1199,Calle 1199,Nuestra Señora de La Divina Providencia - Sur Mza. 31
+1201,1200,"Rua , Miguel Don",General Enrique Mosconi
+1202,1201,"Sosa , Miguel Angel Gregorio",General Enrique Mosconi
+1203,1202,"Quiles , Diego",General Enrique Mosconi
+1204,1203,"Beher , Ricardo",General Enrique Mosconi
+1205,1204,"Morales , Santos Isidro",General Enrique Mosconi
+1206,1205,"Pedrotti , Rita de Doña",General Enrique Mosconi
+1207,1206,Calle 1206,General E. Mosconi - Norte Mza. 5 - Sec. 1
+1208,1207,Calle 1207,General E. Mosconi - Oeste Mza. 5 - Sec. 1
+1209,1208,"Ocampo de Moron , Dolores",General Enrique Mosconi
+1210,1209,"Mora , Lola",General Enrique Mosconi
+1211,1210,Retama,25 de Mayo
+1212,1211,Calle 1211,"25 de Mayo - "" Covicup "" - Entre Mzas. 55 Y 59"
+1213,1212,Los Notros,25 de Mayo
+1214,1213,Los Coirones,25 de Mayo
+1215,1214,Las Mutisias,25 de Mayo
+1216,1215,Calle 1215,"27 de Mayo - "" Covicup "" - Entre Mzas. 61 Y 63"
+1217,1216,Calle 1216,"25 de Mayo - "" Covicup "" - Este Mzas. 55 A 63"
+1218,1217,Malaespina,25 de Mayo
+1219,1218,Tomillo,25 de Mayo
+1220,1219,Las Jarillas,25 de Mayo
+1221,1220,Quilimbay,25 de Mayo
+1222,1221,Michay,25 de Mayo
+1223,1222,Grindelia,25 de Mayo
+1224,1223,Calle 1223,General Enrique Mosconi - Entre Mza. 122 Y 127
+1225,1224,Calle 1224,General Enrique Mosconi - Entre Mza. 133 Y 135
+1226,1225,"Ruivo , Jose G.",General Enrique Mosconi
+1227,1226,"Perez Rosas , Sebastian",General Enrique Mosconi
+1228,1227,"Lecumberry , Juan Teodoro Miguel",General Enrique Mosconi
+1229,1228,"Espel , Juan",General Enrique Mosconi
+1230,1229,"Izquierdo , Jesus",General Enrique Mosconi
+1231,1230,"Molina , Francisco",General Enrique Mosconi
+1232,1231,"Bru , Francisco",General Enrique Mosconi
+1233,1232,"Mancini , Jose",General Enrique Mosconi
+1234,1233,"Livincjuk , Lucas",General Enrique Mosconi
+1235,1234,"Jara , Diego",General Enrique Mosconi
+1236,1235,"Daimundo , Felix",General Enrique Mosconi
+1237,1236,"Salvador , Francisco",General Enrique Mosconi
+1238,1237,"Paez , Salomon",General Enrique Mosconi
+1239,1238,"Candeias , A. Martins",General Enrique Mosconi
+1240,1239,"Gonzalez , Pedro",General Enrique Mosconi
+1241,1240,"Gracia , Baldomero",General Enrique Mosconi
+1242,1241,"Monsalvo , Belarmino",General Enrique Mosconi
+1243,1242,"Ruiz , Alberto",General Enrique Mosconi
+1244,1243,"Sedan , Sonia",General Enrique Mosconi
+1245,1244,Calle 1244,Ntra. Sra. de La Divina Providencia - Entre Mza. 60 Y 61
+1246,1245,Calle 1245,General Enrique Mosconi - Entre Mza. 239 Y 240
+1247,1246,"Münnemann , Kurt Otto",25 de Mayo
+1248,1247,"Poncio Ferrando , Angel Ingeniero",General Enrique Mosconi
+1249,1248,Pasaje 1248,General Enrique Mosconi - Mza. 85
+1250,1249,"Gomez , Robustiano",General Enrique Mosconi
+1251,1250,"Figari , Jorge Roberto Doctor",General Enrique Mosconi
+1252,1251,"Huberman , Simon Farmaceutico",General Enrique Mosconi
+1253,1252,"Iovanovitch , Atanas",25 de Mayo
+1254,1253,"Espejon , Anibal",25 de Mayo
+1255,1254,"Rodriguez Gallardo , Alberto Dip. Nac.",25 de Mayo
+1256,1255,"Quiroga , Julio Cesar",25 de Mayo
+1257,1256,"Koprowski , Enrique Juan Comandante",General Enrique Mosconi
+1258,1257,"Barria , Raul Humberto",General Enrique Mosconi
+1259,1258,Calle 1258,General Enrique Mosconi - Norte Mza. 34 (Ex 109)
+1260,1259,Calle 1259,General Enrique Mosconi - Oeste Mza. 34 (Ex 109)
+1261,1260,"Soltner , Ana Cristina",General Enrique Mosconi
+1262,1261,"Alvarez de Sarna , Nelly",General Enrique Mosconi
+1263,1262,"Canto , Cipriano Jose",General Enrique Mosconi
+1264,1263,"Maizani , Azucena",General Enrique Mosconi
+1265,1264,"Oviedo , Evaristo",General Enrique Mosconi
+1266,1265,Calle 1265,General Enrique Mosconi - Entre Mza. 53 Y 124
+1267,1266,Calle 1266,General Enrique Mosconi - Este Mzo. 121
+1268,1267,"Balsas , Julio Emilio",General Enrique Mosconi
+1269,1268,Calle 1268,"""Infiernillo"" - Oeste Frac. C1"
+1270,1269,"Moscara de Medrano , Dolores",General Enrique Mosconi
+1271,1270,Camino del Centenario,"""Infiernillo"" - Pietrobelli"
+1272,1271,"Prodan , Luca",General Enrique Mosconi
+1273,1272,"Epumer , Maria Gabriela",General Enrique Mosconi
+1274,1273,Pasaje Peatonal 1273,General Enrique Mosconi - Mza. 29 - Sector 1
+1275,1274,Pasaje 1274,Nuestra Sra. de La Divina Providencia - Sudoeste Mza. 32
+1276,1275,Calle 1275,Ntra. Sra. de La Divina Providencia - Noroeste Mza. 32
+1277,1276,Calle 1276,25 de Mayo - Norte Fracción 10
+1278,1277,"Abuelo , Miguel",General Enrique Mosconi
+1279,1278,Calle 1278,"General Enrique Mosconi - Entre Mzas. 48, 106 Y 105"
+1280,1279,"Ortelli , Jose Antonio",General Enrique Mosconi
+1281,1280,Calle 1280,General Enrique Mosconi - Oeste Mza. 130 Y Club S.L.
+1282,1281,Zampa,General Enrique Mosconi
+1283,1282,"Garcia , Manolo",General Enrique Mosconi
+1284,1283,"Gaston , Mario Anibal",25 de Mayo
+1285,1284,Calle 1284,25 de Mayo - Oeste Mza. 192
+1286,1285,Calle 1285,25 de Mayo - Este Mza. 192
+1287,1286,"Sokol , Alejandro",General Enrique Mosconi
+1288,1287,"Otero , Adrian",General Enrique Mosconi
+1289,1288,"Piazzolla , Astor",General Enrique Mosconi
+1290,1289,"Mores , Mariano",General Enrique Mosconi
+1291,1290,"Guarany , Horacio",General Enrique Mosconi
+1292,1291,Sandro,General Enrique Mosconi
+1293,1292,"D'arienzo , Juan",General Enrique Mosconi
+1294,1293,"Rabinovich , Daniel",General Enrique Mosconi
+1295,1294,Algarrobillo Patagonico,General Enrique Mosconi
+1296,1295,Yaoyin,General Enrique Mosconi
+1297,1296,Chilca,General Enrique Mosconi
+1298,1297,Alfilerillo,General Enrique Mosconi
+1299,1298,Tuna,General Enrique Mosconi
+1300,1299,Sulupe,General Enrique Mosconi
+1301,1300,Ameghinoa,General Enrique Mosconi
+1302,1301,Calle 1301,Ntra. Sra. de La Divina Providencia - Noreste Mza. 32
+1303,1302,Calle 1302,General Enrique Mosconi - Entre Mzas. 62 Y 63 (Sector 1)
+1304,1303,Calle 1303,25 de Mayo - Oeste Mzo. 52
+1305,1304,Calle 1304,"General Enrique Mosconi - Entre Mzas. 63, 124 Y Mzo. 115"
+1306,1305,Ara San Juan,25 de Mayo
+1307,1306,"Pocovi , Doctor Antonio Sabastian",25 de Mayo
+1308,1307,Reverendo Padre Heraclio Moreno,General Enrique Mosconi
+1309,1308,"Rosa Cristina , Jose",General Enrique Mosconi
+1310,1309,"Rovillard , Doctora Maria Jesus",General Enrique Mosconi
+1311,1310,Calle 1310,"General Enrique Mosconi - Entre Mzas. 33, 34 Y Mzo. 122 (C.5-S.4)"
+1312,1311,Pasaje 1311,General Enrique Mosconi - Entre Mza. 46 Y Parcela 10
+1313,1312,Calle 1312,General Enrique Mosconi - Este Mza. 93 (107 Pcia.)
+1314,1313,Calle 1313,General Enrique Mosconi - Entre Mzas. 133 Y 134
+1315,1314,Pasaje Peatonal 1314,General Enrique Mosconi - Entre Mzas. 13 Y 19 (119 Mcr)
+1316,1315,Pasaje Peatonal 1315,General Enrique Mosconi - Entre Mzas. 12 Y 18 (117 Mcr)
+1317,1316,Calle 1316,General Enrique Mosconi - Sur Mza. 134 (9 Pcia.)
+1318,1317,Pasaje 1317,General Enrique Mosconi - Entre Mzas. 214 Y 215
+1319,1318,Pasaje 1318,General Enrique Mosconi - Entre Mzas. 210 A 228
+1320,1319,Calle 1319,General Enrique Mosconi - Ent. Mzas. 15 Y 16 (156 Y 156a Pcia.)
+1321,1320,Calle 1320,25 de Mayo - Este Mza. 1 (4 Mcr)
+1322,1321,Calle 1321,General Enrique Mosconi - Entre Mzas. 218 Y 219
+1323,1322,Pasaje 1322,Mario Abel Amaya - Entre Mzas. 75 Y 76
+1324,1323,Pasaje 1323,Mario Abel Amaya - Entre Mzas. 77 Y 78
+1325,1324,Pasaje 1324,Mario Abel Amaya - Entre Mzas. 64 Y 77
+1326,1325,Pasaje Peatonal 1325,General Enrique Mosconi - Entre Mzas. 26 Y 113 (Pcia.)
+1327,1326,Calle 1326,General Enrique Mosconi - Entre Parcelas 63 Y 65 - Mzo. 115
+1328,1327,Calle 1327,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1329,1328,Calle 1328,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1330,1329,Calle 1329,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1331,1330,Calle 1330,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1332,1331,Calle 1331,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1333,1332,Calle 1332,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1334,1333,Calle 1333,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1335,1334,Calle 1334,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1336,1335,Calle 1335,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1337,1336,Calle 1336,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1338,1337,Calle 1337,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1339,1338,Calle 1338,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1340,1339,Calle 1339,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1341,1340,Calle 1340,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1342,1341,Calle 1341,"Humberto Beghin - Mzas. 242 A 253 - ""Freile"""
+1343,1342,Pasaje Peatonal 1342,"San Cayetano - Entre Mzas. 68, 113 Y 118"
+1344,1343,Calle 1343,San Cayetano - Noroeste Mza. 41
+1345,1344,Calle 1344,Acceso Sur - Entre Mzas. 15 Y 18 (Pcia.)
+1346,1345,Calle 1345,Parque Industrial Comodoro Riv. - Entre Mza. 31 Y Fracción 21
+1347,1346,Calle 1346,Acceso Sur - Entre Lotes 7 Y 6 (Parcelas 38 Y 37 - Pcia.)
+1348,1347,Calle 1347,"Acceso Sur - Entre Parcelas 74, 92, 67 Y 72"
+1349,1348,Pasaje Peatonal 1348,Maximo Abasolo - Entre Mzas. 141 Y 142
+1350,1349,Pasaje Peatonal 1349,Doctor Quirno Costa - Entre Mzas. 39 Y 24
+1351,1350,Pasaje Peatonal 1350,Doctor Quirno Costa - Entre Mzas. 24 Y 14
+1352,1351,Calle 1351,Stella Maris - Entre Mzas. 32 Y 911 (Mza.12 - Pcia.)
+1353,1352,Calle 1352,Stella Maris - Entre Mzas. 910 (Mza. 11 Pcia) Y 33
+1354,1353,Calle 1353,Stella Maris - Entre Mzas. 174 Y 175
+1355,1354,Calle 1354,Stella Maris - Entre Mzas. 176 Y 177
+1356,1355,Pasaje Peatonal 1355,General Enrique Mosconi - Entre Mzas. 100 Y 116 (Pcia.)
+1357,1356,Calle 1356,General Enrique Mosconi - Entre Mzas. 31 Y 35
+1358,1357,Pasaje Peatonal 1357,General Enrique Mosconi - Entre Mzas. 32 Y 58 (Pcia.)
+1359,1358,Pasaje Peatonal 1358,General Enrique Mosconi - Entre Mzas. 32 Y 33
+1360,1359,Pasaje Peatonal 1359,General Enrique Mosconi - Entre Mzas. 33 Y 34
+1361,1360,Calle 1360,Acceso Sur - Oeste Parcela 74
+1362,1361,Calle 1361,Stella Maris - Entre Mza 261 Y Mzo 161
+1363,1362,Calle 1362,Stella Maris - Entre Mzo 161 Y Mza 262
+1364,1363,Calle 1363,Stella Maris - Entre Mzas 261 Y 263
+1365,1364,Calle 1364,Stella Maris - Sudeste Mza 263
+1366,1365,Calle 1365,"Chacras ""Oeste"" - Entre Mza 243 Y Parcela 275"
+1367,1366,Calle 1366,"Chacras ""Oeste"" - Entre Mzas 243 Y 242"
+1368,1367,Avenida 1367,Acceso Sur - Oeste Mzas 152 A 160
+1369,1368,Calle 1368,Acceso Sur - Entre Mzas 158 Y 159
+1370,1369,Calle 1369,Acceso Sur - Entre Mzas 154 Y 158
+1371,1370,Calle 1370,Acceso Sur - Entre Mzas 154 A 160
+1372,1371,Calle 1371,Acceso Sur - Entre Mzas 154 Y 155
+1373,1372,Calle 1372,Acceso Sur - Entre Parcelas 20 Y 21
+1374,1373,Calle 1373,"Chacras ""Los Tres Pinos"" - Entre Mzo 85 Y Mza 135"
+1375,1374,Calle 1374,"Chacras ""Los Tres Pinos"" - Entre Mza 121 Y Mzo 87"
+1376,1375,Calle 1375,"Chacras ""Los Tres Pinos"" - Entre Mza 122 Y Mzo 87"
+1377,1376,Calle 1376,"Chacras ""Los Tres Pinos"" - Entre Mzas 122 A 124"
+1378,1377,Calle 1377,"Chacras ""Los Tres Pinos"" - Entre Mzas 123 Y 125"
+1379,1378,Calle 1378,"Chacras ""Los Tres Pinos"" - Entre Mzas 125 A 127"
+1380,1379,Calle 1379,"Chacras ""Los Tres Pinos"" - Entre Mzas 126, 127 Y Parcela 36"
+1381,1380,Calle 1380,"Chacras ""Los Tres Pinos"" - Entre Mzas 124, 122 Y Mzo 87"
+1382,1381,Calle 1381,"Chacras ""Los Tres Pinos"" - Entre Mzas 123 A 125"
+1383,1382,Calle 1382,"Chacras ""Los Tres Pinos"" - Entre Mzas 123, 125, 127 Y 128"
+1384,1383,Calle 1383,Bella Vista Sur - Macizo 4
+1385,1384,Calle 1384,"Chacras ""Oeste"" - Entre Mzas 254 Y 255"
+1386,1385,Calle 1385,"Acceso Sur - Chacras ""Sur"""
+1387,1386,Calle 1386,General Enrique Mosconi - Entre Mzo 100 Y Mza 107  (Pcia.)
+1388,1501,"Cervantes Saavedra , Miguel De",Presidente Roberto M. Ortiz
+1389,1502,"Fernandez Moreno , Baldomero",Presidente Roberto M. Ortiz
+1390,1503,"Marti , Jose",Presiente Roberto M. Ortiz
+1391,1504,"Benavente , Jacinto",Presidente Roberto M. Ortiz
+1392,1505,La Patria,Presidente Roberto M. Ortiz
+1393,1506,"Paz , General",Presidente Roberto M. Ortiz
+1394,1507,"Beiro , Francisco",Presidente Roberto M. Ortiz
+1395,1508,"Lozada , Saluztio",Presidente Roberto M. Ortiz
+1396,1509,"Del Campo , Estanislao",Presidente Roberto M. Ortiz
+1397,1510,"Conesa , General",Presidente Roberto M. Ortiz
+1398,1511,Estacion Diadema Argentina,Presidente Roberto M. Ortiz
+1399,1512,"Güiraldes , Ricardo",Presidente Roberto M. Ortiz
+1400,1513,Estacion Empalme Astra,Presidente Roberto M. Ortiz
+1401,1514,"Mistral , Gabriela",Presidente Roberto M. Ortiz
+1402,1515,Segurola,Presidente Roberto M. Ortiz
+1403,1516,Estacion Talleres,Presidente Roberto M. Ortiz
+1404,1517,Alvarez Jonte,Presidente Roberto M. Ortiz
+1405,1518,"Storni , Alfonsina",Presidente Roberto M. Ortiz
+1406,1519,"Rojas , Ricardo",Presidente Roberto M. Ortiz
+1407,1520,"Larreta , Enrique",Presidente Roberto M. Ortiz
+1408,1521,Lope de Vega,Presidente Roberto M. Ortiz
+1409,1522,"Galetto de Abad , Margarita",Presidente Roberto M. Ortiz
+1410,1523,"Perea , Edmundo",Presidente Roberto M. Ortiz
+1411,1524,Estacion Holdich,Presidente Roberto M. Ortiz
+1412,1525,Estacion Cañadon Lagarto,Presidente Roberto M. Ortiz
+1413,1526,Nazca,Presidente Roberto M. Ortiz
+1414,1527,Gaona,Presidente Roberto M. Ortiz
+1415,1528,Ferrocarril Patagonico,Presidente Roberto M. Ortiz
+1416,1529,Reconquista,Presidente Roberto M. Ortiz
+1417,1530,Del Parque,Presidente Roberto M. Ortiz - Las Orquideas
+1418,1531,Soldado Argentino,Las Orquideas
+1419,1532,"Sanfedele , Felix",Las Orquideas
+1420,1533,Los Inmigrantes,Las Orquideas
+1421,1534,Ferrocarril General Urquiza,Presidente Roberto M. Ortiz
+1422,1535,Ferrocarril General San Martin,Presidente Roberto M. Ortiz
+1423,1536,"Barcelo , Jose Osvaldo",Presidente Roberto M. Ortiz
+1424,1537,"Alustiza , Oscar Doctor",Presidente Roberto M. Ortiz
+1425,1538,Ferrocarril General Mitre,Presidente Roberto M. Ortiz
+1426,1539,"Fernandez , Virgilio",Presidente Roberto M. Ortiz
+1427,1540,Ferrocarril General Roca,Presidente Roberto M. Ortiz
+1428,1541,Ferrocarril General Belgrano,Presidente Roberto M. Ortiz
+1429,1542,Estacion Valle Hermoso,Presidente Roberto M. Ortiz
+1430,1543,"Colciago , Antonio",Presidente Roberto M. Ortiz
+1431,1544,"Uroz , Rafael",Presidente Roberto M. Ortiz
+1432,1545,"Mendoza , Felix",Presidente Roberto M. Ortiz
+1433,1546,Ferrocarriles Argentinos,Presidente Roberto M. Ortiz
+1434,1547,Salguero,Presidente Roberto M. Ortiz
+1435,1548,"Gutierrez , Ricardo",Presidente Roberto M. Ortiz
+1436,1549,"Ingenieros , Jose",Presidente Roberto M. Ortiz
+1437,1550,"Hornos , General",Presidente Roberto M. Ortiz
+1438,1551,"Garcia Lorca , Federico",Presidente Roberto M. Ortiz
+1439,1552,"Calderon de La Barca , Pedro",Presidente Roberto M. Ortiz
+1440,1553,"Casas Noblega , Rosa",Presidente Roberto M. Ortiz
+1441,1554,"Grossari , Juan",Presidente Roberto M .Ortiz
+1442,1555,Los Patagonicos,Presidente Roberto M. Ortiz
+1443,1556,Dean Funes,Las Orquideas
+1444,1557,"Humphreys , Florencio",Las Orquideas
+1445,1558,Puerto Argentino,Presidente Roberto M. Ortiz
+1446,1559,Pavon,Presidente Roberto M. Ortiz
+1447,1560,Arenales,Presidente Roberto M. Ortiz
+1448,1561,Maria Santisima,Presiente Roberto M. Ortiz
+1449,1562,El Autovia,Presidente Roberto M. Ortiz
+1450,1563,"Varas , Estanislao",Presidente Roberto M. Ortiz
+1451,1564,"Sahdi , Alfredo",Las Orquideas
+1452,1565,"Cabezas , Eduardo",Las Orquideas
+1453,1566,"Molina Campos , Florencio",Las Orquideas
+1454,1567,"Rollan , Benjamin",Las Orquideas
+1455,1568,Santamaria,Las Orquideas
+1456,1569,Los Petroleros,Las Orquideas
+1457,1570,"Valeff , Antonio",Las Orquideas
+1458,1571,Los Ferroviarios,Las Orquideas
+1459,1572,"Diaz , Celedonio",Las Orquideas
+1460,1573,Los Sargentos,Las Orquideas
+1461,1574,"Cortazar , Julio",Las Orquideas
+1462,1575,23 de Septiembre,Las Orquideas
+1463,1576,"Terraza , Baldomero",Las Orquideas
+1464,1577,"Zabalo , Juan",Las Orquideas
+1465,1578,4 de Noviembre,Las Orquideas
+1466,1579,Los Boyeros,Presidente Roberto M. Ortiz
+1467,1580,"Cambareri , Jose",Presidente Roberto M. Ortiz
+1468,1581,"Matosin , Luis Rene",Presidente Roberto M. Ortiz
+1469,1582,"Garcia Marcet , Juan",Presidente Roberto M. Ortiz
+1470,1583,"Trifonoff , Teodoro",Presidente Roberto M. Ortiz
+1471,1584,"Granzon , Pedro",Las Orquideas
+1472,1585,"Esciolaza , Roman",Las Orquideas
+1473,1586,"Gonzalez Basaldua , Luis Alberto",Las Orquideas
+1474,1587,Pasaje 1587,Presidente Roberto M. Ortiz - Mza. 43
+1475,1588,Calle 1588,Presidente Roberto M. Ortiz - Mza. 1 Y 15 - Sec. 3
+1476,1589,Calle 1589,Presidente Roberto M. Ortiz - Entre Mza. 96 Y 28 (Pcia.)
+1477,1590,Calle 1590,"Presidente Roberto M. Ortiz - Noroeste Mzo. 8 (""Usina"")"
+1478,1591,"Fontanarrosa , Roberto",Presidente Roberto M. Ortiz
+1479,1592,"Contreras , Antonio",Presidente Roberto M. Ortiz
+1480,1593,"Rodriguez Gallardo , Alfredo",Presidente Roberto M. Ortiz
+1481,1594,"Cesarini , Humberto Rodolfo",Presidente Roberto M. Ortiz
+1482,1595,"Salva , Isidro Don",Presidente Roberto M. Ortiz
+1483,1596,"Vernet , Luis",Presidente Roberto M. Ortiz
+1484,1597,"Agüero , Edmundo Epifanio",Presidente Roberto M. Ortiz
+1485,1598,"Chavez , Sergio",Presidente Roberto M. Ortiz
+1486,1599,Caldas,Presidente Roberto M. Ortiz
+1487,1600,Calle 1600,Presidente R. M. Ortiz - Entre Albergue Universitario Y Quintas
+1488,1601,Pasaje 1601,Presidente Roberto M. Ortiz - Oeste Mza. 15 - Sector 3
+1489,1602,"Rain , Jorge Omar",Presidente Roberto M. Ortiz
+1490,1603,"Rodriguez , Daniel",Presidente Roberto M. Ortiz
+1491,1604,Calle 1604,Presidente Roberto M. Ortiz - Entre Mza. 87 Y Mzo. 88
+1492,1605,Calle 1605,Presidente Roberto M. Ortiz - Noreste Mza. 52 - Sector 2
+1493,1606,Calle 1606,Presidente Roberto M. Ortiz - Mzo. 98
+1494,1607,"Casamiquela , Rodolfo",Presidente Roberto M. Ortiz
+1495,1608,"Varas , Manuel",Presidente Roberto M. Ortiz
+1496,1609,"Torres , Carmelo",Presidente Roberto M. Ortiz
+1497,1610,Calle 1610,"Presidente R.M. Ortiz - Entre Mza. 63 Y 64 - Ex Ev , Sector 2"
+1498,1611,"Quiliñan , Fermin",Presidente Roberto M. Ortiz
+1499,1612,"Nuñez de Narvaez , Viola",Presidente Roberto M. Ortiz
+1500,1613,"Desimone , Ernesto Julio",Presidente Roberto M. Ortiz
+1501,1614,"Carrizo , Leopoldo",Presidente Roberto M. Ortiz
+1502,1615,"Cherenichenko , Fedora",Presidente Roberto M. Ortiz
+1503,1616,"Gonzalez , Ortilio O. Comisario General",Presidente Roberto M. Ortiz
+1504,1617,"Vergara , Carolina",Presidente Roberto M. Ortiz
+1505,1618,"Arizabalo , Bautista",Presidente Roberto M. Ortiz
+1506,1619,"Vera Peñaloza , Rosario",Las Orquideas
+1507,1620,"Alfonsin , Presidente Raul Ricardo",Presidente Roberto M. Ortiz - Don Bosco
+1508,1621,"Paez , Rodolfo",Presidente Roberto M. Ortiz
+1509,1622,"Veleff , Andres",Presidente Roberto M. Ortiz
+1510,1623,"Cordoba , Froilan",Presidente Roberto M. Ortiz
+1511,1624,"Aleman , Etelvina",Presidente Roberto M. Ortiz
+1512,1625,Calle 1625,Presidente Roberto M. Ortiz - Entre Mzas. 67 Y 68
+1513,1626,"Mateff , Mateo",Presidente Roberto M. Ortiz
+1514,1627,"Roberts , Dominciano",Presidente Roberto M. Ortiz
+1515,1628,Juan del Puente,Las Orquideas
+1516,1629,Calle 1629,"Las Orquideas - "" Extensión 1 """
+1517,1630,Calle 1630,"Las Orquideas - "" Extensión 1 """
+1518,1631,Calle 1631,"Las Orquideas - "" Extensión 1 """
+1519,1632,Calle 1632,"Las Orquideas - "" Extensión 1 """
+1520,1633,Calle 1633,"Las Orquideas - "" Extensión 1 """
+1521,1634,Calle 1634,"Las Orquideas - "" Extensión 1 """
+1522,1635,"Orive , Andres",Las Orquideas
+1523,1636,La Luisa,Las Orquideas
+1524,1637,"Bassi , Renee Angela",Las Orquideas
+1525,1638,"Silva de Bakirdgis , Gregoria",Las Orquideas
+1526,1639,Calle 1639,"Las Orquideas - "" Extensión 1 """
+1527,1640,"Quinquela Martin , Benito",Las Orquideas
+1528,1641,"Hernandez , Salustio",Presidente Roberto M. Ortiz
+1529,1642,"Bautista , Antonia",Presidente Roberto M. Ortiz
+1530,1643,"Peralta , Cirilo",Presidente Roberto M. Ortiz
+1531,1644,"Da Cruz Ponte , Juan Felix",Presidente Roberto M. Ortiz
+1532,1645,"Uroz , Diego",Presidente Roberto M. Ortiz
+1533,1646,"Zarate , Elba",Presidente Roberto M. Ortiz
+1534,1647,"Uria , Noemi",Presidente Roberto M. Ortiz
+1535,1648,"Nacer , Rodolfo",Presidente Roberto M. Ortiz
+1536,1649,"Casares , Justa Josefa",Presidente Roberto M. Ortiz
+1537,1650,"Robledo , Emilse",Presidente Roberto M. Ortiz
+1538,1651,"Fernandez , Antonio",Presidente Roberto M. Ortiz
+1539,1652,"Giacoponi , Franca",Presidente Roberto M. Ortiz
+1540,1653,"Montoya , Maria Filomena",Presidente Roberto M. Ortiz
+1541,1654,"Ruiz , Jose Patricio",Presidente Roberto M. Ortiz
+1542,1655,"Bruscoli , Flavio",Presidente Roberto M. Ortiz
+1543,1656,"Curan , Hugo",Presidente Roberto M. Ortiz
+1544,1657,"Ochoa , Celia",Presidente Roberto M. Ortiz
+1545,1658,"Fiorani , Fiorella",Presidente Roberto M. Ortiz
+1546,1659,"Hernandez , Americo",Presidente Roberto M. Ortiz
+1547,1660,"Roberts , Marcos",Presidente Roberto M. Ortiz
+1548,1661,"Bautista , Juan Manuel",Presidente Roberto M. Ortiz
+1549,1662,"Boyer , Carlos Hector",Presidente Roberto M. Ortiz
+1550,1663,"Soto , Segundo",Presidente Roberto M. Ortiz
+1551,1664,"Galeano , Pedro",Presidente Roberto M. Ortiz
+1552,1665,Calle 1665,Presidente Roberto M. Ortiz - Entre Parcelas 5 Y 10 (C.4 - S.10)
+1553,1666,Calle 1666,Presidente Roberto M. Ortiz - Noreste Mza. 3 - Sector 1
+1554,1667,Calle 1667,Presidente Roberto M. Ortiz - Noreste Mza. 52 - Sector 2
+1555,1668,Calle 1668,Presidente Roberto M. Ortiz - Noreste Mza. 52 - Sector 2
+1556,1669,Calle 1669,"Las Orquideas - "" Extensión 2 """
+1557,1670,Calle 1670,"Las Orquideas - "" Extensión 2 """
+1558,1671,Calle 1671,"Las Orquideas - "" Extensión 2 """
+1559,1672,Calle 1672,"Las Orquideas - "" Extensión 2 """
+1560,1673,Pasaje 1673,Presidente Roberto M. Ortiz - Mza. 31 - Sector 2
+1561,1674,Los Pumas,Presidente Roberto M. Ortiz
+1562,1675,Los Flamencos,Presidente Roberto M. Ortiz
+1563,1676,Los Cormoranes,Presidente Roberto M. Ortiz
+1564,1677,Los Albatros,Presidente Roberto M. Ortiz
+1565,1678,Los Zorros,Presidente Roberto M. Ortiz
+1566,1679,Las Bandurrias,Presidente Roberto M. Ortiz
+1567,1680,Los Gorriones,Presidente Roberto M. Ortiz
+1568,1681,Los Cauquenes,Presidente Roberto M. Ortiz
+1569,1682,Lobo Marino,Presidente Roberto M. Ortiz
+1570,1683,Los Pingüinos,Presidente Roberto M. Ortiz
+1571,1684,Los Choiques,Presidente Roberto M. Ortiz
+1572,1685,Los Teros,Presidente Roberto M. Ortiz
+1573,1686,Calle 1686,Las Orquideas - Entre Mzas. 174 Y 173
+1574,1687,Calle 1687,Las Orquideas - Entre Mzas. 173 Y 172
+1575,1688,Calle 1688,Las Orquideas - Entre Mzas. 172 Y 171
+1576,1689,Calle 1689,Las Orquideas - Entre Mzas. 171 Y 170
+1577,1690,Calle 1690,Las Orquideas - Norte Mzas. 169 A 171
+1578,1691,Calle 1691,"Las Orquideas - Entre Mzas. 169 , 172 Y 173"
+1579,1692,Calle 1692,"Las Orquideas - Entre Mzas. 168 , 169 Y 174"
+1580,1693,Las Liebres,Presidente Roberto M. Ortiz
+1581,1694,Los Delfines,Presidente Roberto M. Ortiz
+1582,1695,Calle 1695,Presidente Roberto M. Ortiz - Entre Mzo. 98 Y Mza. 180
+1583,1696,"Irigaray de Clarke , Irene",Presidente Roberto M. Ortiz
+1584,1697,Pasaje 1697,Presidente Roberto M. Ortiz - Mza. 193 - En Trámite
+1585,1698,Pasaje 1698,Presidente Roberto M. Ortiz - Mza. 193 - En Trámite
+1586,1699,Calle 1699,Presidente Roberto M. Ortiz - Entre Mza. 193 Y Mzo. 98
+1587,1700,"Gomez , Norberto",Presidente Roberto M. Ortiz
+1588,1701,"Azcuenaga , Miguel De",Prospero Palazzo
+1589,1702,"Matheu , Domingo",Prospero Palazzo
+1590,1703,"Larrea , Juan",Prospero Palazzo
+1591,1704,"Sarratea , Manuel De",Prospero Palazzo
+1592,1705,"Candelaria , Luis Teniente",Prospero Palazzo
+1593,1706,"Cross , Ricardo",Prospero Palazzo
+1594,1707,"Zanni , Pedro Capitan",Prospero Palazzo
+1595,1708,"Torrent , Gustavo Cadete",Prospero Palazzo
+1596,1709,"Tesso , Arturo",Prospero Palazzo
+1597,1710,"Davies , Tomas Observador",Prospero Palazzo
+1598,1711,"Ortiz , Rocio Escribano",Prospero Palazzo
+1599,1712,Fuerza Aerea Argentina,Prospero Palazzo
+1600,1713,"Marambio , Vicecomodoro",Prospero Palazzo
+1601,1714,Lituania,Prospero Palazzo
+1602,1715,Güemes,Prospero Palazzo
+1603,1716,Yapeyu,Prospero Palazzo
+1604,1717,Nuestra Señora de Loreto,Prospero Palazzo
+1605,1718,Reconquista,Prospero Palazzo
+1606,1719,"Vanesia , Gerardo J. L. Teniente",Prospero Palazzo
+1607,1720,"Alvarez , Teniente",Prospero Palazzo
+1608,1721,"Garcia , Capitan",Prospero Palazzo
+1609,1722,"Bolivar , Simon",Prospero Palazzo
+1610,1723,"Varando , Alferez",Prospero Palazzo
+1611,1724,"Mermoz , Jean",Prospero Palazzo
+1612,1725,Saint Exupery,Prospero Palazzo
+1613,1726,"Almonacid , Vicente",Prospero Palazzo
+1614,1727,Antartida Argentina,Prospero Palazzo
+1615,1728,"Lazo , Auxiliar",Prospero Palazzo
+1616,1729,Cruz del Sur,Prospero Palazzo
+1617,1730,Balcarce,Prospero Palazzo
+1618,1731,"Medina , Cabo 1º",Prospero Palazzo
+1619,1732,Las Heras,Prospero Palazzo
+1620,1733,"Orione , Felix Teniente",Prospero Palazzo
+1621,1734,"Matienzo , Benjamin Teniente",Prospero Palazzo
+1622,1735,1º de Noviembre,Prospero Palazzo
+1623,1736,"Cambaceres , Luro",Prospero Palazzo
+1624,1737,"Muñoz , Jorge Vicecomodoro",Prospero Palazzo
+1625,1738,"Gonzalez , Capitan",Prospero Palazzo
+1626,1739,Lineas Aereas del Estado,Prospero Palazzo
+1627,1740,Victoria,Prospero Palazzo
+1628,1741,"Merlo , Teniente",Prospero Palazzo
+1629,1742,San Lorenzo,Prospero Palazzo
+1630,1743,Junin,Prospero Palazzo
+1631,1744,Ayacucho,Prospero Palazzo
+1632,1745,"Paso , Juan Jose",Prospero Palazzo
+1633,1746,"Fels , Teodoro",Prospero Palazzo
+1634,1747,Ushuaia,Prospero Palazzo
+1635,1748,Alas Argentinas,Prospero Palazzo
+1636,1749,"Lavalle , Juan General",Prospero Palazzo
+1637,1750,"Zarate , Hipolito",Prospero Palazzo
+1638,1751,"Andreff , Trifon",Prospero Palazzo
+1639,1752,"Sarto , Capitan",Prospero Palazzo
+1640,1753,"Gonzalez , Mariano Doctor",Prospero Palazzo
+1641,1754,Calle 1754,Prospero Palazzo - Fracción D Y E
+1642,1755,Calle 1755,Prospero Palazzo - Fracción D Y E
+1643,1756,Calle 1756,Prospero Palazzo - Fracción D Y E
+1644,1757,"Escalante , Juan Victor",Prospero Palazzo
+1645,1758,"Maldonado , Jose",Prospero Palazzo
+1646,1759,"Villegas , Jose Eliecer",Prospero Palazzo
+1647,1760,"Contreras , Roque",Prospero Palazzo
+1648,1761,"Cardenas Miranda , Francisco",Prospero Palazzo
+1649,1762,"Huenchucheo , Ramon",Prospero Palazzo
+1650,1763,"Sandoval , Jose",Prospero Palazzo
+1651,1764,"Perez Salazar , Amin",Prospero Palazzo
+1652,1765,"Chacoma , Gerardo",Prospero Palazzo
+1653,1766,"Arancibia , Javier",Prospero Palazzo
+1654,1767,"Z'birka , Francisca",Prospero Palazzo
+1655,1768,Calle 1768,Prospero Palazzo - Sur Mzas. 161 A 165
+1656,1769,Calle 1769,Prospero Palazzo - Entre Las Mzas. 164 Y 165
+1657,1770,Calle 1770,Prospero Palazzo - Noroeste Mzas. 161 A 166
+1658,1771,Calle 1771,Prospero Palazzo - Entre Mzas 161 Y 162
+1659,1772,Calle 1772,Prospero Palazzo - Entre Mzas 162 Y 163
+1660,1773,Calle 1773,Prospero Palazzo - Entre Mzas 163 Y 165
+1661,1774,Calle 1774,Prospero Palazzo - Entre Mzas 165 Y 166
+1662,1775,Calle 1775,Prospero Palazzo - Entre Mzas 166 A 167
+1663,1776,Calle 1776,Prospero Palazzo - Entre Mzas 175 A 176
+1664,1777,Calle 1777,Prospero Palazzo - Extensión Sur Cancha de Palazzo
+1665,1778,Calle 1778,Prospero Palazzo - Extensión Sur Cancha de Palazzo
+1666,1779,Calle 1779,Prospero Palazzo - Extensión Sur Cancha de Palazzo
+1667,1780,Calle 1780,"Prospero Palazzo - Entre Mzas. S, 89, 118 Y 119"
+1668,1781,Calle 1781,"Prospero Palazzo - Entre Mzas. 118, 119 Y Parcelas 16 A 21"
+1669,1782,Calle 1782,Prospero Palazzo - Entre Mza. 118 Y Parcela 15
+1670,1783,Calle 1783,Prospero Palazzo - Entre Mzas. 118 Y 119
+1671,1784,Calle 1784,Prospero Palazzo - Este Mzas. 89 Y 119
+1672,1785,Calle 1785,Prospero Palazzo - Entre Mzas. 189 Y 193
+1673,1786,Calle 1786,Prospero Palazzo - Noroeste Cementerio
+1674,1787,Calle 1787,Las Orquideas - Entre Mzas. 196 Y 90
+1675,1788,Calle 1788,Prospero Palazzo - Entre Mzas. 123 Y 122
+1676,1789,Calle 1789,Prospero Palazzo - Sudoeste Mzo. 180
+1677,1790,Calle 1790,Las Orquideas - Oeste Mza. 162
+1678,1791,Calle 1791,Las Orquideas - Norte Mza. 162
+1679,1792,Calle 1792,Prospero Palazzo - Entre Mzas. 198 Y Mza. 84 (Pcia.)
+1680,1793,Calle 1793,Prospero Palazzo - Este Mza. 70
+1681,1794,Pasaje 1794,Presidente Roberto M. Ortiz - Entre Mzas. 31 Y 32
+1682,1795,Calle 1795,Presidente Roberto M. Ortiz - Entre Mza. 7 Y Mzo. 8
+1683,1796,Calle 1796,Presidente Roberto M. Ortiz - Sudoeste Mza. 7
+1684,1797,Calle 1797,Presidente Roberto M. Ortiz - Sur Mzo. 8
+1685,1798,Pasaje Peatonal 1798,Presidente Roberto M. Ortiz - Noreste Mzas. 6 Y 7
+1686,1799,Calle 1799,Presidente Roberto M. Ortiz - Norte Mza. 3
+1687,1800,Calle 1800,Presidente Roberto M. Ortiz - Sur Mza. 56
+1688,1801,Pasaje 1801,Presidente Roberto M. Ortiz - Entre Mzas. 56 Y 57
+1689,1802,Calle 1802,Presidente Roberto M. Ortiz - Este Mza. 105  (C.4. - S.10)
+1690,1803,Calle 1803,Presidente Roberto M. Ortiz - Norte Mza. 105  (C.4 - S.10)
+1691,1804,Calle 1804,Presidente Roberto M. Ortiz - Entre Mzas. 114 A 117  (C.4-S.10)
+1692,1805,Calle 1805,Presidente Roberto M. Ortiz - Entre Mzas. 112 A 121  (C.4-S.10)
+1693,1806,Calle 1806,Presidente Roberto M. Ortiz - Entre Mzas. 118 A 122  (C.4-S.10)
+1694,1807,Calle 1807,Presidente Roberto M. Ortiz - Sur Mzas. 118 A 122  (C.4-S.10)
+1695,1808,Calle 1808,Presidente Roberto M. Ortiz - Entre Mzas. 112 Y 113  (C.4-S.10)
+1696,1809,Calle 1809,Presidente Roberto M. Ortiz - Entre Mzas. 113 A 122  (C.4-S.10)
+1697,1810,Calle 1810,Presidente Roberto M. Ortiz - Entre Mzas. 114 A 122  (C.4-S.10)
+1698,1901,"Pizarro , Francisco",Ciudadela
+1699,1902,Constitucion,Ciudadela
+1700,1903,El Tobiano,Ciudadela
+1701,1904,Cerro Catedral,Ciudadela
+1702,1905,El Tronador,Ciudadela
+1703,1906,"Hernandez , Jose",Ciudadela
+1704,1907,Fitz Roy,Ciudadela
+1705,1908,Pucara,Ciudadela
+1706,1909,Tupungato,Ciudadela
+1707,1910,Aconcagua,Ciudadela
+1708,1911,Gorriti,Ciudadela
+1709,1912,Colegiales,Ciudadela
+1710,1913,Pico Salamanca,Ciudadela
+1711,1914,1º de Mayo,Ciudadela
+1712,1915,Independencia,Ciudadela
+1713,1916,Los Alerces,Ciudadela
+1714,1917,Los Andes,Ciudadela
+1715,1918,Calle 1918,Gasoducto - Oeste Mza. 84
+1716,1919,El Arriero,Ciudadela
+1717,1920,El Ovejero,Ciudadela
+1718,1921,El Domador,Ciudadela
+1719,1922,La Pulperia,Ciudadela
+1720,1923,El Baqueano,Ciudadela
+1721,1924,"Burgueño , Juan Carlos",Ciudadela
+1722,1925,"Gomez , Francisco",Ciudadela
+1723,1926,El Payador,Ciudadela
+1724,1927,La Tradicion,Ciudadela
+1725,1928,El Chasqui,Ciudadela
+1726,1929,Cancha Rayada,Gasoducto
+1727,1930,America,Gasoducto
+1728,1931,Los Incas,Gasoducto
+1729,1932,"Vidal , Ramiro",Gasoducto
+1730,1933,"Martinez , Eladio",Gasoducto
+1731,1934,"Deipenau , Federico",Gasoducto
+1732,1935,"Gallegos , Gregorio",Gasoducto
+1733,1936,"Kosoblik , Pedro",Gasoducto
+1734,1937,"Condinanzo , Carlos",Gasoducto
+1735,1938,"Lazarte , Domingo",Gasoducto
+1736,1939,"Bonafine , Melina",Gasoducto
+1737,1940,"Cretton , Armando",Ciudadela
+1738,1941,"Santos Villegas , Juan",Gasoducto
+1739,1942,"Rodriguez , Mario",Gasoducto
+1740,1943,Calle 1943,Ara San Juan - Sur Mzas. 112 Y 113
+1741,1944,Calle 1944,Ara San Juan - Entre Mzas. 113 Y 111
+1742,1945,Calle 1945,Ara San Juan - Entre Mzas. 108 A 111 Y Norte Mzas. 261 A 266
+1743,1946,Calle 1946,Ara San Juan - Este Mzas. 113 Y 111
+1744,1947,Calle 1947,Ara San Juan - Entre Mzas. 112 Y 113
+1745,1948,Calle 1948,Ara San Juan - Entre Mzas. 110 Y 109
+1746,1949,Calle 1949,Ara San Juan - Oeste Mza. 109
+1747,1950,Calle 1950,Ara San Juan - Oeste Mza. 264
+1748,1951,Calle 1951,Ara San Juan - Entre Mzas. 264 Y 265
+1749,1952,Calle 1952,Ara San Juan - Entre Mzas. 265 Y 266
+1750,1953,Calle 1953,Ara San Juan - Entre Mzas. 266 Y 261
+1751,1954,Calle 1954,Ara San Juan - Entre Mzas. 261 Y 262
+1752,1955,Calle 1955,Ara San Juan - Este Mza. 262
+1753,1956,Calle 1956,Ara San Juan - Sudeste Mzas. 261 Y 262
+1754,1957,Calle 1957,Padre Juan Corti - Sector Sudoeste Mza. A
+1755,1958,Calle 1958,Ciudadela - Este Mza. 66
+1756,1959,Calle 1959,Ciudadela - Sur Mza. 66
+1757,1960,Calle 1960,Ciudadela - Entre Mzas. 65 Y 66
+1758,1961,Calle 1961,Ciudadela - Oeste Mza. 65
+1759,1962,Calle 1962,Ciudadela - Sur Mza. 64
+1760,1963,La Tropilla,Ciudadela
+1761,1964,Bahia Solano,Padre Juan Corti
+1762,1965,Cerro Hermitte,Padre Juan Corti
+1763,1966,Cerro Tres Cruces,Padre Juan Corti
+1764,1967,Cerro Mercedario,Padre Juan Corti
+1765,1968,Cerro Cazadero,Padre Juan Corti
+1766,1969,Puerto Visser,Padre Juan Corti
+1767,1970,Cerro El Condor,Padre Juan Corti
+1768,1971,Cerro La Plata,Padre Juan Corti - Ciudadela
+1769,1972,Cerro Ojos del Salado,Padre Juan Corti
+1770,1973,Monte Pissis,Padre Juan Corti
+1771,1974,Cerro Torre,Padre Juan Corti
+1772,1975,Cerro Domuyo,Padre Juan Corti
+1773,1976,Cerro El Dedal,Padre Juan Corti - Ciudadela
+1774,1977,Cerro Monje,Ciudadela
+1775,1978,Calle 1978,Gasoducto - Entre Mza. 268 Y 73
+1776,1979,Calle 1979,Gasoducto - Este Mza. 73
+1777,1980,Calle 1980,Gasoducto - Sur Parcela 5
+1778,1981,Calle 1981,Gasoducto - Oeste Mza. 300
+1779,1982,El Rastreador,Ciudadela
+1780,1983,El Paisano,Ciudadela
+1781,1984,Calle 1984,"Chacras - ""Faldeo Cerro"" - Norte Mzos. 283 A 286"
+1782,1985,Calle 1985,"Chacras - ""Faldeo Cerro"" - Norte Mzos. 275 A 279"
+1783,1986,Calle 1986,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 281 Y 282"
+1784,1987,Calle 1987,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 280 Y 286"
+1785,1988,Calle 1988,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 278 Y 279"
+1786,1989,Calle 1989,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 285 Y 286"
+1787,1990,Calle 1990,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 284 Y 285"
+1788,1991,Calle 1991,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 275 Y 276"
+1789,1992,Calle 1992,"Chacras - ""Faldeo Cerro"" - Entre Mzos. 283 Y 284"
+1790,1993,Calle 1993,"Chacras - ""Faldeo Cerro"" - Entre Mzo. 283 Y Mzas. 252 Y 253"
+1791,1994,"Genta , Francisco",Gasoducto
+1792,1995,Calle 1995,Padre Juan Corti - Sudeste Mza. 67
+1793,1996,Calle 1996,Ara San Juan - Este Mzas. 312 Y 313
+1794,1997,Calle 1997,Ara San Juan - Sudeste Mza. 306
+1795,1998,Calle 1998,Ciudadela - Sudeste Mza. 96
+1796,1999,Calle 1999,Ara San Juan - Entre Mzas. 263 Y 267
+1797,2000,Calle 2000,Prospero Palazzo - Sur Parcela 20
+1798,2001,Nueva York,Laprida
+1799,2002,Rio de Janeiro,Laprida
+1800,2003,Caracas,Laprida
+1801,2004,Mejico,Laprida
+1802,2005,Santiago,Laprida
+1803,2006,Honduras,Laprida
+1804,2007,Nicaragua,Laprida
+1805,2008,La Habana,Laprida
+1806,2009,Costa Rica,Laprida
+1807,2010,Paysandu,Laprida
+1808,2011,Cuzco,Laprida
+1809,2012,Acapulco,Laprida
+1810,2013,Sucre,Laprida
+1811,2014,Jamaica,Laprida
+1812,2015,Valparaiso,Laprida
+1813,2016,Managua,Laprida
+1814,2017,Peru,Laprida
+1815,2018,El Salvador,Laprida
+1816,2019,Ecuador,Laprida
+1817,2020,Madrid,Laprida
+1818,2021,Haiti,Laprida
+1819,2022,Guatemala,Laprida
+1820,2023,Bahia,Laprida
+1821,2024,Panama,Laprida
+1822,2025,Colombia,Laprida
+1823,2026,Quito,Laprida
+1824,2027,Montevideo,Laprida
+1825,2028,Paraguay,Laprida
+1826,2029,Republica Dominicana,Laprida
+1827,2030,Cadiz,Laprida
+1828,2031,La Paz,Laprida
+1829,2032,Martinica,Laprida
+1830,2033,Brasilia,Laprida
+1831,2034,Alaska,Laprida
+1832,2035,Lima,Laprida
+1833,2036,Bogota,Laprida
+1834,2037,Antofagasta,Laprida
+1835,2038,Cuba,Laprida
+1836,2039,Washington,Laprida
+1837,2040,Otawa,Laprida
+1838,2041,Potosi,Laprida
+1839,2042,Chuquisaca,Laprida
+1840,2043,Cali,Laprida
+1841,2044,"Navarro , Dionisio Estanislao",Laprida
+1842,2045,Tinogasta,Laprida
+1843,2046,"Troncoso , Jorge",Laprida
+1844,2047,"Peralta , Horacio",Laprida
+1845,2048,Pasaje Peatonal 2048,Laprida - Mza. 51
+1846,2049,Pasaje 2049,Laprida - Entre Mzas. 64 Y 65
+1847,2050,"Matias , Jesus",Laprida
+1848,2051,"Perea , Domingo",Laprida
+1849,2052,"Ivanovich , Saberio",Laprida
+1850,2053,"Koening , Ignacio",Laprida
+1851,2054,Calle 2054,Laprida - Este Mza. 98
+1852,2055,Calle 2055,Laprida - Este 93
+1853,2056,Calle 2056,Laprida - Entre Mzas. 9 Y 77 (Pcia.)
+1854,2057,Pasaje Peatonal 2057,Laprida - Entre Mzas. 57 Y 61
+1855,2201,"Pozas , Juan",Saavedra
+1856,2202,El Amancay,Saavedra
+1857,2203,Los Alamos,Saavedra
+1858,2204,Los Alerces,Saavedra
+1859,2205,El Ombu,Saavedra
+1860,2206,Rauli,Saavedra
+1861,2207,Las Araucarias,Saavedra
+1862,2208,Las Acacias,Saavedra
+1863,2209,Los Ceibos,Saavedra
+1864,2210,El Algarrobo,Saavedra
+1865,2211,Los Cedros,Saavedra
+1866,2212,Los Aromos,Saavedra
+1867,2213,Del Pinar,Saavedra
+1868,2214,Los Robles,Saavedra
+1869,2215,Los Rosales,Saavedra
+1870,2216,Los Tamariscos,Saavedra
+1871,2217,Los Sauces,Saavedra
+1872,2218,Las Lengas,Saavedra
+1873,2219,Los Ñires,Saavedra - Nuestra Señora de La Divina Providencia
+1874,2220,"Almiron , Jose Sixto",Saavedra
+1875,2221,Calle 2221,Saavedra - Norte Mza. 35
+1876,2222,Calle 2222,Saavedra - Sur Parcela 11 Y Mza. 66
+1877,2223,Calle 2223,"Saavedra - Entre Mzas. 63, 64, 65 Y 66"
+1878,2224,Calle 2224,Saavedra - Norte Mzas. 63 A 65
+1879,2225,"Arienti , Fabian",Saavedra
+1880,2226,Calle 2226,Saavedra - Entre Mzas. 65 Y 64
+1881,2227,Calle 2227,Saavedra - Entre Mzas. 64 Y 63
+1882,2228,Calle 2228,Saavedra - Este Mza. 63
+1883,2229,Calle 2229,Saavedra - Entre Mzas. 36 Y 35
+1884,2230,Calle 2230,Saavedra - Mza. 35
+1885,2231,"Esteban , Alfonso",Saavedra
+1886,2232,Calle 2232,Saavedra - Entre Mzas. 69 Y 74
+1887,2233,Calle 2233,Saavedra - Entre Mza. 69 Y Mzo. 71
+1888,2234,Calle 2234,Saavedra - Este Mza. 180
+1889,2235,Calle 2235,Saavedra - Entre Mzas. 179 Y 180
+1890,2236,Pasaje Peatonal 2236,Saavedra - Entre Parcelas 104 A 109
+1891,2237,Pasaje Peatonal 2237,Saavedra - Entre Mzas. 121 Y 144
+1892,2238,Calle 2238,Saavedra - Entre Mzas. 36 Y 37
+1893,2239,Pasaje 2239,Saavedra - Entre Mzas. 32 Y 33
+1894,2240,Calle 2240,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1895,2241,Calle 2241,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1896,2242,Calle 2242,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1897,2243,Calle 2243,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1898,2244,Calle 2244,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1899,2245,Calle 2245,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1900,2246,Calle 2246,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1901,2247,Calle 2247,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1902,2248,Calle 2248,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1903,2249,Calle 2249,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1904,2250,Calle 2250,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1905,2251,Calle 2251,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1906,2252,Calle 2252,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1907,2253,Calle 2253,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1908,2254,Calle 2254,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1909,2255,Calle 2255,"Chacras - ""Ampliación Urbana - Planicie del Cerro"""
+1910,2301,"Maiz , Alejandro",Don Bosco
+1911,2302,"Adaraz , Juan Jose Teniente",Don Bosco
+1912,2303,"Bordon , Hector R. Soldado",Don Bosco
+1913,2304,"Santos Discepolo , Enrique",Don Bosco
+1914,2305,"Girondo , Oliverio",Don Bosco
+1915,2306,"Gonzalez Tunon , Raul",Don Bosco
+1916,2307,"Borsella , Donald",Don Bosco
+1917,2308,"Ruiz Guiñazu , Luis",Don Bosco
+1918,2309,Cardenal Sammore,Standard Norte
+1919,2310,"Lamarque , Antonio",Don Bosco
+1920,2311,"Larreguy , Guillermo",Don Bosco
+1921,2312,"Hernandez , Felicidad",Don Bosco
+1922,2313,"Moreno , Julio",Don Bosco
+1923,2314,"Carles , Fernando General",Don Bosco
+1924,2315,"Gimenez , Miguel A. Teniente",Don Bosco
+1925,2316,"Irbalucea , Jorge R. Teniente",Don Bosco
+1926,2317,"Franzoni , Oreste",Don Bosco
+1927,2318,"Ardiles , Jose L. 1º Teniente",Don Bosco
+1928,2319,"Montaño , Agustin Cabo 1º",Don Bosco
+1929,2320,"Varas , Hector H. Cabo 1º",Don Bosco
+1930,2321,"Sosa Toledo , Juana Doña",Don Bosco
+1931,2322,"Castillo , Carlos Teneinte",Don Bosco
+1932,2323,"Alam , Jose",Don Bosco
+1933,2324,"Pichl , Diego",Don Bosco
+1934,2325,"Costa , Manuel",Don Bosco
+1935,2326,"Baños , Jose M.",Don Bosco
+1936,2327,"Raggio , Armando General",Don Bosco
+1937,2328,"Luna , Mario Soldado",Don Bosco
+1938,2329,"Vazquez , Alfredo J. Alferez",Don Bosco
+1939,2330,"Aguirre , Hector W. Soldado",Don Bosco
+1940,2331,"Carrizo , Miguel A. Cabo 1º",Don Bosco
+1941,2332,"Lastra , Julio J. Suboficial Principal",Don Bosco
+1942,2333,"Marizza , Guido A. Suboficial Auxiliar",Don Bosco
+1943,2334,"Jukic , Daniel A. Teniente",Don Bosco
+1944,2335,Base Sobral,Don Bosco
+1945,2336,Base Matienzo,Don Bosco
+1946,2337,Base Teniente Camara,Don Bosco
+1947,2338,Base Melchior,Don Bosco
+1948,2339,Base Irizar,Don Bosco
+1949,2340,Base General Belgrano,Don Bosco
+1950,2341,Base Esperanza,Don Bosco
+1951,2342,Base Decepcion,Don Bosco
+1952,2343,Base Almirante Brown,Don Bosco
+1953,2344,Base Marambio,Don Bosco
+1954,2345,Base Petrel,Don Bosco
+1955,2346,Gaucho Rivero,Don Bosco
+1956,2347,"Dell'oro , Italo",Don Bosco - Standard Sur
+1957,2348,"Señior , Eduardo P. Ingeniero",Standard Sur
+1958,2349,"Cosandier , Roger E. Ingeniero",Standard Sur
+1959,2350,"Pratt , Miguel",Standard Sur
+1960,2351,"Bruno , Reynaldo",Standard Sur
+1961,2352,"Moll de Milton , Sofia",Standard Sur
+1962,2353,"Nicolau , Cristo",Standard Sur
+1963,2354,"Sousa Parreira , Jose De",Standard Sur
+1964,2355,"Perez , Serafin",Standard Sur
+1965,2356,"Viegas , Americo",Standard Sur
+1966,2357,"Petroff , Teodoro",Standard Sur
+1967,2358,"Strasser , Hugo J. Ingeniero",Standard Sur
+1968,2359,"Rios , Manuel Raul",Standard Sur
+1969,2360,8 de Diciembre,Standard Norte - Gobernador Fontana
+1970,2361,"Quiroga , Juan Facundo",Standard Norte
+1971,2362,"Pacheco , Alberto",Standard Norte
+1972,2363,"Saufal , Federico Ingeniero",Standard Norte
+1973,2364,"Pozzi , Eulogio",Standard Norte
+1974,2365,"Fernandez , Odilio",Standard Sur
+1975,2366,"Mujica Lainez , Manuel",Standard Norte
+1976,2367,30 de Octubre,Standard Norte
+1977,2368,"Zuñiga , Ignacio",Standard Norte
+1978,2369,"Encina , Roque Raul Doctor",Standard Norte
+1979,2370,"Rivadavia , Martin Comodoro",Gobernador Fontana - Standard Norte
+1980,2371,Punta Borjas,Gobernador Fontana
+1981,2372,"Murga , Julian",Gobernador Fontana
+1982,2373,"Darwin , Carlos",Gobernador Fontana
+1983,2374,"Escalante , Wenceslao",Gobernador Fontana
+1984,2375,"Hermite , Enrique",Gobernador Fontana
+1985,2376,"Krause , Julio Ingeniero",Gobernador Fontana
+1986,2377,"Melzi , Calixto",Gobernador Fontana
+1987,2378,"Pietrobelli , Francisco",Gobernador Fontana
+1988,2379,"Alcazaba , Simon De",Gobernador Fontana
+1989,2380,"Calatrava , Francisco",Don Bosco
+1990,2381,"Dahinten , Claus Doctor",Don Bosco
+1991,2382,"Morales , Leopoldo",Don Bosco
+1992,2383,"Contreras , Gustavo Bombero",Don Bosco
+1993,2384,"Pigafetta , Francisco Antonio",Gobernador Fontana
+1994,2385,Padre Arcemo Guerra,Don Bosco
+1995,2386,Laguna Blanca,Standard Norte
+1996,2387,Bosques Petrificados,Standard Norte
+1997,2388,Iguazu,Standard Norte
+1998,2389,Los Glaciares,Standard Norte
+1999,2390,Los Arrayanes,Standard Norte
+2000,2391,El Palmar,Standard Norte
+2001,2392,Nahuel Huapi,Standard Norte
+2002,2393,"Reales , Margarita del Carmen",Gobernador Fontana - Standard Norte
+2003,2394,"Ramos , Cristobal",Don Bosco
+2004,2395,"San Pedro , Damian",Don Bosco
+2005,2396,"Mandarano , Ameli Concepcion",Don Bosco
+2006,2397,Calle 2397,Don Bosco - Sector 21 - Entre Mzas. 26 Y 27
+2007,2398,"Ureña , Raul",Don Bosco
+2008,2399,"Montoya Rodriguez , Manuel",Don Bosco
+2009,2400,"Mitrovich , Simon",Don Bosco
+2010,2401,"Carballo , Baldomero",Don Bosco
+2011,2402,Calle 2402,Don Bosco - Sector 21 - Entre Mzas. 6 Y 7
+2012,2403,Calle 2403,Don Bosco - Sector 21 - Entre Mzas. 7 Y 8
+2013,2404,Calle 2404,Don Bosco - Sector 21 - Entre Mzas. 8 Y 72
+2014,2405,"Orakowski , Estanislao",Don Bosco
+2015,2406,Calle 2406,Don Bosco - Sector 21 - Entre Mzas. 1 Y 2
+2016,2407,"Garcia , Nicolas Daniel",Don Bosco
+2017,2408,Calle 2408,Don Bosco - Sector 21 - Entre Mzas. 5 Y 6
+2018,2409,"Perez , Raul Esteban",Don Bosco
+2019,2410,"Cherenichenko , Nicolas",Don Bosco
+2020,2411,"Chaparro , Domingo",Don Bosco
+2021,2412,"Ramos Cortes , Antonio",Don Bosco
+2022,2413,"Leonori , Miguel",Don Bosco
+2023,2414,"Barros , Osvaldo Concejal",Don Bosco
+2024,2415,"Ivanovich , Emilio",Don Bosco
+2025,2416,"Burazer , Petar",Don Bosco
+2026,2417,Calle 2417,Don Bosco - Sector 13 - Este Mza. 10
+2027,2418,"Viegas , Jose",Don Bosco
+2028,2419,"Behr , Jose Augusto",Don Bosco
+2029,2420,"Segnini , Juan Bautista",Don Bosco
+2030,2421,"Teschuk , Miguel Vladimiro",Don Bosco
+2031,2422,"Siddi , Giovanni",Don Bosco
+2032,2423,"Villafañe , Gregorio",Don Bosco
+2033,2424,"Avicich , Iso",Don Bosco
+2034,2425,"Lopez , Jose Fenoy",Don Bosco
+2035,2426,Pehuen,Standard Norte
+2036,2427,El Condor,Standard Norte
+2037,2428,Los Coihues,Standard Norte
+2038,2429,"Rodriguez , Luis Alberto",Gobernador Fontana
+2039,2430,Calle 2430,Gobernador Fontana - Mza. 38 Y 39
+2040,2431,"Gonzalez , Juan Bombero",Don Bosco
+2041,2432,"Sadowski , Estanislao",Don Bosco
+2042,2433,"Garcia , Rodolfo",Don Bosco - Standard Norte
+2043,2434,"Lisazu , Rafael Andres Cabo 1º",Don Bosco
+2044,2435,"Gubicz , Juan",Don Bosco
+2045,2436,"Gonzalez , Baltazar Sargento",Don Bosco
+2046,2437,"Pacheco , Francisco",Standard Norte - Don Bosco
+2047,2438,Calle 2438,Don Bosco - Sector 22 - Noreste Mzas. 1 A 9
+2048,2439,"Frydlewics , Casimiro",Standard Sur - Gobernador Fontana
+2049,2440,"Hughes de Chain , Doris",Don Bosco
+2050,2441,"Martins Viegas , Ricardo",Don Bosco
+2051,2442,"Zacharco , Eugenio",Don Bosco
+2052,2443,"Pylypczuck , Juan",Don Bosco
+2053,2444,"Frkovic , Jose",Don Bosco
+2054,2445,"Rosas Martins , Buenaventura",Don Bosco
+2055,2446,Calle 2446,Don Bosco - Entre Mza. 2 Y 3
+2056,2447,Calle 2447,Don Bosco - Norte Mza. 2
+2057,2448,"Zupanovic , Benedicto",Don Bosco
+2058,2449,"Peric , Hector Raul",Don Bosco
+2059,2450,"Barrera , Rita",Don Bosco
+2060,2451,Padre Demofilo Fernandez,Don Bosco
+2061,2452,"Lopez , Aniceto Enfermero",Don Bosco
+2062,2453,"Michaud , Emilio Doctor",Don Bosco
+2063,2454,"Zobenir , Aburto",Don Bosco
+2064,2455,Aoniken,Standard Norte
+2065,2456,Foye,Standard Norte
+2066,2457,Los Huemules,Standard Norte
+2067,2458,Llao Llao,Standard Norte
+2068,2459,Copihue,Standard Norte
+2069,2460,Las Maras,Standard Norte
+2070,2461,Pircum,Standard Norte
+2071,2462,El Coiron,Standard Norte
+2072,2463,Kintral,Standard Norte
+2073,2464,Neneo,Standard Norte
+2074,2465,Calle 2465,Standard Norte - Entre Mzas. 93 Y 95
+2075,2466,Calle 2466,Standard Norte - Sudoeste Mzas. 94 A 96
+2076,2467,Calle 2467,Standard Norte - Sudoeste Mza. 101
+2077,2468,Calle 2468,Gobernador Fontana - Entre Mzas. 98 Y 100
+2078,2469,"Budimir , Esteban",Don Bosco
+2079,2470,Pasaje 2470,"Don Bosco - Norte Mza. 92-A - ""Quintas"""
+2080,2471,Pasaje 2471,Don Bosco - Mzo. 86
+2081,2472,"Fernandez , Jose ""Fernandito""",Don Bosco
+2082,2473,Calle 2473,Don Bosco - Entre Mzo. 17 Y Mza. 130 - (Circ. 4 - Sector 9)
+2083,2474,Calle 2474,Don Bosco - Sudoeste Mza. 130 - (Circ. 4 - Sector 9)
+2084,2475,"Castro , Hilda Estela",Standard Sur
+2085,2476,"Guillen , Luis",Standard Norte
+2086,2477,Calle 2477,"Don Bosco - Norte Mza. 131 Y 132 - C.4 , S.9"
+2087,2478,Calle 2478,"Don Bosco - Sudoeste Mza. 131 - C.4 , S.9"
+2088,2479,Calle 2479,"Don Bosco - Entre Mza. 131 Y 132 - C.4 , S.9"
+2089,2480,Calle 2480,"Don Bosco - Sudoeste Mza. 132 - C.4 , S.9"
+2090,2481,Calle 2481,"Don Bosco - Sudeste Mza. 132 - C.4 , S.9"
+2091,2482,Departamento Gaiman,Don Bosco
+2092,2483,Departamento LanguiñEo,Don Bosco
+2093,2484,Sierra Rosada,Don Bosco
+2094,2485,Departamento Paso De Indios,Don Bosco
+2095,2486,"De Sousa , Bento Silvestre",Don Bosco
+2096,2487,"Viegas Valagao , Francisco",Don Bosco
+2097,2488,"Nassi , Alfredo",Don Bosco
+2098,2489,"Vidal , Jose",Don Bosco
+2099,2490,"Ciria , Irene",Don Bosco
+2100,2491,"Calandra , Aurelio",Don Bosco
+2101,2492,"Haro , Margarita",Don Bosco
+2102,2493,Departamento Futaleufu,Don Bosco
+2103,2494,Departamento Martires,Don Bosco
+2104,2495,Departamento Biedma,Don Bosco
+2105,2496,"Gago , Joaquin Matias",Don Bosco
+2106,2497,Calle 2497,Don Bosco - Entre Mzas. 127 Y 128
+2107,2498,Calle 2498,Don Bosco - Sudeste Mzas. 189 A 191
+2108,2499,Calle 2499,Don Bosco - Noreste Mza. 191
+2109,2500,Calle 2500,Standard Sur - Oeste Mza. 2 (Ahora 54)
+2110,2501,Lago Buenos Aires,Diadema Argentina
+2111,2502,Lago Puelo,Diadema Argentina
+2112,2503,Lago Quiroga,Diadema Argentina
+2113,2504,Lago Futalaufquen,Diadema Argentina
+2114,2505,Lago Belgrano,Diadema Argentina
+2115,2506,Lago Posadas,Diadema Argentina
+2116,2507,Lago San Martin,Diadema Argentina
+2117,2508,Lago Mascardi,Diadema Argentina
+2118,2509,Lago Argentino,Diadema Argentina
+2119,2510,Lago Cisne,Diadema Argentina
+2120,2511,Lago Viedma,Diadema Argentina
+2121,2512,Lago Pueyrredon,Diadema Argentina
+2122,2513,Lago Lacar,Diadema Argentina
+2123,2514,Lago Vintter,Diadema Argentina
+2124,2515,Lago Colhue Huapi,Diadema Argentina
+2125,2516,Lago Ghio,Diadema Argentina
+2126,2517,Lago Rivadavia,Diadema Argentina
+2127,2518,Lago Cardiel,Diadema Argentina
+2128,2519,Lago Musters,Diadema Argentina
+2129,2520,Lago Epuyen,Diadema Argentina
+2130,2521,Lago Fagnano,Diadema Argentina
+2131,2522,Lago Rico,Diadema Argentina
+2132,2523,Arroyo Esquel,Diadema Argentina
+2133,2524,Rio Hielo,Diadema Argentina
+2134,2525,Rio Lepa,Diadema Argentina
+2135,2526,Rio Carrenleufu,Diadema Argentina
+2136,2527,Rio Grande,Diadema Argentina
+2137,2528,Rio Gallegos,Diadema Argentina
+2138,2529,Rio Deseado,Diadema Argentina
+2139,2530,Rio Arrayanes,Diadema Argentina
+2140,2531,Rio Turbio,Diadema Argentina
+2141,2532,Rio Corcovado,Diadema Argentina
+2142,2533,Rio Senguer,Diadema Argentina
+2143,2534,Rio Pinturas,Diadema Argentina
+2144,2535,Rio Chico,Diadema Argentina
+2145,2536,Rio Azul,Diadema Argentina
+2146,2537,Rio Frey,Diadema Argentina
+2147,2538,Rio Negro,Diadema Argentina
+2148,2539,Rio La Plata,Diadema Argentina
+2149,2540,Rio Percy,Diadema Argentina
+2150,2541,Rio Chubut,Diadema Argentina
+2151,2542,Rio Limay,Diadema Argentina
+2152,2543,Rio Colorado,Diadema Argentina
+2153,2544,Rio Corintos,Diadema Argentina
+2154,2545,Rio Coyle,Diadema Argentina
+2155,2546,Rio Santa Cruz,Diadema Argentina
+2156,2547,Rio Alerces,Diadema Argentina
+2157,2548,Rio Barrancas,Diadema Argentina
+2158,2549,Lago Fontana,Diadema Argentina
+2159,2550,Calle 2550,Diadema Argentina - Mza. 42 Y 43
+2160,2551,Calle 2551,Diadema Argentina - Mza. 41 Y 42
+2161,2552,Calle 2552,Diadema Argentina - Entre Mza. 70 Y 71
+2162,2553,Santa Teresa de Avila,Diadema Argentina
+2163,2554,Calle 2554,Acceso Noroeste 4 - Entre Mzas. 43 Y 44
+2164,2555,Calle 2555,Acceso Noroeste 4 - Entre Mzas. 42 Y 43
+2165,2556,Calle 2556,Acceso Noroeste 4 - Entre Mzas. 41 Y 42
+2166,2557,Calle 2557,Acceso Noroeste 4 - Entre Mzas. 40 Y 41
+2167,2558,Calle 2558,Acceso Noroeste 4 - Entre Mzas. 39 Y 40
+2168,2559,Calle 2559,"Acceso Noroeste 4 - Entre Mzas. 45, 51 Y 46, 52"
+2169,2560,Calle 2560,Acceso Noroeste 4 - Noreste Mza. 36
+2170,2561,Calle 2561,Acceso Noroeste 4 - Noreste Mzas. 33 A 38
+2171,2562,Calle 2562,Acceso Noroeste 4 - Entre Mzas. 45 A 52
+2172,2563,Calle 2563,Acceso Noroeste 4 - Noroeste Mza. 45
+2173,2564,Calle 2564,Acceso Noroeste 4 - Sur Mzas. 51 Y 52
+2174,2601,"Dentino , Oscar",Manantial Rosales
+2175,2602,"Morales , Eduardo",Manantial Rosales
+2176,2603,"Do Brito , Jose",Manantial Rosales
+2177,2604,"Blachakis , Jorge",Manantial Rosales
+2178,2605,"Frydlewics , Mieczyslaw",Manantial Rosales
+2179,2606,"Aleman , Juana",Manantial Rosales
+2180,2607,"Avila , Jose",Manantial Rosales
+2181,2608,"Ulloa , Raul",Manantial Rosales
+2182,2609,"Andrade , Ana",Manantial Rosales
+2183,2610,"Alvarado , Jose",Manantial Rosales
+2184,2611,"Zerbo , Pedro",Manantial Rosales
+2185,2612,"Dias , Antonio",Manantial Rosales
+2186,2613,"Morales , Atilio",Manantial Rosales
+2187,2614,"Norte , Manuel",Manantial Rosales
+2188,2615,"Pino , Guillermo",Manantial Rosales
+2189,2616,"Aguilar , Ana",Manantial Rosales
+2190,2617,"Almonacid , Braulio",Manantial Rosales
+2191,2618,"Lopez , Antonio",Manantial Rosales
+2192,2619,"Cardenas , Pedro",Manantial Rosales
+2193,2620,"Aguilar , Guillermo",Manantial Rosales
+2194,2621,"Rios , Lizardo",Manantial Rosales
+2195,2622,"Perez , Serafin",Manantial Rosales
+2196,2623,Calle 2623,Manantial Rosales - Noreste Fracción 1
+2197,2624,Calle 2624,Manantial Rosales - Sudeste Mza. 2
+2198,2625,Calle 2625,Manantial Rosales - Sur Mza. 63
+2199,2626,Calle 2626,Manantial Rosales - Entre Fracción 4 Y Mza. 65
+2200,2627,Calle 2627,Manantial Rosales - Entre Mzas. 19 Y 66
+2201,2628,Calle 2628,Manantial Rosales - Noroeste Mza. 66
+2202,2629,Calle 2629,Manantial Rosales - Este Mza. 67
+2203,2630,Calle 2630,Manantial Rosales - Sur Mza. 70
+2204,2631,Calle 2631,Manantial Rosales - Norte Mza. 70
+2205,2632,Calle 2632,Manantial Rosales - Este Mza. 70
+2206,2633,Calle 2633,Manantial Rosales - Oeste Mza. 70
+2207,2634,Calle 2634,Manantial Rosales - Noreste Mza. 58
+2208,2635,Calle 2635,Manantial Rosales - Noroeste Mza. 58
+2209,2636,Calle 2636,Manantial Rosales - Sudoeste Mza. 58
+2210,2637,Calle 2637,Sarmiento - Entre Mzo. 147 Y Mza. 21
+2211,2638,Calle 2638,Sarmiento - Norte Mzo. 147
+2212,2639,Calle 2639,Sarmiento - Sur Mzas. 148 Y 149
+2213,2640,Calle 2640,Sarmiento - Entre Mzas. 76 Y 148
+2214,2641,Calle 2641,"Sarmiento - Oeste Mzas. 75, 76 Y 148"
+2215,2642,"Solevski , Santos",Nicolas Rodriguez Peña
+2216,2643,Calle 2643,Nicolas Rodriguez Peña - Suroeste Mza. 142
+2217,2644,Calle 2644,Nicolas Rodriguez Peña - Norte Parc. 10 Y 12 - Mzo. 145
+2218,2645,Calle 2645,Manantial Rosales - Este Mzo. 71
+2219,2646,Calle 2646,Sarmiento - Entre Mzas. 155 Y 154
+2220,2647,Calle 2647,Sarmiento - Entre Mzas. 154 Y 153
+2221,2648,Calle 2648,Sarmiento - Oeste Mzas. 152 A 154
+2222,2649,Calle 2649,Sarmiento - Este Mzas. 152 A 154
+2223,2650,Camino de La Virgen del Valle,Laprida -Manantial Rosales -Sarmiento -Güemes -J.J. Castelli
+2224,2651,Calle 2651,Nicolas Rodriguez Peña - Entre Mzas. 224 A 227
+2225,2652,Calle 2652,Nicolas Rodriguez Peña - Entre Mzas. 225 Y 226
+2226,2653,Calle 2653,Nicolas Rodriguez Peña - Oeste Mzas. 224 Y 225
+2227,2654,Calle 2654,Nicolas Rodriguez Peña - Norte Mza. 225
+2228,2655,Pasaje 2655,"Nicolas Rodriguez Peña - Entre Mzas. 227, 69 Y 228, 70"
+2229,2656,Calle 2656,Manantial Rosales - Oeste Mza. 72
+2230,2657,Calle 2657,Manantial Rosales - Entre Mzas. 72 Y 73
+2231,2658,Calle 2658,Manantial Rosales - Entre Mzas. 73 Y 74
+2232,2659,Calle 2659,Manantial Rosales - Oeste Mza. 74
+2233,2660,Calle 2660,Manantial Rosales - Norte Mzas. 72 A 74
+2234,2661,Calle 2661,Manantial Rosales - Sur Mzas. 72 A 74
+2235,2662,Calle 2662,Manantial Rosales - Este Mzas. 75 Y 76
+2236,2663,Calle 2663,Juan Jose Castelli - Entre Mzas. 5 Y 1
+2237,2664,Calle 2664,Juan Jose Castelli - Entre Mzas. 3 Y 2
+2238,2665,Pasaje 2665,Nicolas Rodriguez Peña - Sudeste Mza. 62
+2239,2666,Pasaje 2666,Nicolas Rodriguez Peña - Sudoeste Mza. 62
+2240,2667,Calle 2667,Güemes - Este Mzas. 47 Y 49
+2241,2668,Calle 2668,Güemes - Oeste Mzas. 59 Y 48
+2242,2669,Pasaje Peatonal 2669,Sarmiento - Entre Mzas. 65 Y 66
+2243,2670,Calle 2670,Manantial Rosales - Noroeste Frac. 17 (Mza. 24 - Pcia.)
+2244,2671,Calle 2671,Manantial Rosales - Noreste Mza. 24 (Pcia.)
+2245,2672,Calle 2672,Manantial Rosales - Noreste Mza. 64 (Pcia.)
+2246,2673,Calle 2673,Nicolas Rodriguez Peña - Entre Fracción 101 Y Parcela 5 (Pcia.)
+2247,2674,Calle 2674,Juan Jose Castelli - Entre Mzas. 7 Y 8
+2248,2675,Calle 2675,Sarmiento - Entre Mzas. 156 Y 157
+2249,2676,Calle 2676,Sarmiento - Entre Mzas. 157 Y 158
+2250,2677,Calle 2677,Sarmiento - Norte Mza. 158
+2251,2678,Calle 2678,"Chacras ""Bella Vista Norte"" - Entre Parcelas 35 A 40"
+2252,2679,Calle 2679,Manantial Rosales - Sudeste Parcela 23
+2253,2680,Calle 2680,Sarmiento - Entre Mzas 165 A 168
+2254,2681,Calle 2681,Sarmiento - Entre Mzas 160 Y 161
+2255,2682,Calle 2682,Sarmiento - Entre Mzas 161 A 166
+2256,2683,Calle 2683,Sarmiento - Entre Mzas 164 A 168
+2257,2684,Calle 2684,Sarmiento - Entre Mzas 160 A 167
+2258,2685,Calle 2685,Sarmiento - Oeste Mzas 160 A 162
+2259,2701,Los Pescadores,Caleta Cordova
+2260,2702,"Villa , Julio",Caleta Cordova
+2261,2703,Punta Novales,Caleta Cordova
+2262,2704,"Garcia , Enrique",Caleta Cordova
+2263,2705,Del Mirador,Caleta Cordova
+2264,2706,Del Puerto,Caleta Cordova
+2265,2707,"Arroyo de Angel , Teresa",Caleta Cordova
+2266,2708,Calle 2708,Caleta Cordova - Norte Mza. 29
+2267,2709,"Gianotta , Rosario",Caleta Cordova
+2268,2710,El Faro,Caleta Cordova
+2269,2711,Las Barcazas,Caleta Cordova
+2270,2712,Los Marineros,Caleta Cordova
+2271,2713,Los Estibadores,Caleta Cordova
+2272,2714,"Antonio , Francisco",Caleta Cordova
+2273,2715,"Legaz , Fermin",Caleta Cordova
+2274,2716,"Cancio , Enrique",Caleta Cordova
+2275,2717,"Mato , Jose Antonio",Caleta Cordova
+2276,2718,"Julio , Roberto",Caleta Cordova
+2277,2719,El Golfo,Caleta Cordova
+2278,2720,El Ancla,Caleta Cordova
+2279,2721,Punta Pando,Caleta Cordova
+2280,2722,Supremacia,Caleta Cordova
+2281,2723,Estrella de Mar,Caleta Cordova
+2282,2724,El Triunfador,Caleta Cordova
+2283,2725,"Urrustarazu , Jose Luis",Caleta Cordova
+2284,2726,Calle 2726,Caleta Cordova - Entre Mzas. 16 Y 20
+2285,2727,Calle 2727,Caleta Cordova - Oeste Mza. 30
+2286,2728,Calle 2728,Caleta Cordova - Fracción 3
+2287,2729,Calle 2729,Caleta Cordova - Norte Mza. 28 - Plan de Viviendas
+2288,2730,Calle 2730,Caleta Cordova - Entre Mzas. 28 Y 29 - Plan de Viviendas
+2289,2731,Calle 2731,Caleta Cordova - Entre Mzas. 30 Y 29 - Plan de Viviendas
+2290,2732,Calle 2732,Caleta Cordova - Sudoeste Mza. 19
+2291,2733,Calle 2733,Caleta Cordova - Fracción 3
+2292,2734,Calle 2734,Caleta Cordova - Oeste Mza. 19
+2293,2735,Calle 2735,Caleta Cordova - Oeste Mza. 30
+2294,2736,Calle 2736,Caleta Cordova - Oeste Mza. 30
+2295,2737,Calle 2737,Caleta Cordova - Oeste Mza. 30
+2296,2738,Calle 2738,Caleta Cordova - Oeste Mza. 30
+2297,2739,Calle 2739,"Chacras - ""Mina Stephenson"" - Oeste Mzos. 6, 13, 22, 25, 30 Y 33"
+2298,2740,Calle 2740,"Chacras - ""Mina Stephenson"" - Sur Mzo. 33"
+2299,2741,Calle 2741,"Chacras - ""Mina Stephenson"" - Sudeste Mzos. 32 Y 33"
+2300,2742,Calle 2742,"Chacras - ""Mina Stephenson"" - Entre Mzos. 32 Y 33"
+2301,2743,Calle 2743,"Chacras - ""Mina Stephenson"" - Entre Mzos. 29-30 Y 32-33"
+2302,2744,Calle 2744,"Chacras - ""Mina Stephenson"" - Entre Mzos. 27 A 33"
+2303,2745,Calle 2745,"Chacras - ""Mina Stephenson"" - Entre Mzos. 29 Y 30"
+2304,2746,Calle 2746,"Chacras - ""Mina Stephenson"" - Entre Mzos. 26, 28 Y 29"
+2305,2747,Calle 2747,"Chacras - ""Mina Stephenson"" - Entre Mzos. 27 Y 28"
+2306,2748,Calle 2748,"Chacras - ""Mina Stephenson"" - Entre Mzos. 26, 27 Y 28"
+2307,2749,Calle 2749,"Chacras - ""Mina Stephenson"" - Entre Mzos. 25, 26 Y 30"
+2308,2750,Calle 2750,"Chacras - ""Mina Stephenson"" - Entre Mzos. 22 A 27"
+2309,2751,Calle 2751,"Chacras - ""Mina Stephenson"" - Entre Mzos. 23 Y 24"
+2310,2752,Calle 2752,"Chacras - ""Mina Stephenson"" - Entre Mzos. 22 Y 23"
+2311,2753,Calle 2753,"Chacras - ""Mina Stephenson"" - Ent. Mzos. 2 A 4, 12 A 17 Y 18 A 24"
+2312,2754,Calle 2754,"Chacras - ""Mina Stephenson"" - Entre Mzos. 16 Y 17"
+2313,2755,Calle 2755,"Chacras - ""Mina Stephenson"" - Entre Mzos. 9-10 Y 15-16"
+2314,2756,Calle 2756,"Chacras - ""Mina Stephenson"" - Entre Mzos. 7, 8, 9 Y 14-15"
+2315,2757,Calle 2757,"Chacras - ""Mina Stephenson"" - Entre Mzos. 6-8 Y 13-14"
+2316,2758,Calle 2758,"Chacras - ""Mina Stephenson"" - Entre Mzos. 5 A 10 Y 12 A 17"
+2317,2759,Calle 2759,"Chacras - ""Mina Stephenson"" - Entre Mzos. 10 Y 11"
+2318,2760,Calle 2760,"Chacras - ""Mina Stephenson"" - Noreste Mzos. 7, 9 Y 10"
+2319,2761,Calle 2761,"Chacras - ""Mina Stephenson"" - Noreste Mzos. 2 A 6  Y 8"
+2320,2762,Calle 2762,"Chacras - ""Mina Stephenson"" - Entre Mzos. 4, 5, 12 Y 20-21"
+2321,2763,Calle 2763,"Chacras - ""Mina Stephenson"" - Entre Mzos. 3-4 Y 19-20"
+2322,2764,Calle 2764,"Chacras - ""Mina Stephenson"" - Entre Mzos. 2-3 Y 18-19"
+2323,2765,Calle 2765,"Chacras - ""Mina Stephenson"" - Noreste Mzo. 1"
+2324,2766,Calle 2766,"Chacras - ""Mina Stephenson"" - Noroeste Mzos. 1 Y 2"
+2325,2767,Calle 2767,"Chacras - ""Mina Stephenson"" - Noroeste Mzo. 2"
+2326,2768,Calle 2768,Don Bosco - Entre Mzo. 1 Y Mza. 177
+2327,2769,Calle 2769,Don Bosco - Entre Mzas. 178 Y 179
+2328,2770,Calle 2770,Don Bosco - Entre Mzas. 176 A 180
+2329,2771,Calle 2771,Don Bosco - Entre Mzas. 183 Y 184
+2330,2772,Calle 2772,"Don Bosco - Entre Mzas. 181,182 Y 184 A 186"
+2331,2773,Calle 2773,Don Bosco - Sur Mzas. 185 A 187
+2332,2774,Calle 2774,Don Bosco - Entre Mzas. 182 A 186
+2333,2775,Calle 2775,"Don Bosco - Entre Mzas. 181, 182, 186 Y 187"
+2334,2801,"Mora , Dolores",Restinga Ali
+2335,2802,"Carriego , Ernesto",Restinga Ali
+2336,2803,"Ascasubi , Hilario",Restinga Ali
+2337,2804,"Bravo , Mario",Restinga Ali
+2338,2805,"Palma , Ricardo",Restinga Ali
+2339,2806,"Perez Galdos , Benito",Restinga Ali
+2340,2807,"Neruda , Pablo",Restinga Ali
+2341,2808,"Marechal , Leopoldo",Restinga Ali
+2342,2809,"Bello , Andres",Restinga Ali
+2343,2810,"Nervo , Amado",Restinga Ali
+2344,2811,"Alvarez , Jose Sixto",Restinga Ali
+2345,2812,"Becquer , Gustavo Adolfo",Restinga Ali
+2346,2813,"Hostos , Eugenio Maria De",Restinga Ali
+2347,2814,"Dario , Ruben",Restinga Ali
+2348,2815,"Marasso , Arturo",Restinga Ali
+2349,2816,Calle 2816,Restinga Ali - Sudeste Mzas. 29 Y 35
+2350,2817,Calle 2817,Restinga Ali - Entre Mzas. 28 Y 36
+2351,2818,Pasaje 2818,Restinga Ali - Entre Mzas. 40 Y 41
+2352,2819,Calle 2819,Restinga Ali - Oeste Mzas. 35 Y 36
+2353,2820,Calle 2820,"Restinga Ali - Sector Sin Mensura , Oeste Mzas. 35 Y 36"
+2354,2821,"Puschel , Hector Enrique",Don Bosco
+2355,2822,"Morejon , Mario Intendente",Don Bosco
+2356,2823,Calle 2823,Don Bosco - Norte Mzas. 101 A 104 (C. 4 - S. 5)
+2357,2824,"Milanic , Juan Boris",Don Bosco
+2358,2825,Calle 2825,"Restinga Ali - Don Bosco -Entre Mzas. 140, 141 Y Mzo. A"
+2359,2826,Calle 2826,Restinga Ali - Sur Mza. 141
+2360,2827,Calle 2827,Restinga Ali - Entre Mzas. 140 Y 141
+2361,2828,Calle 2828,Restinga Ali - Entre Mzas. 132 Y 133
+2362,2829,Calle 2829,"Don Bosco - Mzo. 1 , Entre Parcelas 18, 19 Y 20"
+2363,2830,"Kryniski , Oscar Eduardo",Don Bosco
+2364,2831,"Cudina , Natalio",Don Bosco
+2365,2832,Calle 2832,Don Bosco - Parcela 5
+2366,2833,Calle 2833,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2367,2834,Calle 2834,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2368,2835,Calle 2835,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2369,2836,Calle 2836,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2370,2837,Calle 2837,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2371,2838,Calle 2838,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2372,2839,Calle 2839,Don Bosco - Parcela 5 (C. 4 - S. 5)
+2373,2840,"Perez , Luis Alberto",Don Bosco
+2374,2841,"Dulewics , Stefan",Don Bosco
+2375,2842,"Calatrava , Manuel",Don Bosco
+2376,2843,"Correia , Joaquin",Don Bosco
+2377,2844,Calle 2844,Don Bosco - Entre Mzas. 152 Y 153
+2378,2845,Calle 2845,Don Bosco - Este Mzas. 154 Y 155
+2379,2846,"Lopez , Carlos Enrique Director",Don Bosco
+2380,2847,"Oyanarte , Raul Ramon",Don Bosco
+2381,2848,Calle 2848,Standard Sur - Entre Macizo 55 Y Mzo. 44 Y Mzas. 136 A 138
+2382,2849,Rio Lules,Standard Sur
+2383,2850,Rio Puelo,Standard Sur
+2384,2851,Rio Claro,Standard Sur
+2385,2852,Arroyo Apeleg,Standard Sur
+2386,2853,Rio Salado del Norte,Standard Sur
+2387,2854,Calle 2854,"Standard Sur - Entre Mzas. 134, 135, 138 Y Mzo. 44"
+2388,2855,Lago La Plata,Standard Sur
+2389,2856,Arroyo Leleque,Standard Sur
+2390,2857,Calle 2857,Don Bosco - Standard Norte - Entre Mzas. 9 Y 10
+2391,2858,Calle 2858,"Chacras - ""Loteo San Jorge"" - Entre Mzas. 14, 16, 20 Y Parcela 6"
+2392,2859,Calle 2859,"Chacras - ""Loteo San Jorge"" - Entre Mzas. 14 Y 15 - 16 Y 17"
+2393,2860,Calle 2860,"Chacras - ""Loteo San Jorge"" - Entre Mzas. 17 Y 18"
+2394,2861,Calle 2861,"Chacras - ""Loteo San Jorge"" - Entre Mzas. 18, 22 Y 23"
+2395,2862,Calle 2862,"Chacras - ""Loteo San Jorge"" - Entre Mzas. 20 A 23 Y Parcela 14"
+2396,2863,Calle 2863,"Chacras - ""Loteo San Jorge"" - Entre Mzas. 14 Y 16 - 15 Y 17"
+2397,2864,Calle 2864,Standard Norte - Sur Mzas. Sudoeste Mzas. 139 Y 140
+2398,2865,Calle 2865,Standard Norte - Entre Mzas. 139 Y 140
+2399,2866,Calle 2866,Standard Norte - Noroeste Mza. 139
+2400,2867,Calle 2867,Restinga Ali - Noreste Mza. 106
+2401,2868,Calle 2868,Restinga Ali - Este Mza. 106
+2402,2869,Pasaje 2869,Gobernador Fontana - Mzo. 143
+2403,2870,Calle 2870,Standard Sur - Norte Mza. 142
+2404,2871,Calle 2871,Don Bosco - Noroeste Mza. 142 (C.4 - S.7)
+2405,2872,Calle 2872,Don Bosco - Noroeste Mza. 142 (C.4 - S.7)
+2406,2873,"Giannotta , Jose",Don Bosco
+2407,2874,"Fenolle , Pascual",Don Bosco
+2408,2875,Calle 2875,Standard Norte - Entre Mzas. 30 Y 31
+2409,2876,"Matus , Juan Alejo",Don Bosco
+2410,2877,"Dias Sancho , Jose",Don Bosco
+2411,2878,"Casas , Esteban",Don Bosco
+2412,2879,Pasaje Peatonal 2879,Don Bosco - Entre Mzas. 100 Y 101
+2413,2880,"Gomez , Antonia Doña",Don Bosco
+2414,2881,"Salazar , Luis",Don Bosco
+2415,2882,Calle 2882,Don Bosco - Oeste Mza. 115 (C.4 - S.7)
+2416,2883,Calle 2883,Don Bosco - Este Mza. 231 (C.4 - S.9)
+2417,2884,Calle 2884,Don Bosco - Entre Mzas. 121 A 128
+2418,2885,"Silvestrini , Jose",Don Bosco
+2419,2886,Calle 2886,Standard Sur - Oeste Mza. 80
+2420,2887,"Gomez , Enrique Pedro",Don Bosco
+2421,2888,Pasaje 2888,Don Bosco - Entre Mzas. 79 Y 79a
+2422,2889,Calle 2889,"Don Bosco - Entre Mza. 20 Y Mzo. 17 (C.4 , S.7)"
+2423,2890,Calle 2890,"Don Bosco - Entre Mzos. 17 Y 18 (C.4 , S.7)"
+2424,2891,Pasaje 2891,Don Bosco - Entre Mzas. 78 Y 78a
+2425,2892,Pasaje 2892,Don Bosco - Entre Mzas. 86 Y 87
+2426,2893,Pasaje Peatonal 2893,Don Bosco - Entre Mza. 54a
+2427,2894,Calle 2894,"Don Bosco - Ex Cancha de ""Los Andes"" (Al Sur de La Parroquia)"
+2428,2895,Calle 2895,"Don Bosco - Ex Cancha de ""Los Andes"" (Al Sur de La Parroquia)"
+2429,2896,Calle 2896,"Don Bosco - Ex Cancha de ""Los Andes"" (Al Sur de La Parroquia)"
+2430,2897,Calle 2897,"Don Bosco - Ex Cancha de ""Los Andes"" (Al Sur de La Parroquia)"
+2431,2898,Calle 2898,"Don Bosco - Ex Cancha de ""Los Andes"" (Al Sur de La Parroquia)"
+2432,2899,Calle 2899,"Don Bosco - Ex Cancha de ""Los Andes"" (Al Sur de La Parroquia)"
+2433,2900,Calle 2900,Don Bosco - Este Mza. 88  (C. 4 - S. 7)
+2434,2901,"Matienzo , Jose Nicolas",Rodriguez Peña
+2435,2902,"Peña , Miguel",Nicolas Rodriguez Peña
+2436,2903,Alsina Mussaglia,Nicolas Rodriguez Peña
+2437,2904,"Mansilla , Lucio Victorio",Rodriguez Peña
+2438,2905,Crucero A.R.A. General Belgrano,Nicolas Rodriguez Peña
+2439,2906,Republica Argentina,Nicolas Rodriguez Peña
+2440,2907,"Oyuela , Calixto",Nicolas Rodriguez Peña
+2441,2908,"Gonzalez , Joaquin V.",Nicolas Rodriguez Peña
+2442,2909,"Calderon , Vicente",Nicolas Rodriguez Peña
+2443,2910,"Manzi , Homero",Nicolas Rodriguez Peña
+2444,2911,"Rivarola , Rodolfo",Nicolas Rodriguez Peña
+2445,2912,"Lucoff , Arsen",Nicolas Rodriguez Peña
+2446,2913,Virgen de Lourdes,Juan Jose Castelli
+2447,2914,"Rodriguez , Mariano",Juan Jose Castelli
+2448,2915,Formosa,Sarmiento
+2449,2916,Tucuman,Sarmiento
+2450,2917,Santa Fe,Sarmiento
+2451,2918,Entre Rios,Sarmiento
+2452,2919,Chubut,Sarmiento
+2453,2920,Buenos Aires,Sarmiento
+2454,2921,"Llamazares , Angel Agustin",Juan Jose Castelli
+2455,2922,Calle 2922,Juan Jose Castelli - Entre Mza. 3 Y 6
+2456,2923,"Diaz , Juan Primitivo",Juan Jose Castelli
+2457,2924,"Silva , Adrian F.",Juan Jose Castelli
+2458,2925,"Guaita , Rosalia Eulalia",Castelli
+2459,2926,"Blassetti , Mario Alberto",Castelli
+2460,2927,Calle 2927,Juan Jose Castelli - Sudoeste Mzas. 13 Y 16
+2461,2928,"Michunovich , Mirco",Juan Jose Castelli
+2462,2929,"Guerreiro , Joaquin",Juan Jose Castelli
+2463,2930,Calle 2930,Jose Castelli - Entre Mzas. 10 Y 16
+2464,2931,"Ferello , Roberto",Güemes
+2465,2932,"Suero , Tomas",Güemes
+2466,2933,"Piatnitzky , Alejandro",Güemes
+2467,2934,"Feruglio , Egidio",Güemes
+2468,2935,"Angelelli , Victorio",Güemes
+2469,2936,"Vosila , Norma Gladys",Juan Jose Castelli
+2470,2937,"Maliqueo , Florencio",Nicolas Rodriguez Peña
+2471,2938,"Pontecorvo , Enrique",Nicolas Rodriguez Peña
+2472,2939,"Cano , Valentin",Sarmiento
+2473,2940,"Palacios , Delfin",Sarmiento
+2474,2941,"Carrizo , Ariel",Sarmiento
+2475,2942,"Cortez , Regino",Sarmiento
+2476,2943,"Sanagua , Oscar",Sarmiento
+2477,2944,"Brizuela , Francisca",Sarmiento
+2478,2945,"Carrizo , Petrona De",Sarmiento
+2479,2946,"Zuluaga , Argelino",Sarmiento
+2480,2947,Calle 2947,Sarmiento
+2481,2948,"Quidiman , Ramon",Sarmiento
+2482,2949,"Vera , Sara De",Sarmiento
+2483,2950,"Antilipi , Marcelino",Sarmiento
+2484,2951,"Nieva , Ramon",Sarmiento
+2485,2952,"Lopez , Tulio",Sarmiento
+2486,2953,"Castro , Juan Isidro",Nicolas Rodriguez Peña
+2487,2954,"Galleguillos , Pedro",Nicolas Rodriguez Peña
+2488,2955,"Salich , Jesus",Nicolas Rodriguez Peña
+2489,2956,"Gaitan , Susana",Juan Jose Castelli
+2490,2957,"Silvera , Florentino",Sarmiento
+2491,2958,"Atencio , Carmen De",Sarmiento
+2492,2959,"Lobos , Arminda De",Sarmiento
+2493,2960,Calle 2960,Güemes - Noroeste Mzas. 58 Y 59
+2494,2961,"Tripodi , Vicente",Juan Jose Castelli
+2495,2962,"Gammella , Hector Raul",Juan Jose Castelli
+2496,2963,"Pacheco , Remigio",Juan Jose Castelli
+2497,2964,"Milkovic , Mateo",Juan Jose Castelli
+2498,2965,"Merlino , Jose Gregorio",Nicolas Rodriguez Peña
+2499,2966,Madre Teresa de Calcuta,Juan Jose Castelli
+2500,2967,"Paez , Dionisio Nestor",Juan Jose Castelli
+2501,2968,Calle 2968,Juan Jose Castelli - Entre Mzas. 69 Y 70
+2502,2969,Calle 2969,Juan Jose Castelli - Norte Mzas. 68 Y 70
+2503,2970,"Millan , Jose",Sarmiento
+2504,2971,"Robles , Blanca De",Sarmiento
+2505,2972,"Centeno , Dora De",Sarmiento
+2506,2973,"Robles , Horacio Clemente",Juan Jose Castelli
+2507,2974,"Zarate , Felix",Juan Jose Castelli
+2508,2975,"Cano , Estela",Sarmiento
+2509,2976,"Rodriguez , Rafaela De",Sarmiento
+2510,2977,Calle 2977,Juan Jose Castelli - Sector Modificación Noroeste Mza. 16
+2511,2978,Calle 2978,Juan Jose Castelli - Extensión Oeste
+2512,2979,Calle 2979,Juan Jose Castelli - Extensión Oeste
+2513,2980,"Chocobar , Sara C.",Juan Jose Castelli
+2514,2981,Calle 2981,Juan Jose Castelli - Entre Mzas. 122 A 125 Y Parcela 10
+2515,2982,Calle 2982,Juan Jose Castelli - Entre Mzas. 125 Y 127
+2516,2983,Calle 2983,Juan Jose Castelli - Entre Mzas. 127 Y 128
+2517,2984,Calle 2984,Juan Jose Castelli - Entre Mzas. 123 Y 130 A 132
+2518,2985,Calle 2985,Juan Jose Castelli - Entre Mzas. 131 Y 136
+2519,2986,Calle 2986,Juan Jose Castelli - Entre Mzas. 134 Y 135
+2520,2987,Calle 2987,Juan Jose Castelli - Entre Mzas. 135 Y 140
+2521,2988,Calle 2988,Juan Jose Castelli - Centro Macizo 121
+2522,2989,Calle 2989,"Juan Jose Castelli - Entre Mzas. 139, 140 Y 120"
+2523,2990,Calle 2990,Juan Jose Castelli - Entre Mzas. 120 Y 141
+2524,2991,Calle 2991,Juan Jose Castelli - Sur Mzas. 130 A 140
+2525,2992,Calle 2992,Juan Jose Castelli - Entre Mzas. 122 Y 123
+2526,2993,Calle 2993,Juan Jose Castelli - Entre Mzas. 123 Y 124
+2527,2994,Calle 2994,Juan Jose Castelli - Entre Mzas. 124 A 126
+2528,2995,Calle 2995,"Juan Jose Castelli - Entre Mzas.126 Y 127,131 Y 132,139 Y 137"
+2529,2996,Calle 2996,"Juan Jose Castelli - Norte Mzas.127,128, 132 Y Mzo. 121"
+2530,2997,Calle 2997,Juan Jose Castelli - Sur Y Este Mza. 138
+2531,2998,Calle 2998,Juan Jose Castelli - Norte Mza. 138
+2532,2999,Calle 2999,Juan Jose Castelli - Noreste Mzo. 121
+2533,3000,Calle 3000,"Juan Jose Castelli - Entre Mzas. 39, 114 Y 113"
+2534,3001,Colonos Holandeses,Centenario
+2535,3002,Colonos Alemanes,Centenario
+2536,3003,Colonos Suizos,Centenario
+2537,3004,Colonos Checoslovacos,Centenario
+2538,3005,Colonos Irlandeses,Centenario
+2539,3006,Colonos Rumanos,Centenario
+2540,3007,Calle 3007,Centenario - Sur Mza. 307
+2541,3008,Colonos Griegos,Centenario
+2542,3009,Colonos Israelitas,Centenario
+2543,3010,"Martin , Agueda",Centenario
+2544,3011,Colonos Boers,Centenario
+2545,3012,Colonos Polacos,Centenario
+2546,3013,Colonos Austriacos,Centenario
+2547,3014,Colonos Ucranianos,Centenario
+2548,3015,Colonos Franceses,Centenario
+2549,3016,Colonos Serbios,Centenario
+2550,3017,"Fasola , Doctor",Centenario
+2551,3018,"Ferrada , Francisco Armando Soldado",Gesta de Malvinas
+2552,3019,Calle 3019,Gesta de Malvinas - Sur Mzo. 107
+2553,3020,"Fernandez , Pedro Martin Cap. de Fragata",Ara San Juan - Gasoducto
+2554,3021,"Wagner , Diego Manuel Teniente de Navio",Ara San Juan
+2555,3022,"Maroli , Victor Andres Teniente de Navio",Ara San Juan
+2556,3023,"Mendoza , Fernando Ariel Teniente de Navio",Ara San Juan
+2557,3024,"Meoqui , Adrian Zunda Teniente de Navio",Ara San Juan
+2558,3025,"Krawczyk , Eliana Maria Teniente de Navio",Ara San Juan
+2559,3026,"Silva , Renzo David Martin Tte. de Navio",Ara San Juan
+2560,3027,"Mealla , Jorge Luis Teniente de Fragata",Ara San Juan
+2561,3028,"Tagliapetra , Alejandro D. Tte.De Corbeta",Ara San Juan
+2562,3029,"Villarreal , Fernando Vicente Cap. de Corbe",Ara San Juan
+2563,3030,"Bergallo , Jorge Ignacio Cap. de Corbeta",Ara San Juan - Chacras
+2564,3031,"Gallardo , Javier Alejandro Subof. Ppal.",Ara San Juan
+2565,3032,"Sanchez , Alberto Cipriano Suboficial Ppal.",Ara San Juan
+2566,3033,"Real , Walter German Suboficial Primero",Ara San Juan
+2567,3034,"Rodriguez , Hernan Ramon Subof. Primero",Ara San Juan
+2568,3035,"Coronel , Victor Hugo Suboficial Primero",Ara San Juan
+2569,3036,"Vargas , Cayetano Hipolito Subof. Primero",Ara San Juan
+2570,3037,"Medina , Roberto Daniel Suboficial Primero",Ara San Juan
+2571,3038,"Vallejos , Celso Oscar Suboficial Segundo",Ara San Juan
+2572,3039,"Herrera , Hugo Arnaldo Suboficial Segund",Ara San Juan
+2573,3040,"Enriquez , Victor Marcelo Suboficial Seg.",Ara San Juan
+2574,3041,"Alfaro Rodriguez , Ricardo Gabriel Sub.S.",Ara San Juan
+2575,3042,"Fernandez , Daniel Adrian Suboficial Seg.",Ara San Juan
+2576,3043,"Leiva , Luis Marcelo Suboficial Primero",Ara San Juan
+2577,3044,"Monzon , Jorge Ariel Suboficial Segundo",Ara San Juan
+2578,3045,"Valdez , Jorge Eduardo Cabo Principal",Ara San Juan
+2579,3046,"Ibañez , Cristian David Cabo Principal",Ara San Juan
+2580,3047,"Toconas , Mario Armando Cabo Principal",Ara San Juan
+2581,3048,"Espinoza , Franco Javier Cabo Principal",Ara San Juan
+2582,3049,"Ortiz , Jorge Isabelino Cabo Principal",Ara San Juan
+2583,3050,"Aramayo , Hugo Dante Cesar Cabo Ppal.",Ara San Juan
+2584,3051,"Garcia , Luis Esteban Cabo Principal",Ara San Juan
+2585,3052,"Cuellar , Sergio Antonio Cabo Principal",Ara San Juan
+2586,3053,"Santilli , Fernando Gabriel Cabo Principal",Ara San Juan
+2587,3054,"Tolaba , Anibal Cabo Primero",Ara San Juan
+2588,3055,"Castillo , Enrique Damian Cabo Principal",Ara San Juan
+2589,3056,Calle 3056,Acceso Noroeste 2 - Sur Mzas. 252 A 260
+2590,3057,Calle 3057,Acceso Noroeste 2 - Entre Mzas. 256 Y 257
+2591,3058,Calle 3058,Acceso Noroeste 2 - Entre Mzas. 254 Y 255
+2592,3059,Calle 3059,"Acceso Noroeste 2 - Entre Mzas. 256, 257 Y 258"
+2593,3060,Calle 3060,Acceso Noroeste 2 - Entre Mzas. 258 Y 259
+2594,3061,Calle 3061,Acceso Noroeste 2 - Entre Mzas. 259 Y 260
+2595,3062,Calle 3062,Acceso Noroeste 2 - Oeste Mza. 260
+2596,3063,Calle 3063,Acceso Noroeste 2 - Norte Mzas. 258 A 260
+2597,3064,Calle 3064,Acceso Noroeste 2 - Norte Mzas. 253 Y 257
+2598,3065,Calle 3065,Ara San Juan - Entre Mzas. 295 Y 294
+2599,3066,Calle 3066,Ara San Juan - Entre Mzas. 294 Y 293
+2600,3067,Calle 3067,Ara San Juan - Entre Mzas. 291 A 294
+2601,3068,Calle 3068,Ara San Juan - Entre Mzas. 290 Y 291
+2602,3069,Calle 3069,Ara San Juan - Entre Mzas. 289 Y 290
+2603,3070,Calle 3070,Doctor Rene G. Favaloro - Entre Mzas. 125 A 129 Y 101 A 109
+2604,3071,Calle 3071,Dr. Rene Geronimo Favaloro - Entre Mzas. 124 Y 125 A 129
+2605,3072,Calle 3072,"Dr. Rene Geronimo Favaloro - Entre Mzas. 125, 126 Y 124"
+2606,3073,Calle 3073,Acceso Noroeste 3 - Norte Mzas. 84 Y 85
+2607,3074,Calle 3074,Acceso Noroeste 3 - Entre Mzas. 33 A 44 Y 83 A 88
+2608,3075,Calle 3075,Acceso Noroeste 3 - Entre Mzas. 87 A 90
+2609,3076,Calle 3076,Acceso Noroeste 3 - Entre Mzas 39 A 50 Y 89 A 92
+2610,3077,Calle 3077,Acceso Noroeste 3 - Entre Mzas. 91 A 94
+2611,3078,Calle 3078,"Acceso Noroeste 3 - Sudoeste Mza. 94 , Entre Mza. 93"
+2612,3079,Calle 3079,Acceso Noroeste 3 - Este Mza. 86
+2613,3080,Calle 3080,Acceso Noroeste 3 - Entre Mzas. 84 Y 85
+2614,3081,Calle 3081,Acceso Noroeste 3 - Este Mzas. 87 A 94
+2615,3082,Calle 3082,Acceso Noroeste 3 - Entre Mzas. 83 Y 84
+2616,3083,Calle 3083,Acceso Noroeste 3 - Entre Mzas. 87 Y 88
+2617,3084,Calle 3084,Acceso Noroeste 3 - Entre Mzas. 89 Y 90
+2618,3085,Calle 3085,Acceso Noroeste 3 - Entre Mzas. 91 Y 92
+2619,3086,Calle 3086,"Acceso Noroeste 3 - Entre Mzas. 38, 44, 50 Y 88 A 93"
+2620,3087,Calle 3087,Ara San Juan - Entre Mzas. 296 Y 302
+2621,3088,Calle 3088,"Centenario - Sector ""Casa del Té"""
+2622,3089,Calle 3089,"Centenario - Sector ""Casa del Té"""
+2623,3090,"Foyel , Margarita",Centenario
+2624,3091,Calle 3091,"Centenario - Sector ""Casa del Té"""
+2625,3092,Calle 3092,"Centenario - Sector ""Casa del Té"""
+2626,3093,Calle 3093,Juan Jose Castelli - Oeste Mza. 113
+2627,3094,Yacimiento Los Perales,Nicolas Rodriguez Peña
+2628,3095,Yacimiento Bella Vista,Nicolas Rodriguez Peña
+2629,3096,Yacimiento Cañadon Seco,Nicolas Rodriguez Peña
+2630,3097,Yacimiento Manantiales Behr,Nicolas Rodriguez Peña
+2631,3098,Yacimiento Escalante,Nicolas Rodriguez Peña
+2632,3099,Yacimiento Pico Truncado,Nicolas Rodriguez Peña
+2633,3100,Yacimiento El Trebol,Nicolas Rodriguez Peña
+2634,3101,"Jones , Isaac Sargento",Bella Vista Sur
+2635,3102,"Vera , Ambrosio",Bella Vista Sur
+2636,3103,"Trevisan , Jose Leonardo",Bella Vista Sur
+2637,3104,"Van Wyk , Juan Martin",Bella Vista Sur
+2638,3105,"Quiroga , Fructuoso",Bella Vista Sur
+2639,3106,"Gutierrez , Alicia Isabel",Bella Vista Sur
+2640,3107,"Haag , Jacobo",Bella Vista Sur
+2641,3108,"Chacoma , Nicolas F.",Bella Vista Sur
+2642,3109,"Calico , Jose Manuel",Gobernador Roque Gonzalez - Malvinas Argentinas
+2643,3110,Calle 3110,Malvinas Argentinas
+2644,3111,"Musacchio , Eduardo Aldo Doctor",Gobernador Roque Gonzalez - Malvinas Argentinas
+2645,3112,"Perea , Gabriel Jesus",Malvinas Argentinas
+2646,3113,Calle 3113,Malvinas Argentinas
+2647,3114,Calle 3114,Malvinas Argentinas
+2648,3115,Calle 3115,Malvinas Argentinas
+2649,3116,Calle 3116,Malvinas Argentinas
+2650,3117,Calle 3117,Malvinas Argentinas
+2651,3118,Calle 3118,Malvinas Argentinas
+2652,3119,"Robacio , Carlos Contraalmirante",Los Arenales
+2653,3120,Calle 3120,"Chacras - "" Bella Vista Norte "" - Entre Fracción 17 Y Mzo. 3"
+2654,3121,Calle 3121,"Chacras - "" Bella Vista Norte "" - Macizo 3"
+2655,3122,Calle 3122,"Chacras - "" Bella Vista Norte "" - Entre Mzo. 3 Y Mzo. 47"
+2656,3123,Calle 3123,"Chacras - "" Bella Vista Norte "" - Entre Mzo. 3 Y Mzo. 47"
+2657,3124,Calle 3124,Parque Industrial Comodoro Riv. - Fracción Ivc - Remanente
+2658,3125,Calle 3125,Parque Industrial Comodoro Riv. - Fracción Ivc - Remanente
+2659,3126,Calle 3126,Parque Industrial Comodoro Riv. - Fracción Ivc - Remanente
+2660,3127,"Moron , Hugo",Doctor Rene Geronimo Favaloro
+2661,3128,"Santos Zepeda , Juan Antonio",Doctor Rene Geronimo Favaloro
+2662,3129,"Caceres , Blas Tadeo Doctor",Doctor Rene Geronimo Favaloro
+2663,3130,"Godoy , Nelson Suboficial Mayor",Doctor Rene Geronimo Favaloro
+2664,3131,"Cambareri , Carmelo",Doctor Rene Geronimo Favaloro
+2665,3132,"Lanza , Martin",Doctor Rene Geronimo Favaloro
+2666,3133,"Cabral , Liliana Trinidad",Doctor Rene Geronimo Favaloro
+2667,3134,"Countere , Roberto Doctor",Doctor Rene Geronimo Favaloro
+2668,3135,"Reynoso , Santos Leonardo",Doctor Rene Geronimo Favaloro
+2669,3136,"Carrizo , Oscar Javier",Doctor Rene Geronimo Favaloro
+2670,3137,"Antisoli , Jose Bernardino",Doctor Rene Geronimo Favaloro
+2671,3138,"Jordan Cruz , Francisco",Doctor Rene Geronimo Favaloro
+2672,3139,"Cerati , Gustavo",Los Arenales
+2673,3140,"Stelmastuk , Tito",Doctor Rene Geronimo Favaloro
+2674,3141,"Beroiza , Eulogio",Doctor Rene Geronimo Favaloro
+2675,3142,"Huenuqueo , Ruben Soldado",Doctor Rene Geronimo Favaloro
+2676,3143,"Graneros , Segundo Celso",Doctor Rene Geronimo Favaloro
+2677,3144,"Henriquez , Fabian Soldado",Doctor Rene Geronimo Favaloro
+2678,3145,"Maldonado , Sub Oficial Carlos Geronimo",Gesta de Malvinas
+2679,3146,"Miranda , Soldado Hector Jose",Gesta de Malvinas
+2680,3147,"Rivero , Sub Oficial Gerardo Venancio",Gesta de Malvinas
+2681,3148,"Herrera , Jorge Luis Sub Ofical",Gesta de Malvinas
+2682,3149,"Mena , Sebastian",Gesta de Malvinas
+2683,3150,"Loncopan , Soldado Juan",Gesta de Malvinas
+2684,3151,"Gonzalez , Alfredo Soldado",Gesta de Malvinas
+2685,3152,"Vale , Maximiliano Suboficial Mayor",Gesta de Malvinas
+2686,3153,"Sosa , Mario Emilio Suboficial",Gesta de Malvinas
+2687,3154,"Canyaso , Miguel Angel Soldado",Gesta de Malvinas
+2688,3155,"Bazan, Pedro Cesar Suboficial Mayor",Gesta de Malvinas - Acceso Norte
+2689,3156,"Zuñiga , Juan Antonio Soldado",Gesta de Malvinas
+2690,3157,Calle 3157,Dr. Rene Geronimo Favaloro - Este Mza. 124 Y Macizo 131
+2691,3158,"Nabais Da Cruz , Oscar Alfredo Suboficial",Gesta de Malvinas
+2692,3159,Calle 3159,"Chacras - "" Bella Vista Norte "" - Entre Fracciones 1 Y 11"
+2693,3160,Calle 3160,"Chacras - "" Bella Vista Norte "" - Sur Fracción 10"
+2694,3161,Calle 3161,"Chacras - "" Bella Vista Norte "" - Sur Mzo. 6"
+2695,3162,Calle 3162,"Chacras - "" Bella Vista Norte "" - Entre Mzos. 4 Y 6"
+2696,3163,Calle 3163,"Chacras - "" Bella Vista Norte "" - Sur Mzo. 4"
+2697,3164,Calle 3164,"Chacras - "" Bella Vista Norte "" - Entre Fracciones 8 Y 18"
+2698,3165,Calle 3165,"Chacras - "" Bella Vista Norte "" - Entre Mzo. 3 Y Mza. 35"
+2699,3166,Calle 3166,"Chacras - "" Bella Vista Norte "" - Entre Fracción 3 Y Mza. 35"
+2700,3167,Calle 3167,"Chacras - "" Bella Vista Norte "" - Entre Fracciones 5 Y 6"
+2701,3168,Calle 3168,"Chacras - "" Bella Vista Norte "" - Zona Sin Mensura"
+2702,3169,Calle 3169,"Chacras - "" Bella Vista Norte "" - Zona Sin Mensura"
+2703,3170,Calle 3170,"Chacras - "" Bella Vista Norte "" - Zona Sin Mensura"
+2704,3171,Calle 3171,"Chacras - "" Saavedra "" - Entre Fracción Iii Y Parcela 21"
+2705,3172,Calle 3172,"Chacras - "" Saavedra "" - Entre Fracción Iii Y Parcela 23"
+2706,3173,"Mück , Carlos Caña",Saavedra
+2707,3174,Calle 3174,"Chacras - "" Saavedra "" - Entre Parcelas 25 Y 23"
+2708,3175,"Lama , Alfredo Ismael",Gobernador Roque Gonzalez
+2709,3176,"Gutierrez , Carlos Alberto",Gobernador Roque Gonzalez
+2710,3177,"Uribe , Jose Adalio",Gobernador Roque Gonzalez
+2711,3178,"Bonavia , Eduardo Alberto",Gobernador Roque Gonzalez
+2712,3179,"Aracena , David",Gobernador Roque Gonzalez
+2713,3180,"Pettinari , Ricardo Luis",Doctor Rene Geronimo Favaloro
+2714,3181,"Vera , Damian Soldado",Doctor Rene Geronimo Favaloro
+2715,3182,"Gonzalez Lopez , Luis",Doctor Rene Geronimo Favaloro
+2716,3183,"Vargas , Rafael Soldado",Doctor Rene Geronimo Favaloro
+2717,3184,"Escribano , Felipe",Doctor Rene Geronimo Favaloro
+2718,3185,"Do Brito , Joaquin",Doctor Rene Geronimo Favaloro
+2719,3186,"Gaspar , Francisco",Doctor Rene Geronimo Favaloro
+2720,3187,"Rios , Francisco",Doctor Rene Geronimo Favaloro
+2721,3188,"Aguilante , Hector Soldado",Doctor Rene Geronimo Favaloro
+2722,3189,Pasaje 3189,"Centenario - Mzo. 3 , Ex-Fracción Q"
+2723,3190,"Jaramillo , Segundo",Doctor Rene Geronimo Favaloro
+2724,3191,"Saiz , Eusebio",Doctor Rene Geronimo Favaloro
+2725,3192,"Webb , Miguel Doctor",Doctor Rene Geronimo Favaloro
+2726,3193,"Robledo , Domingo",Gobernador Roque Gonzalez
+2727,3194,"Triviño , Maria Ana",Gobernador Roque Gonzalez
+2728,3195,"Ardiles , Americo",Gobernador Roque Gonzalez
+2729,3196,"Bladilo , Mario Jose",Gobernador Roque Gonzalez
+2730,3197,"Vitcovich , Mateo Antonio",Gobernador Roque Gonzalez
+2731,3198,"Olguin , Terencio Daniel",Gobernador Roque Gonzalez
+2732,3199,"Fernando , Cirilo",Gobernador Roque Gonzalez
+2733,3200,"Sosa , Eduardo Soldado",Malvinas Argentinas
+2734,3201,"Cabrera , Ramon Angel Soldado",Malvinas Argentinas
+2735,3202,"Austin , Ricardo Andres Soldado",Malvinas Argentinas
+2736,3203,"Antieco , Simon Oscar Soldado",Malvinas Argentinas
+2737,3204,"Nosikoski , Sergio Soldado",Malvinas Argentinas
+2738,3205,"Zabala , Arnaldo Enrique Soldado",Malvinas Argentinas
+2739,3206,"Carrascull , Fabricio Edgar Soldado",Malvinas Argentinas
+2740,3207,"Giraudo , Horacio Soldado",Malvinas Argentinas
+2741,3208,Amanecer,Malvinas Argentinas
+2742,3209,Ocaso,Malvinas Argentinas
+2743,3210,"Duval , Juan Carlos",Malvinas Argentinas
+2744,3211,Calle 3211,Malvinas Argentinas
+2745,3212,"Lebon , Hector",Malvinas Argentinas
+2746,3213,"Rasgido , Ruperto",Malvinas Argentinas
+2747,3214,Calle 3214,Malvinas Argentinas
+2748,3215,"Sosa , Roberto Remi Teniente 1º",Malvinas Argentinas
+2749,3216,"Ramirez , Teodolindo",Malvinas Argentinas
+2750,3217,Calle 3217,Malvinas Argentinas
+2751,3218,Calle 3218,Malvinas Argentinas
+2752,3219,Calle 3219,Malvinas Argentinas
+2753,3220,Calle 3220,Malvinas Argentinas
+2754,3221,Calle 3221,Malvinas Argentinas
+2755,3222,Calle 3222,Malvinas Argentinas
+2756,3227,Calle 3227,Doctor Rene Geronimo Favaloro - Este Mzas. 75 A  78
+2757,3228,Calle 3228,Doctor Rene Geronimo Favaloro - Entre Mzas. 80 Y 81
+2758,3229,Calle 3229,Doctor Rene Geronimo Favaloro - Entre Mzas. 79 Y 80
+2759,3230,Calle 3230,Doctor Rene Geronimo Favaloro - Oeste Mzas. 79 A 81
+2760,3231,Calle 3231,"Chacras - "" Bella Vista Norte "" - Entre Mza. 11 Y Mza. 42"
+2761,3232,Calle 3232,Noroeste Bº Cuarteles Chacabuco
+2762,3233,Calle 3233,"Dr. Rene Geronimo Favaloro - Este Mzas. 87, 89 Y 96 A 99"
+2763,3234,Calle 3234,Doctor Rene Geronimo Favaloro - Entre Mzas. 98 Y 99
+2764,3235,Calle 3235,Doctor Rene Geronimo Favaloro - Entre Mzas. 77 Y 78
+2765,3236,Calle 3236,Doctor Rene Geronimo Favaloro - Entre Mzas. 76 Y 77
+2766,3237,Calle 3237,Parque Industrial Comodoro Riv. - Norte Mzos. 5 Y 6
+2767,3238,Calle 3238,Parque Industrial Comodoro Riv. - Remanente Fracción Ivc
+2768,3239,Lago Otron,Bella Vista Sur
+2769,3240,"Bigua , Casimiro Cacique",Bella Vista Sur
+2770,3241,"Cabral , Facundo",Bella Vista Sur
+2771,3242,"Sosa , Mercedes",Bella Vista Sur
+2772,3243,"Mosconi , Osvaldo Ingeniero",Bella Vista Sur
+2773,3244,"Maria La Grande , Cacique",Bella Vista Sur
+2774,3245,"Favaloro , Rene Geronimo Doctor",Bella Vista Sur
+2775,3246,"Lanteri , Julieta",Bella Vista Sur
+2776,3247,"Moro , Juana Gabriela",Bella Vista Sur
+2777,3248,"Sanchez Peon , Maria Loreto",Bella Vista Sur
+2778,3249,"Muzilli , Carolina",Bella Vista Sur
+2779,3250,"Walsh , Rodolfo Jorge",Bella Vista Sur
+2780,3251,"Guevara , Ernesto ''Che''",Bella Vista Sur
+2781,3252,"Inacayal , Modesto Cacique",Bella Vista Sur
+2782,3253,"Camaña , Raquel",Bella Vista Sur
+2783,3254,"Güemes , Maria Magdalena",Bella Vista Sur
+2784,3255,"Del Valle , Maria Remedios",Bella Vista Sur
+2785,3256,"Maradona , Esteban Laureano Doctor",Bella Vista Sur
+2786,3257,"Antieco , Julio",Bella Vista Sur
+2787,3258,"Spinetta , Luis Alberto",Bella Vista Sur
+2788,3259,"Paine , Aime",Bella Vista Sur
+2789,3260,"Grierson , Cecilia",Bella Vista Sur
+2790,3261,"Coombes , Prosefina",Bella Vista Sur
+2791,3262,"Astudillo Valdes , Daniel Marcelo",Bella Vista Sur
+2792,3263,23 de Febrero,Bella Vista Sur - El Atardecer - Chacras
+2793,3264,Calle 3264,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2794,3265,Calle 3265,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2795,3266,Calle 3266,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2796,3267,Calle 3267,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2797,3268,Calle 3268,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2798,3269,Calle 3269,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2799,3270,Calle 3270,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2800,3271,Calle 3271,"Chacras - "" Cañadones La Francesa Y Las Leñas """
+2801,3272,Calle 3272,"Chacras - "" Colla Y Linderos Al Este """
+2802,3273,Calle 3273,"Chacras - "" Colla Y Linderos Al Este """
+2803,3274,Calle 3274,"Chacras - "" Colla Y Linderos Al Este """
+2804,3275,Calle 3275,"Acceso Sur Y Chacras -Parc. 148 A 161 Y ""Colla Y Linderos Al Este"""
+2805,3276,Calle 3276,"Acceso Sur Y Chacras -Parc. 110 A 123 Y ""Colla Y Linderos Al Este"""
+2806,3277,Huemul Hielo,El Atardecer
+2807,3278,"Canavesio , Julio",Los Arenales - El Atardecer
+2808,3279,"Van-Heerden , Gerardo",Los Arenales
+2809,3280,"Blanco , Luis Alberto",Los Arenales
+2810,3281,"Corrales , Antonio Fernando",Los Arenales
+2811,3282,"Esponda , Narciso",Los Arenales
+2812,3283,"Napolitani , Eduardo Doctor",Los Arenales
+2813,3284,"Poltronieri , Oscar",Los Arenales
+2814,3285,"Esandi , Nicolas",Los Arenales
+2815,3286,"Berni , Antonio",Los Arenales
+2816,3287,"Lopez , Maria Rosa",Los Arenales
+2817,3288,"Alonso , Joaquin",Los Arenales
+2818,3289,Calle 3289,"Chacras - "" Bella Vista Norte "" - Norte Mzo. 2"
+2819,3290,Calle 3290,"Chacras - "" Feijoo "" - Entre Mzas. 115 Y 114"
+2820,3291,Calle 3291,"Chacras - "" Feijoo "" - Entre Mzas. 114 Y 113"
+2821,3292,Calle 3292,"Chacras - "" Feijoo "" - Entre Mzas. 113 Y 112"
+2822,3293,Calle 3293,"Chacras - "" Feijoo "" - Entre Mzas. 113, 116 Y Lotes 13 Y 14"
+2823,3294,Calle 3294,"Chacras - "" Feijoo "" - Entre Mzas. 120 A 123 Y Lote 10"
+2824,3295,Calle 3295,"Chacras - "" Feijoo "" - Entre Mzas. 116 Y 120"
+2825,3296,Calle 3296,"Chacras - "" Feijoo "" - Entre Mzas. 112 Y 116"
+2826,3297,Calle 3297,"Chacras - "" Feijoo "" - Entre Mzas. 112 A 115 Y Parcela 129"
+2827,3298,"Sabato , Ernesto",Bella Vista Sur
+2828,3299,"Milstein , Cesar",Bella Vista Sur
+2829,3300,"Merello , Tita",Bella Vista Sur
+2830,3301,"Grüneisen , Ricardo Doctor",Astra
+2831,3302,"Agote , Carlos",Astra
+2832,3303,"Miguel , Isaias",Astra
+2833,3304,"Fueyo , Jose",Astra
+2834,3305,"Gallo , Vicente",Astra
+2835,3306,"Singer , Ricardo Ingeniero",Astra
+2836,3307,"Garcia , Carlos",Astra
+2837,3308,Parque Obreros Astra,Astra
+2838,3309,"Sawino , Simon",Astra
+2839,3310,"Kalpactchieff , Pedro",Astra
+2840,3311,"Casares , Carlos",Astra
+2841,3312,"De La Barrera , Carlos A.",Astra
+2842,3313,"Riccardi , Orestes Doctor",Astra
+2843,3314,"Wallen , Momad Ingeniero",Astra
+2844,3315,"Nagain , Martin",Astra
+2845,3316,"Foglino , Domingo",Astra
+2846,3317,"Rodrigues , Salvador",Astra
+2847,3318,Calle 3318,Astra - Entre Mzas. 21 Y 27
+2848,3319,"Balbuena , Feliciano",Astra
+2849,3320,"Cumilaf , Fermin",Astra
+2850,3321,Pioneras Astrenses,Astra
+2851,3322,Calle 3322,Astra - Entre Mza. 2 Y Mzo. 46
+2852,3323,Siempreverde,"Chacras - ""Bella Vista Oeste"""
+2853,3324,Yareta,"Chacras - ""Bella Vista Oeste"""
+2854,3325,Espino Negro,"Chacras - ""Bella Vista Oeste"""
+2855,3326,Murtilla,"Chacras - ""Bella Vista Oeste"""
+2856,3327,Calle 3327,Bella Vista Sur - Entre Mza. 76 Y Mzo. 37
+2857,3328,Calle 3328,Astra - Norte Fracción 63 Y Parcela 12
+2858,3329,Calle 3329,Astra - Noreste Parcela 12
+2859,3330,Calle 3330,Astra - Sur Parcela 12
+2860,3331,Calle 3331,Astra - Este Parcela 12
+2861,3332,Calle 3332,Astra - Sudeste Parcela 10 Y Mza. 18
+2862,3333,Calle 3333,Astra - Norte Fracción C (Mza. 25 - Pcia.)
+2863,3334,Calle 3334,Astra - Sudoeste Parcela 9
+2864,3335,Calle 3335,Chacras - Entre Mzas. 178 Y 179
+2865,3336,Calle 3336,"Chacras - ""Los Tres Pinos"" - Norte Mzo. 84"
+2866,3337,Calle 3337,Acceso Noroeste - Entre Mzas. 69 A 73
+2867,3338,Calle 3338,Acceso Noroeste - Entre Mzas. 70 A 77
+2868,3339,Calle 3339,Acceso Noroeste - Entre Mzas. 74 A 80 Y 100
+2869,3340,Calle 3340,Acceso Noroeste - Entre Mzas. 72 A 82 Y 101
+2870,3341,Calle 3341,"Acceso Noroeste - Sudoeste Mzas. 81, 82 Y 101"
+2871,3342,Calle 3342,"Acceso Noroeste - Sudeste Mzas. 73, 77, 100 Y 101"
+2872,3343,Calle 3343,Acceso Noroeste - Entre Mzas. 72 Y 73
+2873,3344,Calle 3344,Acceso Noroeste - Entre Mzas. 71 Y 72
+2874,3345,Calle 3345,Acceso Noroeste - Entre Mzas. 70 Y 71
+2875,3346,Calle 3346,"Acceso Noroeste - Noroeste Mzas. 70, 74, 78 Y 81"
+2876,3347,Calle 3347,Bella Vista Sur - Entre Mzos. 156 Y 157
+2877,3348,"Passo , Elida",Bella Vista Sur
+2878,3349,"Tapias , Celia",Bella Vista Sur
+2879,3350,Calle 3350,"Chacras - ""Los Tres Pinos"" - Sur Parcelas 26"
+2880,3351,Calle 3351,"Chacras - ""Los Tres Pinos"" - Entre Parcelas 24 A 26"
+2881,3352,Calle 3352,"Parque Industrial ""Com. Riv."" - Entre Mzas. 27 Y 28"
+2882,3353,Rosa Mosqueta,"Chacras ""Km 18"""
+2883,3354,Matico,"Chacras ""Km 18"""
+2884,3355,Ligustrina,"Chacras ""Km 18"""
+2885,3356,Ruibarbo,"Chacras ""Km 18"""
+2886,3357,Madreselva,"Chacras ""Km 18"""
+2887,3358,Calle 3358,Centenario - Sudeste Mza. 8 (Pcia.)
+2888,3359,Pasaje 3359,Doctor Rene Geronimo Favaloro - Centro Mzo. 146
+2889,3360,"Alvarado Perez , Jose Onofre",Bella Vista Sur
+2890,3361,"Rietti , Sara",Bella Vista Sur
+2891,3362,Calle 3362,"Chacras ""Sur"" - Sur Parcelas 52 Y 53 (Al Este de Rada Tilly)"
+2892,3363,Calle 3363,"Chacras ""Sur"" - Entre Parcelas 52 Y 53 (Al Este de Rada Tilly)"
+2893,3364,Punta Leon,El Atardecer
+2894,3365,Punta Tombo,El Atardecer
+2895,3366,Calle 3366,"Acceso Sur - Entre Parcelas 93, 74 Y 71"
+2896,3367,Pasaje 3367,Gesta de Malvinas - Entre Mza. 269 Y Mzo. 107
+2897,3368,Calle 3368,Dr. Rene Geronimo Favaloro - Entre Mza. 166 Y Parcela 23
+2898,3369,Calle 3369,Centenario - Entre Mzas. 38 Y 307
+2899,3370,Calle 3370,Astra - Entre Mzas. 6 Y 7
+2900,3371,Calle 3371,Astra - Entre Mza. 9
+2901,3372,Calle 3372,Astra - Entre Mzas. 9 Y 10
+2902,3373,Calle 3373,Astra - Entre Mzas. 10 Y 11
+2903,3374,Calle 3374,"Chacras ""Sur"" - Entre Parcelas 17 Y 16 (Ingreso A Playa)"
+2904,3375,Calle 3375,Los Arenales - Mza. 132
+2905,3376,Cabo Dos Bahias,El Atardecer
+2906,3377,Toronjil,"Chacras ""Km 18"""
+2907,3378,Loasa Argentina,"Chacras ""Km 18"""
+2908,3379,Vinagrillo De La Sierra,"Chacras ""Km 18"""
+2909,3380,Sencio Gris,"Chacras ""Km 18"""
+2910,3381,Calle 3381,"Chacras ""Km 17 - 1ra Parte"""
+2911,3382,Calle 3382,"Chacras ""Km 17 - 1ra Parte"""
+2912,3383,Calle 3383,"Chacras ""Km 17 - 1ra Parte"""
+2913,3384,Calle 3384,"Chacras ""Km 17 - 1ra Parte"""
+2914,3385,Avenida 3385,"Chacras ""Km 17 - 1ra Parte"""
+2915,3386,Calle 3386,"Chacras ""Km 17 - 1ra Parte"""
+2916,3387,Calle 3387,"Chacras ""Km 17 - 1ra Parte"""
+2917,3388,Calle 3388,"Chacras ""Km 17 - 1ra Parte"""
+2918,3389,Avenida 3389,"Chacras ""Km 17 - 1ra Parte"""
+2919,3390,Calle 3390,"Chacras ""Km 17 - 1ra Parte"""
+2920,3391,Calle 3391,"Chacras ""Km 17 - 1ra Parte"""
+2921,3392,Calle 3392,"Chacras ""Km 17 - 1ra Parte"""
+2922,3393,Calle 3393,Bella Vista Sur - Entre Las Mzas. 234 Y 235
+2923,3394,Calle 3394,"Chacras ""Los Tres Pinos"" - Entre Mzos. 132 Y 91"
+2924,3395,Calle 3395,"Chacras ""Frente A 4 Canchas"" - Entre Mzas. 110 Y 111"
+2925,3396,Calle 3396,"Canchas ""Frente A 4 Canchas"" - Entre Mzas. 111 Y 112"
+2926,3397,Calle 3397,"Chacras ""Los Tres Pinos"" - Macizo 85"
+2927,3398,Calle 3398,"Chacras ""Los Tres Pinos"" - Macizo 86"
+2928,3399,Calle 3399,"Chacras ""Gomez"" - Entre Parcelas 267 A 274"
+2929,3400,Calle 3400,"Chacras ""Bella Vista Norte"" - Macizo 3"
+2930,3401,"Bidondo , Josefina Arquitecta",Doctor Rene Geronimo Favaloro
+2931,3402,Calle 3402,Dr. Rene Geronimo Favaloro - Entre Mzas. 100 A 116
+2932,3403,Calle 3403,Dr. Rene Geronimo Favaloro - Entre Mzas. 102 A 115
+2933,3404,Calle 3404,Dr. Rene Geronimo Favaloro - Entre Mzas. 101 Y 104
+2934,3405,Calle 3405,Dr. Rene Geronimo Favaloro - Entre Mzas. 104 Y 108
+2935,3406,Calle 3406,Dr. Rene Geronimo Favaloro - Entre Mzas. 105 Y 106
+2936,3407,Calle 3407,Dr. Rene Geronimo Favaloro - Entre Mzas. 108 Y 111
+2937,3408,Calle 3408,Dr. Rene Geronimo Favaloro - Entre Mzas. 111 Y 116
+2938,3409,Calle 3409,Dr. Rene Geronimo Favaloro - Sudeste Mzas. 114 A 116
+2939,3410,Calle 3410,Dr. Rene Geronimo Favaloro - Entre Mzas. 75 Y 88
+2940,3411,Calle 3411,Dr. Rene Geronimo Favaloro - Entre Mzas. 88 Y 86
+2941,3412,Calle 3412,Dr. Rene Geronimo Favaloro - Entre Mzas. 86 Y 85
+2942,3413,Calle 3413,Dr. Rene Geronimo Favaloro - Entre Mzas. 85 Y 84
+2943,3414,Calle 3414,Dr. Rene Geronimo Favaloro - Entre Mzas. 84 Y 83
+2944,3415,Calle 3415,Dr. Rene Geronimo Favaloro - Norte Mza. 83
+2945,3416,"Paradiso , Nicolas",Doctor Rene Geronimo Favaloro
+2946,3417,Calle 3417,"Chacras - "" Bella Vista Norte "" - Noreste Mza. 40"
+2947,3418,Calle 3418,Doctor Rene Geronimo Favaloro - Entre Mzas. 44 Y 45
+2948,3419,Calle 3419,Malvinas Argentinas - Entre Mza. 95 Y Parcela 18
+2949,3420,Calle 3420,Acceso Noroeste 1 - Sur Mzas. 3 A 26
+2950,3421,Calle 3421,Acceso Noroeste 1 - Entre Mzas. 2 Y 3 A 25 Y 26
+2951,3422,Calle 3422,Acceso Noroeste 1 - Entre Mzas. 1 Y 2 A 24 Y 25
+2952,3423,Calle 3423,Acceso Noroeste 1 - Norte Mzas. 1 A 24
+2953,3424,Calle 3424,Acceso Noroeste 1 - Este Mzas. 24 A 26
+2954,3425,Calle 3425,Acceso Noroeste 1 - Entre Mzas. 21 Y 26
+2955,3426,Calle 3426,Acceso Noroeste 1 - Entre Mzas. 18 Y 23
+2956,3427,Calle 3427,Acceso Noroeste 1 - Entre Mzas. 15 Y 20
+2957,3428,Calle 3428,Acceso Noroeste 1 - Entre Mzas. 13 Y 17
+2958,3429,Calle 3429,Acceso Noroeste 1 - Entre Mzas. 10 Y 14
+2959,3430,Calle 3430,Acceso Noroeste 1 - Entre Mzas. 7 A 12
+2960,3431,Calle 3431,Acceso Noroeste 1 - Entre Mzas. 4 A 9
+2961,3432,Calle 3432,Acceso Noroeste 1 - Entre Mzas. 1 A 6
+2962,3433,Calle 3433,Acceso Noroeste 1 - Oeste Mzas. 1 A 3
+2963,3434,Lago Bagillt,El Atardecer
+2964,3435,Peninsula Valdes,El Atardecer
+2965,3436,Los Altares,El Atardecer
+2966,3437,Piedra Parada,El Atardecer
+2967,3438,Punta Marques,El Atardecer
+2968,3439,Punta Loma,El Atardecer
+2969,3440,Calle 3440,"Chacras - Entre Parcelas 124, 125 Y Lote 28"
+2970,3441,"Abril , Guillermo","Bella Vista Oeste - Chacras - ""CíRculo De Caza Mayor"""
+2971,3442,Calle 3442,Malvinas Argentinas - Entre Mzo. 73 Y Mza. 108
+2972,3443,Calle 3443,"Chacras - Entre Parcelas 196, 197 Y Lote 46"
+2973,3444,Calle 3444,Malvinas Argentinas - Entre Mzo. 69 Y Mza. 110
+2974,3445,Calle 3445,"Malvinas Argentinas - Entre Mzo. 69, Mzas. 109 Y 111"
+2975,3446,Calle 3446,Malvinas Argentinas - Oeste Mzo. 101
+2976,3447,Camino Don Santiago,"Chacras - Entre Parc. 21, Frac. 51a, Parte Chacra 49 Y Mzas. 4 Y 5"
+2977,3448,Calle 3448,Los Arenales - Entre Mzas. 130 Y 131
+2978,3449,Calle 3449,Los Arenales - Entre Mzas. 129 Y 128
+2979,3450,Calle 3450,"Los Arenales - Entre Mzas. 128, 127 Y 130 A 132"
+2980,3451,Calle 3451,"Chacras - ""Loteo Quistani"" - Entre Mzas. 147 A 150"
+2981,3452,Calle 3452,"Chacras - ""Loteo Quistani"" - Entre Mzas. 145 A 148"
+2982,3453,Calle 3453,"Chacras - ""Loteo Quistani"" - Entre Mzas. 142 A 146"
+2983,3454,Calle 3454,"Chacras - ""Loteo Quistani"" - Entre Mzas. 140 A 143"
+2984,3455,Calle 3455,"Chacras - ""Loteo Quistani"" - Este Mzas. 141 A 150"
+2985,3456,Calle 3456,"Chacras - ""Loteo Quistani"" - Entre Mzas. 142 A 150"
+2986,3457,Calle 3457,"Chacras - ""Loteo Quistani"" - Entre Mzas. 144, 145 Y 147"
+2987,3458,Calle 3458,"Chacras - ""Loteo Quistani"" - Oeste Mzas. 144 Y 149"
+2988,3459,Calle 3459,"Chacras - ""Loteo Quistani"" - Noroeste Mzas. 140 A 142 Y 144"
+2989,3460,Calle 3460,"Chacras - ""Loteo Quistani"" - Entre Mzas. 140 Y 141"
+2990,3461,Calle 3461,Juan Jose Castelli - Entre Mzas. 39 Y 114
+2991,3462,Calle 3462,Juan Jose Castelli - Entre Mzas. 194 Y 195
+2992,3463,Calle 3463,Juan Jose Castelli - Oeste Mzas. 194 Y 195
+2993,3464,"Masquelet , Carlos","Chacras - ""Loteo Busnadiego"" - Entre Mzas. 3, 4, 6 Y 10"
+2994,3465,"Sanguinetti , Manuel Doctor","Chacras - ""Loteo Busnadiego"" - Entre Mzas. 6, 7 Y 10"
+2995,3466,"Campelo , Marcelina","Chacras - ""Loteo Busnadiego"" - Entre Mzas. 3 Y 2"
+2996,3467,"Eslava , Miguel Doctor","Chacras - ""Loteo Busnadiego"" - Entre Mzas. 5 Y 7"
+2997,3468,"Diaz , Luis","Chacras - ""Loteo Busnadiego"" - Norte Mza. 3"
+2998,3469,"Sagastizabal , Manuel Jose De","Chacras - ""Loteo Busnadiego"" - Entre Mzas. 6 Y 10"
+2999,3470,Calle 3470,Sarmiento - Este Mzas. 144 Y 52
+3000,3471,"Diaz , Pedro Ricardo",Centenario
+3001,3472,Calle 3472,Doctor Rene Geronimo Favaloro - Norte Mza. 29
+3002,3473,Calle 3473,Doctor Rene Geronimo Favaloro - Norte Mza. 28
+3003,3474,Calle 3474,Doctor Rene Geronimo Favaloro - Centro Mzo. 146
+3004,3475,Calle 3475,Malvinas Argentinas - Entre Mzas. 114 Y 115
+3005,3476,Calle 3476,Malvinas Argentinas - Entre Mzas. 113 Y 115
+3006,3477,Laguna Aleuso,El Atardecer
+3007,3478,Calle 3478,"Chacras - "" Bella Vista Norte "" - Sudeste Mza. 42"
+3008,3479,Calle 3479,"Chacras - "" Bella Vista Norte "" - Sur Parcela 22"
+3009,3480,Calle 3480,"Chacras ""Sur"" - Entre Parcelas 33, 34, 43 Y 44  (Al Este de Rada Tilly)"
+3010,3481,Calle 3481,"Chacras ""Sur"" - Entre Parcelas 28 A 46  (Al Este de Rada Tilly)"
+3011,3482,Calle 3482,"Chacras ""Sur"" - Entre Parcelas 37 A 51  (Al Este de Rada Tilly)"
+3012,3483,"Flores , Luis Angel",Nicolas Rodriguez Peña
+3013,3484,Calle 3484,Chacras - Oeste Parcela 199 (Entre Parcela 198)
+3014,3485,Calle 3485,"Chacras - ""Bella Vista Norte"" - Norte Mzo 4"
+3015,3486,Calle 3486,Doctor Rene Geronimo Favaloro - Entre Mzas. 137 Y 136
+3016,3487,Calle 3487,Doctor Rene Geronimo Favaloro - Entre Mzas. 136 Y 135
+3017,3488,Calle 3488,Doctor Rene Geronimo Favaloro - Entre Mzas. 135 Y 134
+3018,3489,Calle 3489,"Chacras ""Sur"" - Entre Parcelas 12, 12 Y 23  (Al Este de Rada Tilly)"
+3019,3490,Calle 3490,"Chacras ""Sur"" - Entre Parcelas 23 Y 21 (Al Este de Rada Tilly)"
+3020,3491,Calle 3491,"Chacras ""Sur"" - Entre Parcelas 18 A 20 (Al Este de Rada Tilly)"
+3021,3492,Calle 3492,"Ara San Juan - Entre Mzas. 303, 304, 308 Y 306"
+3022,3493,Calle 3493,Acceso Sur - Entre Parcelas 134 A 141
+3023,3494,Calle 3494,"Chacras ""Sur"" - Sur Parcela 24"
+3024,3495,Calle 3495,Centenario - Oeste Mza. 287
+3025,3496,"Eyle , Petrona",Bella Vista Sur
+3026,3497,"Perez Ferreira , Emma",Bella Vista Sur
+3027,3498,Ortiga Blanca,Bella Vista Oeste
+3028,3499,Piquillin,Bella Vista Oeste
+3029,3500,Matamora,Bella Vista Oeste
+3030,3501,Calle 3501,Acceso Sur - Fracción 14
+3031,3502,Calle 3502,Acceso Sur - Fracción 14
+3032,3503,Calle 3503,Acceso Sur - Fracción 14
+3033,3504,Calle 3504,Acceso Sur - Fracción 14
+3034,3505,Calle 3505,Acceso Sur - Fracción 14
+3035,3506,Calle 3506,Acceso Sur - Fracción 14
+3036,3507,Calle 3507,Acceso Sur - Fracción 14
+3037,3508,Calle 3508,Acceso Sur - Fracción 14
+3038,3509,Calle 3509,Acceso Sur - Fracciones 14 Y 15
+3039,3510,Calle 3510,Acceso Sur - Fracciones 14 Y 15
+3040,3511,Calle 3511,Acceso Sur - Fracciones 14 Y 15
+3041,3512,Calle 3512,Acceso Sur - Fracciones 14 Y 15
+3042,3513,Calle 3513,Acceso Sur - Fracciones 14 Y 15
+3043,3514,Calle 3514,Acceso Sur - Fracciones 14 Y 15
+3044,3515,Calle 3515,Acceso Sur - Fracciones 14 Y 15
+3045,3516,Calle 3516,Acceso Sur - Fracciones 15
+3046,3517,Calle 3517,Acceso Sur - Fracciones 14 Y 15
+3047,3518,Calle 3518,Acceso Sur - Fracción 15
+3048,3519,Calle 3519,Acceso Sur - Fracciones 14 Y 15
+3049,3520,Calle 3520,Acceso Sur - Fracciones 15
+3050,3521,Calle 3521,Acceso Sur - Fracciones 14 Y 15
+3051,3522,Calle 3522,Acceso Sur - Fracción 14
+3052,3523,Calle 3523,Acceso Sur - Fracción 15
+3053,3524,Calle 3524,Acceso Sur - Fracción 15
+3054,3525,Calle 3525,Acceso Sur - Fracción 15
+3055,3526,Calle 3526,Acceso Sur - Fracciones 14 Y 15
+3056,3527,Calle 3527,Acceso Sur - Fracción 15
+3057,3528,Calle 3528,Acceso Sur - Fracción 15
+3058,3529,Calle 3529,Acceso Sur - Fracción 15
+3059,3530,Calle 3530,Acceso Sur - Fracción 15
+3060,3531,Calle 3531,Acceso Sur - Fracción 15
+3061,3532,Calle 3532,Acceso Sur - Fracción 15
+3062,3533,Calle 3533,Acceso Sur - Fracción 14
+3063,3534,Calle 3534,Acceso Sur - Fracción 14
+3064,3535,Calle 3535,Acceso Sur - Fracción 14
+3065,3536,Calle 3536,Acceso Sur - Fracción 14
+3066,3537,Calle 3537,Acceso Sur - Fracción 14
+3067,3538,Calle 3538,Acceso Sur - Fracción 14
+3068,3539,Calle 3539,Acceso Sur - Fracción 14
+3069,3540,Calle 3540,Acceso Sur - Fracción 14
+3070,3541,Calle 3541,Acceso Sur - Fracción 14
+3071,3542,Calle 3542,Acceso Sur - Fracción 14
+3072,3543,Calle 3543,Acceso Sur - Fracción 14
+3073,3544,Calle 3544,Acceso Sur - Fracción 14
+3074,3545,Calle 3545,Acceso Sur - Fracción 14
+3075,3546,Calle 3546,Acceso Sur - Fracción 14
+3076,3547,Calle 3547,Acceso Sur - Fracción 14
+3077,3548,Calle 3548,Acceso Sur - Fracción 15
+3078,3549,Calle 3549,Acceso Sur - Fracción 15
+3079,3550,Calle 3550,Acceso Sur - Fracción 15
+3080,3551,Calle 3551,Acceso Sur - Fracción 15
+3081,3552,Calle 3552,Acceso Sur - Fracción 15
+3082,3553,Calle 3553,Acceso Sur - Fracción 15
+3083,3554,Calle 3554,Acceso Sur - Fracción 15
+3084,3555,Calle 3555,Acceso Sur - Fracción 15
